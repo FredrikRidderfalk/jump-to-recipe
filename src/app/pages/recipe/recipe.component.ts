@@ -4,11 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-recipe',
   standalone: true,
   imports: [],
-  template: `
-    <h1 class="text-green-500">{{ title }}</h1>
-    <img src="{{ recipeImage }}" alt="{{ title }}" />
-    <p>{{ description }}</p>
-  `,
+  templateUrl: './recipe.component.html',
 })
 export class RecipeComponent {
   title = 'Tortilla Soup ⭐️';
