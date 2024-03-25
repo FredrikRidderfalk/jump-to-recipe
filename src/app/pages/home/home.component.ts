@@ -47,14 +47,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     console.log('HomeComponent initialized');
-    this.recipes = [
-      this.tortillaSoup,
-      this.poké,
-      this.arancini,
-      this.burger,
-      this.orangeTofu,
-      this.ramen,
-    ];
+    this.recipes = [this.tortillaSoup, this.poké, this.arancini, this.burger, this.orangeTofu, this.ramen];
     console.log(this.recipes);
   }
 }
