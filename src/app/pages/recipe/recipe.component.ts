@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   templateUrl: './recipe.component.html',
 })
 export class RecipeComponent {
-  title = 'Tortilla Soup ⭐️';
+  title = 'Tortilla Soup';
   description = 'This is a delicious recipe for tortilla soup.';
   recipeImage = '../assets/images/tortilla-soup.jpg';
 
