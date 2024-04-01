@@ -16,11 +16,8 @@ export class RecipeComponent {
     tags: {
       quick: true,
       easy: true,
-      temperature: {
-        value: '',
-        unit: '',
-      },
-      lesswash: true,
+      temperature: '400',
+      clean: true,
       cheap: true,
     },
     ingredients: [
