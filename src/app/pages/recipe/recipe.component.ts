@@ -27,6 +27,7 @@ export class RecipeComponent {
         unit: 'ml',
         flex: '',
         optional: false,
+        topping: false,
       },
       {
         name: 'Puréed tomatoes',
@@ -34,6 +35,7 @@ export class RecipeComponent {
         unit: 'ml',
         flex: 'We can use canned crushed tomatoes instead, or even chop up fresh tomatoes ourselves.',
         optional: false,
+        topping: false,
       },
       {
         name: 'Vegetable bouillon',
@@ -41,6 +43,7 @@ export class RecipeComponent {
         unit: 'cubes',
         flex: '',
         optional: false,
+        topping: false,
       },
       {
         name: 'Beans in aquafaba',
@@ -48,6 +51,7 @@ export class RecipeComponent {
         unit: 'ml',
         flex: 'Kidney beans, great white beans, black beans, anything goes!',
         optional: false,
+        topping: false,
       },
       {
         name: 'Bell pepper',
@@ -55,6 +59,7 @@ export class RecipeComponent {
         unit: '',
         flex: 'The bell pepper, corn, jackfruit, cilantro, and toppings can be substituted with anything. You can add more vegetables, but also add fewer vegetables than what we listed.',
         optional: false,
+        topping: false,
       },
       {
         name: 'BBQ sauce',
@@ -62,6 +67,7 @@ export class RecipeComponent {
         unit: 'ml',
         flex: '',
         optional: false,
+        topping: false,
       },
       {
         name: 'MSG',
@@ -69,6 +75,7 @@ export class RecipeComponent {
         unit: 'tbsp',
         flex: '',
         optional: true,
+        topping: false,
       },
       {
         name: 'Sugar',
@@ -76,6 +83,7 @@ export class RecipeComponent {
         unit: 'tbsp',
         flex: '',
         optional: false,
+        topping: false,
       },
       {
         name: 'Chili flakes',
@@ -83,6 +91,7 @@ export class RecipeComponent {
         unit: 'tbsp',
         flex: 'Or fresh chopped up chili if we have it. We often add a hot sauce instead, or a chili paste like Tobanjjan or tabasco.',
         optional: false,
+        topping: false,
       },
       {
         name: 'Avocado',
@@ -90,6 +99,7 @@ export class RecipeComponent {
         unit: '',
         flex: '',
         optional: false,
+        topping: true,
       },
       {
         name: 'Red onion',
@@ -97,6 +107,7 @@ export class RecipeComponent {
         unit: '',
         flex: '',
         optional: false,
+        topping: true,
       },
       {
         name: 'Cilantro',
@@ -104,6 +115,7 @@ export class RecipeComponent {
         unit: 'ml',
         flex: '',
         optional: true,
+        topping: true,
       },
       {
         name: 'Ketchup',
@@ -111,6 +123,7 @@ export class RecipeComponent {
         unit: 'ml',
         flex: '',
         optional: false,
+        topping: false,
       },
       {
         name: 'Light soy sauce',
@@ -118,6 +131,7 @@ export class RecipeComponent {
         unit: 'ml',
         flex: '',
         optional: false,
+        topping: false,
       },
       {
         name: 'Tortilla chips',
@@ -125,6 +139,7 @@ export class RecipeComponent {
         unit: '',
         flex: "This is added for crunch, so any chips fit. For example, we also love adding salt & vinegar chips, onion chips, BBQ chips, or if we don't have chips we may even go with roasted onion.",
         optional: false,
+        topping: true,
       },
       {
         name: 'Oregano',
@@ -132,6 +147,7 @@ export class RecipeComponent {
         unit: 'tbsp',
         flex: '',
         optional: false,
+        topping: false,
       },
       {
         name: 'Corn',
@@ -139,6 +155,7 @@ export class RecipeComponent {
         unit: 'g',
         flex: '',
         optional: false,
+        topping: false,
       },
       {
         name: 'Jackfruit',
@@ -146,6 +163,7 @@ export class RecipeComponent {
         unit: 'g',
         flex: '',
         optional: true,
+        topping: false,
       },
       {
         name: 'Liquid smoke',
@@ -153,6 +171,7 @@ export class RecipeComponent {
         unit: 'tsp',
         flex: '',
         optional: true,
+        topping: false,
       },
       {
         name: 'Lime',
@@ -160,6 +179,7 @@ export class RecipeComponent {
         unit: '',
         flex: "Use lime, lemon, or yuzu, or we can use any vinegar in half the amount if we don't have citrus.",
         optional: false,
+        topping: false,
       },
     ],
     instructions: [
