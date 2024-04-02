@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-recipe',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './recipe.component.html',
 })
 export class RecipeComponent {
@@ -28,6 +29,7 @@ export class RecipeComponent {
         flex: '',
         optional: false,
         topping: false,
+        done: false,
       },
       {
         name: 'Puréed tomatoes',
@@ -36,6 +38,7 @@ export class RecipeComponent {
         flex: 'We can use canned crushed tomatoes instead, or even chop up fresh tomatoes ourselves.',
         optional: false,
         topping: false,
+        done: false,
       },
       {
         name: 'Vegetable bouillon',
@@ -44,6 +47,7 @@ export class RecipeComponent {
         flex: '',
         optional: false,
         topping: false,
+        done: false,
       },
       {
         name: 'Beans in aquafaba',
@@ -52,6 +56,7 @@ export class RecipeComponent {
         flex: 'Kidney beans, great white beans, black beans, anything goes!',
         optional: false,
         topping: false,
+        done: false,
       },
       {
         name: 'Bell pepper',
@@ -60,6 +65,7 @@ export class RecipeComponent {
         flex: 'The bell pepper, corn, jackfruit, cilantro, and toppings can be substituted with anything. You can add more vegetables, but also add fewer vegetables than what we listed.',
         optional: false,
         topping: false,
+        done: false,
       },
       {
         name: 'BBQ sauce',
@@ -68,6 +74,7 @@ export class RecipeComponent {
         flex: '',
         optional: false,
         topping: false,
+        done: false,
       },
       {
         name: 'MSG',
@@ -76,6 +83,7 @@ export class RecipeComponent {
         flex: '',
         optional: true,
         topping: false,
+        done: false,
       },
       {
         name: 'Sugar',
@@ -84,6 +92,7 @@ export class RecipeComponent {
         flex: '',
         optional: false,
         topping: false,
+        done: false,
       },
       {
         name: 'Chili flakes',
@@ -92,6 +101,7 @@ export class RecipeComponent {
         flex: 'Or fresh chopped up chili if we have it. We often add a hot sauce instead, or a chili paste like Tobanjjan or tabasco.',
         optional: false,
         topping: false,
+        done: false,
       },
       {
         name: 'Avocado',
@@ -100,6 +110,7 @@ export class RecipeComponent {
         flex: '',
         optional: false,
         topping: true,
+        done: false,
       },
       {
         name: 'Red onion',
@@ -108,6 +119,7 @@ export class RecipeComponent {
         flex: '',
         optional: false,
         topping: true,
+        done: false,
       },
       {
         name: 'Cilantro',
@@ -116,6 +128,7 @@ export class RecipeComponent {
         flex: '',
         optional: true,
         topping: true,
+        done: false,
       },
       {
         name: 'Ketchup',
@@ -124,6 +137,7 @@ export class RecipeComponent {
         flex: '',
         optional: false,
         topping: false,
+        done: false,
       },
       {
         name: 'Light soy sauce',
@@ -132,6 +146,7 @@ export class RecipeComponent {
         flex: '',
         optional: false,
         topping: false,
+        done: false,
       },
       {
         name: 'Tortilla chips',
@@ -140,6 +155,7 @@ export class RecipeComponent {
         flex: "This is added for crunch, so any chips fit. For example, we also love adding salt & vinegar chips, onion chips, BBQ chips, or if we don't have chips we may even go with roasted onion.",
         optional: false,
         topping: true,
+        done: false,
       },
       {
         name: 'Oregano',
@@ -148,6 +164,7 @@ export class RecipeComponent {
         flex: '',
         optional: false,
         topping: false,
+        done: false,
       },
       {
         name: 'Corn',
@@ -156,6 +173,7 @@ export class RecipeComponent {
         flex: '',
         optional: false,
         topping: false,
+        done: false,
       },
       {
         name: 'Jackfruit',
@@ -164,6 +182,7 @@ export class RecipeComponent {
         flex: '',
         optional: true,
         topping: false,
+        done: false,
       },
       {
         name: 'Liquid smoke',
@@ -172,6 +191,7 @@ export class RecipeComponent {
         flex: '',
         optional: true,
         topping: false,
+        done: false,
       },
       {
         name: 'Lime',
@@ -180,14 +200,15 @@ export class RecipeComponent {
         flex: "Use lime, lemon, or yuzu, or we can use any vinegar in half the amount if we don't have citrus.",
         optional: false,
         topping: false,
+        done: true,
       },
     ],
     instructions: [
-      '1. we add all the ingredients except the toppings and lime to a pot and bring to a boil. The toppings are the avocado, red onion, and tortilla chips. Remember to add the aquafaba with the beans into the pot.',
-      '2. While bringing the pot to a boil, we chop up the toppings.',
-      '3. We boil on medium-high heat for about 5 min. We taste the soup during this time, and add more of any ingredient we wish.',
-      '4. When it has finished boiling we add the lime, and we also bring some extra lime to the table for us to squeeze in as we desire.',
-      '5. We serve the toppings in bowls on the table for each person to freely take.',
+      'We add all the ingredients except the toppings and lime to a pot and bring to a boil. The toppings are the avocado, red onion, and tortilla chips. Remember to add the aquafaba with the beans into the pot.',
+      'While bringing the pot to a boil, we chop up the toppings.',
+      'We boil on medium-high heat for about 5 min. We taste the soup during this time, and add more of any ingredient we wish.',
+      'When it has finished boiling we add the lime, and we also bring some extra lime to the table for us to squeeze in as we desire.',
+      'We serve the toppings in bowls on the table for each person to freely take.',
     ],
     notes:
       'This soup is slightly different each time we make it thanks to its versitility. Sometimes we also add plant-based melty cheese to it or plant-based sour cream with garlic.',
@@ -199,6 +220,8 @@ export class RecipeComponent {
 
   isDropdownOpen = false;
   servings = 2;
+  ingredientDoneStatus: boolean[] = [];
+  instructionDoneStatus: boolean[] = [];
 
   toggleDropdown(): void {
     this.isDropdownOpen = !this.isDropdownOpen;
@@ -207,5 +230,13 @@ export class RecipeComponent {
   updateServings(value: number): void {
     this.servings = value;
     this.toggleDropdown();
+  }
+
+  toggleIngredientDone(index: number): void {
+    this.ingredientDoneStatus[index] = !this.ingredientDoneStatus[index];
+  }
+
+  toggleInstructionDone(index: number): void {
+    this.instructionDoneStatus[index] = !this.instructionDoneStatus[index];
   }
 }
