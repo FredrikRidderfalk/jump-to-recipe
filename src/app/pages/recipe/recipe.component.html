@@ -229,7 +229,7 @@
                 [ngClass]="{ 'line-through text-slate-400': ingredientDoneStatus[i] }"
                 (click)="toggleIngredientDone(i)"
               >
-                {{ ingredient.name }}{{ ingredient.amount ? ", " + ingredient.amount : "" }}
+                {{ ingredient.name }}{{ ingredient.amount ? ", " + ingredient.amount * servings : "" }}
                 {{ ingredient.unit ? ingredient.unit : "" }}
                 @if (ingredient.flex) {
                   <div
