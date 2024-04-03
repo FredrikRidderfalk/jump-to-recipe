@@ -8,6 +8,8 @@ import { CommonModule } from '@angular/common';
   templateUrl: './recipe.component.html',
 })
 export class RecipeComponent {
+  // TODO: import recipes from assets folder and add recipeImage & 'done' property to ingredients
+
   recipe = {
     name: 'Tortilla Soup',
     recipeImage: '../assets/images/tortilla-soup.jpg',
@@ -213,10 +215,6 @@ export class RecipeComponent {
     notes:
       'This soup is slightly different each time we make it thanks to its versitility. Sometimes we also add plant-based melty cheese to it or plant-based sour cream with garlic.',
   };
-
-  title = 'Tortilla Soup';
-  description = 'This is a delicious recipe for tortilla soup.';
-  recipeImage = '../assets/images/tortilla-soup.jpg';
 
   isDropdownOpen = false;
   servings = 2;
