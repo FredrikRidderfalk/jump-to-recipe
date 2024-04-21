@@ -14,7 +14,6 @@
 ## Ingredients
 
 - Noodles: 200 g
-- Pureed tomatoes: 400 ml
 - Butter: 200 g
   - Flex: Neutral vegetable oil.
 - Garlic: 8 large cloves
@@ -29,14 +28,6 @@
 - Spring onion: 3
   - Flex: Other crispy greens
 
-## Flex
-
-- **Noodles**: Use any noodles you likey, thin or thick, round or flat. Yes, that includes Italian pasta too.
-- **Sugar**: Use refined white sugar, brown sugar, palm sugar, or our favorite... Muscovado sugar!
-- **MSG**: Not necessary, but always a wonderful flavor enhancer.
-- **Chili flakes**: Or why not fresh chopped up chili if you have it.
-- **Rice vinegar**: Most vinegars are fairly identical substitutes, e.g. white wine vinegar, apple cider vinegar, etc.
-
 ## Instructions
 
 1. Bring a pot or pan of water to a boil, then salt the water to your liking and add the noodles.
@@ -47,4 +38,4 @@
 
 ## Notes
 
-- MSG is amazing in this dish.
+MSG is amazing in this dish.
