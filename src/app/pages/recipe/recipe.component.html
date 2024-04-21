@@ -278,6 +278,12 @@
             </li>
           }
         </ul>
+        @if (recipe.notes) {
+          <h2 class="text-lg title-font font-bold text-slate-700 mt-7 mb-3">Notes</h2>
+          <p class="text-slate-700">
+            {{ recipe.notes }}
+          </p>
+        }
       </div>
     </div>
   </div>
