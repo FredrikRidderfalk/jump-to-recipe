@@ -1,4 +1,4 @@
-export const recipe = {
+export const tortillaSoup = {
   name: 'Tortilla Soup',
   recipeImage: '../assets/images/tortilla-soup.jpg',
   star: true,

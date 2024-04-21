@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { recipe } from '../../../assets/recipes/tortilla-soup';
+import { tortillaSoup } from '../../../assets/recipes/tortilla-soup';
+import { garlicNoodles } from '../../../assets/recipes/garlic-noodles';
 
 @Component({
   selector: 'app-recipe',
@@ -15,7 +16,8 @@ export class RecipeComponent implements OnInit {
   servings = 2;
   ingredientDoneStatus: boolean[] = [];
   instructionDoneStatus: boolean[] = [];
-  recipe = recipe;
+  recipe = garlicNoodles;
+  recipe2 = garlicNoodles;
 
   constructor() {}
 
