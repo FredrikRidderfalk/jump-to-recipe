@@ -1,4 +1,3 @@
-// tortilla-soup.ts
 export const recipe = {
   name: 'Tortilla Soup',
   recipeImage: '../assets/images/tortilla-soup.jpg',
