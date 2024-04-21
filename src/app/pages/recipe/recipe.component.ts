@@ -10,8 +10,6 @@ import { garlicNoodles } from '../../../assets/recipes/garlic-noodles';
   templateUrl: './recipe.component.html',
 })
 export class RecipeComponent implements OnInit {
-  // TODO: import recipes from assets folder and add recipeImage & 'done' property to ingredients
-
   isDropdownOpen = false;
   servings = 2;
   ingredientDoneStatus: boolean[] = [];
