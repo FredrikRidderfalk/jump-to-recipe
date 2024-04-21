@@ -16,10 +16,15 @@ export class RecipeComponent implements OnInit {
   servings = 2;
   ingredientDoneStatus: boolean[] = [];
   instructionDoneStatus: boolean[] = [];
-  recipe = garlicNoodles;
-  recipe2 = garlicNoodles;
+  recipe: any = null;
 
-  constructor() {}
+  constructor() {
+    if (window.location.search.includes('tortilla-soup')) {
+      this.recipe = tortillaSoup;
+    } else {
+      this.recipe = garlicNoodles;
+    }
+  }
 
   ngOnInit(): void {
     console.log(this.recipe);
