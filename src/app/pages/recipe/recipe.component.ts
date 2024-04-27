@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { tortillaSoup } from '../../../assets/recipes/tortilla-soup';
-import { garlicNoodles } from '../../../assets/recipes/garlic-noodles';
+import { Recipes } from '../../../assets/recipes/recipes';
 
 @Component({
   selector: 'app-recipe',
@@ -17,11 +16,11 @@ export class RecipeComponent implements OnInit {
   recipe: any = null;
 
   constructor() {
-    if (window.location.search.includes('tortilla-soup')) {
-      this.recipe = tortillaSoup;
-    } else {
-      this.recipe = garlicNoodles;
-    }
+    Recipes.forEach((recipe) => {
+      if (window.location.search.includes(recipe.param)) {
+        this.recipe = recipe;
+      }
+    });
   }
 
   ngOnInit(): void {
