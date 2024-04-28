@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NavigationEnd, Router } from '@angular/router';
 import { Recipes } from '../../../assets/recipes/recipes';
 
 @Component({
@@ -15,10 +16,16 @@ export class RecipeComponent implements OnInit {
   instructionDoneStatus: boolean[] = [];
   recipe: any = null;
 
-  constructor() {
+  constructor(private router: Router) {
     Recipes.forEach((recipe) => {
       if (window.location.search.includes(recipe.param)) {
         this.recipe = recipe;
+      }
+    });
+
+    this.router.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        window.scrollTo(0, 0); // Scroll to the top of the page on every navigation end event
       }
     });
   }
