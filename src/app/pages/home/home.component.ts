@@ -21,14 +21,14 @@ export class HomeComponent implements OnInit {
     this.recipes = Recipes;
     console.log(this.recipes);
 
-    this.apiService.getRecipeViews().subscribe(
-      (data) => {
+    this.apiService.getRecipeViews().subscribe({
+      next: (data) => {
         this.recipeViews = data;
-        console.log(this.recipeViews);
+        console.log('recipe views 👀', this.recipeViews);
       },
-      (error) => {
+      error: (error) => {
         console.error('There was an error!', error);
       },
-    );
+    });
   }
 }
