@@ -14,7 +14,7 @@ export const Recipes = [
       easy: false,
       temperature: null,
       clean: false,
-      cheap: false,
+      cheap: true,
     },
     ingredients: [
       {
