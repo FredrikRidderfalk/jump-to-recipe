@@ -15,6 +15,7 @@
             role="link"
             [routerLink]="['/recipe']"
             [queryParams]="{ name: recipe.param }"
+            (click)="onRecipeClick(recipe.param)"
             class="relative h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden cursor-pointer"
           >
             @if (recipe.star) {
@@ -45,7 +46,11 @@
                     <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
                     <circle cx="12" cy="12" r="3"></circle>
                   </svg>
-                  1.2K
+                  @for (viewedRecipe of recipeViews; track viewedRecipe.id) {
+                    @if (viewedRecipe.recipeName === recipe.param) {
+                      {{ viewedRecipe.views }}
+                    }
+                  }
                 </span>
               </div>
               <div class="flex space-x-1 py-2">

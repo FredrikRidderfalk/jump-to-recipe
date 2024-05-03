@@ -13,4 +13,8 @@ export class ApiService {
   getRecipeViews(): Observable<any> {
     return this.http.get(`${this.baseURL}/recipe-views`);
   }
+
+  addRecipeView(recipeName: string): Observable<any> {
+    return this.http.post(`${this.baseURL}/add-recipe-view`, { recipeName });
+  }
 }

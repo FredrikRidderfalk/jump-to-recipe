@@ -38,6 +38,13 @@ export class HomeComponent implements OnInit, OnDestroy {
       });
   }
 
+  onRecipeClick(recipeName: string) {
+    this.apiService.addRecipeView(recipeName).subscribe({
+      next: () => console.log('Recipe view added'),
+      error: (error) => console.error('Error adding recipe view', error),
+    });
+  }
+
   ngOnDestroy() {
     this.destroy$.next();
     this.destroy$.complete();

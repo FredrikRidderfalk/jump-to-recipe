@@ -26,5 +26,5 @@ export async function addRecipeView(recipeName) {
   await pool.query(query, [recipeName]);
 }
 
-const RecipeViews = await getRecipeViews();
-console.log(RecipeViews);
+// const RecipeViews = await getRecipeViews();
+// console.log(RecipeViews);
