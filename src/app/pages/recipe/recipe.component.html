@@ -1,288 +1,292 @@
-<section class="text-slate-600 body-font overflow-hidden">
-  <div class="container px-5 py-24 mx-auto">
-    <div class="lg:w-4/5 mx-auto flex flex-wrap">
-      <div class="lg:w-1/2 w-full lg:h-auto h-64 overflow-hidden rounded">
-        <img
-          alt="{{ recipe.name }}."
-          class="w-full h-full max-h-[500px] object-cover object-center rounded transition-transform duration-1000 hover:scale-125"
-          src="{{ recipe.recipeImage }}"
-        />
-      </div>
-      <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-        <h2 class="text-sm title-font text-slate-500 tracking-widest mb-2">
-          RECIPE
-          <span>{{ recipe.star ? "⭐️" : "" }}</span>
-        </h2>
-        <h1 class="text-slate-700 text-5xl title-font font-bold mb-4">{{ recipe.name }}</h1>
-        <p class="leading-relaxed">
-          {{ recipe.description }}
-        </p>
-        <div class="flex space-x-2 mt-6">
-          @if (recipe.tags.quick) {
-            <div
-              class="flex flex-col items-center justify-center text-slate-700 bg-green-50 border border-green-600 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition ease-in-out"
-            >
-              <svg
-                class="mb-1"
-                width="44"
-                height="44"
-                viewBox="0 0 44 44"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M22.0007 42.1663C10.8629 42.1663 1.83398 33.1374 1.83398 21.9997C1.83398 10.8619 10.8629 1.83301 22.0007 1.83301C33.1384 1.83301 42.1673 10.8619 42.1673 21.9997C42.1673 33.1374 33.1384 42.1663 22.0007 42.1663ZM22.0007 38.4997C31.1133 38.4997 38.5007 31.1124 38.5007 21.9997C38.5007 12.887 31.1133 5.49967 22.0007 5.49967C12.888 5.49967 5.50065 12.887 5.50065 21.9997C5.50065 31.1124 12.888 38.4997 22.0007 38.4997ZM31.1673 20.1663H23.834V10.9997H20.1673V23.833H31.1673V20.1663Z"
-                  fill="#344154"
-                />
-              </svg>
-              Quick
-            </div>
-          }
-
-          @if (recipe.tags.easy) {
-            <div
-              class="flex flex-col items-center justify-center text-slate-700 bg-purple-100 border border-purple-600 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition ease-in-out"
-            >
-              <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M1.83398 21.9997C1.83398 33.1374 10.8629 42.1663 22.0007 42.1663C33.1384 42.1663 42.1673 33.1374 42.1673 21.9997C42.1673 10.8619 33.1384 1.83301 22.0007 1.83301C10.8629 1.83301 1.83398 10.8619 1.83398 21.9997ZM38.5007 21.9997C38.5007 31.1124 31.1133 38.4997 22.0007 38.4997C12.888 38.4997 5.50065 31.1124 5.50065 21.9997C5.50065 12.887 12.888 5.49967 22.0007 5.49967C31.1133 5.49967 38.5007 12.887 38.5007 21.9997ZM22.0595 34.833C15.9041 34.833 12.4791 31.5909 12.4791 25.6663V23.833H31.3796L31.4303 25.6142C31.5996 31.5595 28.2346 34.833 22.0595 34.833ZM27.6611 27.4997C27.2304 30.0581 25.5004 31.1663 22.0595 31.1663C18.6205 31.1663 16.8339 30.0484 16.3114 27.4997H27.6611ZM25.6673 14.6663H31.1673V18.333H25.6673V14.6663ZM18.334 14.6663H12.834V18.333H18.334V14.6663Z"
-                  fill="#344154"
-                />
-              </svg>
-              Easy
-            </div>
-          }
-
-          @if (recipe.tags.temperature) {
-            <div
-              class="flex flex-col items-center justify-center text-slate-700 bg-orange-50 border border-orange-600 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition ease-in-out"
-            >
-              <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M9.89763 39.9661C4.85983 36.1811 1.83398 30.2571 1.83398 23.8337C1.83398 12.6959 10.8629 3.66699 22.0007 3.66699C33.1384 3.66699 42.1673 12.6959 42.1673 23.8337C42.1673 30.2571 39.1415 36.1811 34.1037 39.9661L33.6144 40.3337H10.3869L9.89763 39.9661ZM32.3727 36.667C36.2145 33.5595 38.5007 28.8881 38.5007 23.8337C38.5007 14.721 31.1133 7.33366 22.0007 7.33366C12.888 7.33366 5.50065 14.721 5.50065 23.8337C5.50065 28.8881 7.78678 33.5595 11.6286 36.667H32.3727ZM31.7526 13.885L28.7487 11.7823L23.9215 18.6784C23.3235 18.4555 22.6763 18.3337 22.0007 18.3337C18.9631 18.3337 16.5007 20.7961 16.5007 23.8337C16.5007 26.8712 18.9631 29.3337 22.0007 29.3337C25.0382 29.3337 27.5007 26.8712 27.5007 23.8337C27.5007 22.8153 27.2239 21.8616 26.7415 21.0437L31.7526 13.885ZM23.834 23.8337C23.834 24.8462 23.0132 25.667 22.0007 25.667C20.9881 25.667 20.1673 24.8462 20.1673 23.8337C20.1673 22.8211 20.9881 22.0003 22.0007 22.0003C23.0132 22.0003 23.834 22.8211 23.834 23.8337Z"
-                  fill="#344154"
-                />
-              </svg>
-              {{ recipe.tags.temperature }}˚F
-            </div>
-          }
-
-          @if (recipe.tags.clean) {
-            <div
-              class="flex flex-col items-center justify-center text-slate-700 bg-sky-100 border border-sky-600 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition ease-in-out"
-            >
-              <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M23.2058 2.28533C33.3459 11.1395 38.5 18.8706 38.5 25.6663C38.5 35.2901 30.9887 42.1663 22 42.1663C13.0113 42.1663 5.5 35.2901 5.5 25.6663C5.5 18.8706 10.6541 11.1395 20.7942 2.28533L22 1.23242L23.2058 2.28533ZM9.16667 25.6663C9.16667 33.1892 14.9675 38.4996 22 38.4996C29.0325 38.4996 34.8333 33.1892 34.8333 25.6663C34.8333 20.4427 30.6045 13.8715 22 6.11673C13.3955 13.8715 9.16667 20.4427 9.16667 25.6663ZM22 32.9996V36.6663C28.0751 36.6663 33 31.7414 33 25.6663H29.3333C29.3333 29.7164 26.0501 32.9996 22 32.9996Z"
-                  fill="#344154"
-                />
-              </svg>
-              Clean
-            </div>
-          }
-
-          @if (recipe.tags.cheap) {
-            <div
-              class="flex flex-col items-center justify-center text-slate-700 bg-yellow-50 border border-yellow-500 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition ease-in-out"
-            >
-              <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M11.9818 9.16699H38.5006C40.5257 9.16699 42.1673 10.8086 42.1673 12.8337V31.167C42.1673 33.192 40.5257 34.8337 38.5006 34.8337H11.9818C10.7559 34.8337 9.61101 34.221 8.93097 33.2009L2.14189 23.0173C1.73135 22.4015 1.73135 21.5992 2.14189 20.9834L8.93097 10.7998C9.61101 9.7797 10.7559 9.16699 11.9818 9.16699ZM5.87071 22.0003L11.9818 31.167H38.5007V12.8337H11.9818L5.87071 22.0003ZM14.6673 22.0003C14.6673 23.0128 13.8465 23.8337 12.834 23.8337C11.8215 23.8337 11.0007 23.0128 11.0007 22.0003C11.0007 20.9878 11.8215 20.167 12.834 20.167C13.8465 20.167 14.6673 20.9878 14.6673 22.0003Z"
-                  fill="#344154"
-                />
-              </svg>
-              Cheap
-            </div>
-          }
+<main class="mx-auto max-w-screen-lg">
+  <section class="text-slate-600 body-font overflow-hidden">
+    <div class="container px-5 py-5 lg:pt-24 mx-auto">
+      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <div class="lg:w-1/2 w-full lg:h-auto h-64 overflow-hidden rounded">
+          <img
+            alt="{{ recipe.name }}."
+            class="w-full h-full max-h-[500px] object-cover object-center rounded transition-transform duration-1000 hover:scale-125"
+            src="{{ recipe.recipeImage }}"
+          />
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="text-slate-600 body-font">
-  <div class="container px-5 pb-24 mx-auto">
-    <div class="lg:w-4/5 mx-auto flex flex-wrap">
-      <!-- Left Column: Ingredients -->
-      <div class="p-4 md:w-1/2 w-full">
-        <div class="flex justify-between items-center">
-          <div class="flex items-center">
-            <h2 class="text-lg title-font font-bold text-slate-700">Ingredients</h2>
-            <div class="relative flex items-center group">
-              <svg
-                class="w-5 h-5 text-slate-700 hover:text-slate-500 dark:text-white cursor-help ml-2"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                fill="none"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9.529 9.988a2.502 2.502 0 1 1 5 .191A2.441 2.441 0 0 1 12 12.582V14m-.01 3.008H12M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
-                />
-              </svg>
-
-              <div
-                class="absolute text-sm left-full ml-4 z-10 w-80 p-2 bg-green-50 border border-green-600 shadow-lg rounded-md hidden group-hover:block"
-              >
-                <b class="text-md font-bold text-slate-700">Flex ingredients</b>
-                <p>
-                  Hover over the ingredients. For each ingredient that can be substituted, a list of suggested
-                  substitutions will pop up! 🥔 → 🥕
-                </p>
-              </div>
-            </div>
+        <div class="lg:w-1/2 w-full lg:pl-10 lg:pt-6 mt-6 lg:mt-0 flex flex-col justify-between">
+          <div>
+            <h2 class="text-sm title-font text-slate-500 tracking-widest mb-2">
+              RECIPE
+              <span>{{ recipe.star ? "⭐️" : "" }}</span>
+            </h2>
+            <h1 class="text-slate-700 text-5xl title-font font-bold mb-4">{{ recipe.name }}</h1>
+            <p class="leading-relaxed">
+              {{ recipe.description }}
+            </p>
           </div>
-
-          <div class="relative inline-block text-left">
-            <button
-              type="button"
-              class="inline-flex w-32 justify-between gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-slate-700 shadow-sm ring-1 ring-inset ring-slate-300 hover:bg-slate-50 text-left"
-              id="menu-button"
-              (click)="toggleDropdown()"
-              [attr.aria-expanded]="isDropdownOpen"
-              aria-haspopup="true"
-            >
-              Servings: {{ servings }}
-              <svg class="-mr-1 h-5 w-5 text-slate-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path
-                  fill-rule="evenodd"
-                  d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </button>
-            @if (isDropdownOpen) {
+          <div class="flex space-x-2 mt-6">
+            @if (recipe.tags.quick) {
               <div
-                class="absolute right-0 z-10 mt-2 w-full origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
-                role="menu"
-                aria-orientation="vertical"
-                aria-labelledby="menu-button"
-                tabindex="-1"
+                class="flex flex-col items-center justify-center text-slate-700 bg-green-50 border border-green-600 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition ease-in-out"
               >
-                <div class="py-1" role="none">
-                  <button
-                    (click)="updateServings(1)"
-                    class="text-slate-700 block px-4 py-2 text-sm w-full text-left hover:bg-slate-50"
-                    role="menuitem"
-                    tabindex="-1"
-                    id="menu-item-0"
-                  >
-                    1
-                  </button>
-                  <button
-                    (click)="updateServings(2)"
-                    class="text-slate-700 block px-4 py-2 text-sm w-full text-left hover:bg-slate-50"
-                    role="menuitem"
-                    tabindex="-1"
-                    id="menu-item-1"
-                  >
-                    2
-                  </button>
-                  <button
-                    (click)="updateServings(3)"
-                    class="text-slate-700 block px-4 py-2 text-sm w-full text-left hover:bg-slate-50"
-                    role="menuitem"
-                    tabindex="-1"
-                    id="menu-item-2"
-                  >
-                    3
-                  </button>
-                  <button
-                    (click)="updateServings(4)"
-                    class="text-slate-700 block px-4 py-2 text-sm w-full text-left hover:bg-slate-50"
-                    role="menuitem"
-                    tabindex="-1"
-                    id="menu-item-3"
-                  >
-                    4
-                  </button>
-                </div>
+                <svg
+                  class="mb-1"
+                  width="44"
+                  height="44"
+                  viewBox="0 0 44 44"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M22.0007 42.1663C10.8629 42.1663 1.83398 33.1374 1.83398 21.9997C1.83398 10.8619 10.8629 1.83301 22.0007 1.83301C33.1384 1.83301 42.1673 10.8619 42.1673 21.9997C42.1673 33.1374 33.1384 42.1663 22.0007 42.1663ZM22.0007 38.4997C31.1133 38.4997 38.5007 31.1124 38.5007 21.9997C38.5007 12.887 31.1133 5.49967 22.0007 5.49967C12.888 5.49967 5.50065 12.887 5.50065 21.9997C5.50065 31.1124 12.888 38.4997 22.0007 38.4997ZM31.1673 20.1663H23.834V10.9997H20.1673V23.833H31.1673V20.1663Z"
+                    fill="#344154"
+                  />
+                </svg>
+                Quick
+              </div>
+            }
+
+            @if (recipe.tags.easy) {
+              <div
+                class="flex flex-col items-center justify-center text-slate-700 bg-purple-100 border border-purple-600 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition ease-in-out"
+              >
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M1.83398 21.9997C1.83398 33.1374 10.8629 42.1663 22.0007 42.1663C33.1384 42.1663 42.1673 33.1374 42.1673 21.9997C42.1673 10.8619 33.1384 1.83301 22.0007 1.83301C10.8629 1.83301 1.83398 10.8619 1.83398 21.9997ZM38.5007 21.9997C38.5007 31.1124 31.1133 38.4997 22.0007 38.4997C12.888 38.4997 5.50065 31.1124 5.50065 21.9997C5.50065 12.887 12.888 5.49967 22.0007 5.49967C31.1133 5.49967 38.5007 12.887 38.5007 21.9997ZM22.0595 34.833C15.9041 34.833 12.4791 31.5909 12.4791 25.6663V23.833H31.3796L31.4303 25.6142C31.5996 31.5595 28.2346 34.833 22.0595 34.833ZM27.6611 27.4997C27.2304 30.0581 25.5004 31.1663 22.0595 31.1663C18.6205 31.1663 16.8339 30.0484 16.3114 27.4997H27.6611ZM25.6673 14.6663H31.1673V18.333H25.6673V14.6663ZM18.334 14.6663H12.834V18.333H18.334V14.6663Z"
+                    fill="#344154"
+                  />
+                </svg>
+                Easy
+              </div>
+            }
+
+            @if (recipe.tags.temperature) {
+              <div
+                class="flex flex-col items-center justify-center text-slate-700 bg-orange-50 border border-orange-600 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition ease-in-out"
+              >
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M9.89763 39.9661C4.85983 36.1811 1.83398 30.2571 1.83398 23.8337C1.83398 12.6959 10.8629 3.66699 22.0007 3.66699C33.1384 3.66699 42.1673 12.6959 42.1673 23.8337C42.1673 30.2571 39.1415 36.1811 34.1037 39.9661L33.6144 40.3337H10.3869L9.89763 39.9661ZM32.3727 36.667C36.2145 33.5595 38.5007 28.8881 38.5007 23.8337C38.5007 14.721 31.1133 7.33366 22.0007 7.33366C12.888 7.33366 5.50065 14.721 5.50065 23.8337C5.50065 28.8881 7.78678 33.5595 11.6286 36.667H32.3727ZM31.7526 13.885L28.7487 11.7823L23.9215 18.6784C23.3235 18.4555 22.6763 18.3337 22.0007 18.3337C18.9631 18.3337 16.5007 20.7961 16.5007 23.8337C16.5007 26.8712 18.9631 29.3337 22.0007 29.3337C25.0382 29.3337 27.5007 26.8712 27.5007 23.8337C27.5007 22.8153 27.2239 21.8616 26.7415 21.0437L31.7526 13.885ZM23.834 23.8337C23.834 24.8462 23.0132 25.667 22.0007 25.667C20.9881 25.667 20.1673 24.8462 20.1673 23.8337C20.1673 22.8211 20.9881 22.0003 22.0007 22.0003C23.0132 22.0003 23.834 22.8211 23.834 23.8337Z"
+                    fill="#344154"
+                  />
+                </svg>
+                {{ recipe.tags.temperature }}˚F
+              </div>
+            }
+
+            @if (recipe.tags.clean) {
+              <div
+                class="flex flex-col items-center justify-center text-slate-700 bg-sky-100 border border-sky-600 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition ease-in-out"
+              >
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M23.2058 2.28533C33.3459 11.1395 38.5 18.8706 38.5 25.6663C38.5 35.2901 30.9887 42.1663 22 42.1663C13.0113 42.1663 5.5 35.2901 5.5 25.6663C5.5 18.8706 10.6541 11.1395 20.7942 2.28533L22 1.23242L23.2058 2.28533ZM9.16667 25.6663C9.16667 33.1892 14.9675 38.4996 22 38.4996C29.0325 38.4996 34.8333 33.1892 34.8333 25.6663C34.8333 20.4427 30.6045 13.8715 22 6.11673C13.3955 13.8715 9.16667 20.4427 9.16667 25.6663ZM22 32.9996V36.6663C28.0751 36.6663 33 31.7414 33 25.6663H29.3333C29.3333 29.7164 26.0501 32.9996 22 32.9996Z"
+                    fill="#344154"
+                  />
+                </svg>
+                Clean
+              </div>
+            }
+
+            @if (recipe.tags.cheap) {
+              <div
+                class="flex flex-col items-center justify-center text-slate-700 bg-yellow-50 border border-yellow-500 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition ease-in-out"
+              >
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M11.9818 9.16699H38.5006C40.5257 9.16699 42.1673 10.8086 42.1673 12.8337V31.167C42.1673 33.192 40.5257 34.8337 38.5006 34.8337H11.9818C10.7559 34.8337 9.61101 34.221 8.93097 33.2009L2.14189 23.0173C1.73135 22.4015 1.73135 21.5992 2.14189 20.9834L8.93097 10.7998C9.61101 9.7797 10.7559 9.16699 11.9818 9.16699ZM5.87071 22.0003L11.9818 31.167H38.5007V12.8337H11.9818L5.87071 22.0003ZM14.6673 22.0003C14.6673 23.0128 13.8465 23.8337 12.834 23.8337C11.8215 23.8337 11.0007 23.0128 11.0007 22.0003C11.0007 20.9878 11.8215 20.167 12.834 20.167C13.8465 20.167 14.6673 20.9878 14.6673 22.0003Z"
+                    fill="#344154"
+                  />
+                </svg>
+                Cheap
               </div>
             }
           </div>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- Ingredients -->
-        <div class="pt-4">
-          <ul class="list-inside list-[katakana-iroha] space-y-2">
-            @for (ingredient of recipe.ingredients; track ingredient.name; let i = $index) {
-              <li
-                class="relative group cursor-pointer rounded-sm hover:bg-slate-50"
-                [ngClass]="{ 'line-through text-slate-400': ingredientDoneStatus[i] }"
-                (click)="toggleIngredientDone(i)"
+  <section class="text-slate-600 body-font">
+    <div class="container px-5 pb-24 mx-auto">
+      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <!-- Left Column: Ingredients -->
+        <div class="p-4 md:w-1/2 w-full">
+          <div class="flex justify-between items-center">
+            <div class="flex items-center">
+              <h2 class="text-lg title-font font-bold text-slate-700">Ingredients</h2>
+              <div class="relative flex items-center group">
+                <svg
+                  class="w-5 h-5 text-slate-700 hover:text-slate-500 dark:text-white cursor-help ml-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9.529 9.988a2.502 2.502 0 1 1 5 .191A2.441 2.441 0 0 1 12 12.582V14m-.01 3.008H12M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                  />
+                </svg>
+
+                <div
+                  class="absolute text-sm left-full ml-4 z-10 w-80 p-2 bg-green-50 border border-green-600 shadow-lg rounded-md hidden group-hover:block"
+                >
+                  <b class="text-md font-bold text-slate-700">Flex ingredients</b>
+                  <p>
+                    Hover over the ingredients. For each ingredient that can be substituted, a list of suggested
+                    substitutions will pop up! 🥔 → 🥕
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="relative inline-block text-left">
+              <button
+                type="button"
+                class="inline-flex w-32 justify-between gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-slate-700 shadow-sm ring-1 ring-inset ring-slate-300 hover:bg-slate-50 text-left"
+                id="menu-button"
+                (click)="toggleDropdown()"
+                [attr.aria-expanded]="isDropdownOpen"
+                aria-haspopup="true"
               >
-                {{ ingredient.name }}{{ ingredient.amount ? ", " + ingredient.amount * servings : "" }}
-                {{ ingredient.unit ? ingredient.unit : "" }}
-                @if (ingredient.flex) {
-                  <div
-                    class="inline-block text-slate-700 mr-1 bg-green-50 border border-green-600 rounded-md px-2 text-xs font-medium"
-                  >
-                    Flex
+                Servings: {{ servings }}
+                <svg class="-mr-1 h-5 w-5 text-slate-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              @if (isDropdownOpen) {
+                <div
+                  class="absolute right-0 z-10 mt-2 w-full origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                  role="menu"
+                  aria-orientation="vertical"
+                  aria-labelledby="menu-button"
+                  tabindex="-1"
+                >
+                  <div class="py-1" role="none">
+                    <button
+                      (click)="updateServings(1)"
+                      class="text-slate-700 block px-4 py-2 text-sm w-full text-left hover:bg-slate-50"
+                      role="menuitem"
+                      tabindex="-1"
+                      id="menu-item-0"
+                    >
+                      1
+                    </button>
+                    <button
+                      (click)="updateServings(2)"
+                      class="text-slate-700 block px-4 py-2 text-sm w-full text-left hover:bg-slate-50"
+                      role="menuitem"
+                      tabindex="-1"
+                      id="menu-item-1"
+                    >
+                      2
+                    </button>
+                    <button
+                      (click)="updateServings(3)"
+                      class="text-slate-700 block px-4 py-2 text-sm w-full text-left hover:bg-slate-50"
+                      role="menuitem"
+                      tabindex="-1"
+                      id="menu-item-2"
+                    >
+                      3
+                    </button>
+                    <button
+                      (click)="updateServings(4)"
+                      class="text-slate-700 block px-4 py-2 text-sm w-full text-left hover:bg-slate-50"
+                      role="menuitem"
+                      tabindex="-1"
+                      id="menu-item-3"
+                    >
+                      4
+                    </button>
                   </div>
-                  <div
-                    class="absolute text-sm left-40 top-10 z-10 w-80 p-2 bg-green-50 border border-green-600 shadow-lg rounded-md hidden group-hover:inline"
-                  >
-                    <b class="text-md font-bold text-slate-700">{{ ingredient.name }} flex</b>
-                    <p class="text-slate-700">{{ ingredient.flex }}</p>
-                  </div>
-                }
-                @if (ingredient.optional) {
-                  <div
-                    class="inline-block text-slate-700 mr-1 bg-yellow-50 border border-yellow-500 rounded-md px-2 text-xs font-medium"
-                  >
-                    Optional
-                  </div>
-                }
-                @if (ingredient.topping) {
-                  <div
-                    class="inline-block text-slate-700 mr-1 bg-purple-100 border border-purple-600 rounded-md px-2 text-xs font-medium"
-                  >
-                    Topping
-                  </div>
-                }
+                </div>
+              }
+            </div>
+          </div>
+
+          <!-- Ingredients -->
+          <div class="pt-4">
+            <ul class="list-inside list-[katakana-iroha] space-y-2">
+              @for (ingredient of recipe.ingredients; track ingredient.name; let i = $index) {
+                <li
+                  class="relative group cursor-pointer rounded-sm hover:bg-slate-50"
+                  [ngClass]="{ 'line-through text-slate-400': ingredientDoneStatus[i] }"
+                  (click)="toggleIngredientDone(i)"
+                >
+                  {{ ingredient.name }}{{ ingredient.amount ? ", " + ingredient.amount * servings : "" }}
+                  {{ ingredient.unit ? ingredient.unit : "" }}
+                  @if (ingredient.flex) {
+                    <div
+                      class="inline-block text-slate-700 mr-1 bg-green-50 border border-green-600 rounded-md px-2 text-xs font-medium"
+                    >
+                      Flex
+                    </div>
+                    <div
+                      class="absolute text-sm left-40 top-10 z-10 w-80 p-2 bg-green-50 border border-green-600 shadow-lg rounded-md hidden group-hover:inline"
+                    >
+                      <b class="text-md font-bold text-slate-700">{{ ingredient.name }} flex</b>
+                      <p class="text-slate-700">{{ ingredient.flex }}</p>
+                    </div>
+                  }
+                  @if (ingredient.optional) {
+                    <div
+                      class="inline-block text-slate-700 mr-1 bg-yellow-50 border border-yellow-500 rounded-md px-2 text-xs font-medium"
+                    >
+                      Optional
+                    </div>
+                  }
+                  @if (ingredient.topping) {
+                    <div
+                      class="inline-block text-slate-700 mr-1 bg-purple-100 border border-purple-600 rounded-md px-2 text-xs font-medium"
+                    >
+                      Topping
+                    </div>
+                  }
+                </li>
+              }
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right Column: Instructions -->
+        <div class="p-4 md:w-1/2 w-full">
+          <h2 class="text-lg title-font font-bold text-slate-700 mb-3">This is the way</h2>
+          <ul class="list-inside list-[katakana-iroha] space-y-2">
+            @for (instruction of recipe.instructions; track instruction; let i = $index) {
+              <li
+                class="cursor-pointer rounded-sm hover:bg-slate-50"
+                [ngClass]="{ 'line-through text-slate-400': instructionDoneStatus[i] }"
+                (click)="toggleInstructionDone(i)"
+              >
+                {{ instruction }}
               </li>
             }
           </ul>
+          @if (recipe.notes) {
+            <h2 class="text-lg title-font font-bold text-slate-700 mt-7 mb-3">Notes</h2>
+            <p class="text-slate-700">
+              {{ recipe.notes }}
+            </p>
+          }
         </div>
       </div>
-
-      <!-- Right Column: Instructions -->
-      <div class="p-4 md:w-1/2 w-full">
-        <h2 class="text-lg title-font font-bold text-slate-700 mb-3">This is the way</h2>
-        <ul class="list-inside list-[katakana-iroha] space-y-2">
-          @for (instruction of recipe.instructions; track instruction; let i = $index) {
-            <li
-              class="cursor-pointer rounded-sm hover:bg-slate-50"
-              [ngClass]="{ 'line-through text-slate-400': instructionDoneStatus[i] }"
-              (click)="toggleInstructionDone(i)"
-            >
-              {{ instruction }}
-            </li>
-          }
-        </ul>
-        @if (recipe.notes) {
-          <h2 class="text-lg title-font font-bold text-slate-700 mt-7 mb-3">Notes</h2>
-          <p class="text-slate-700">
-            {{ recipe.notes }}
-          </p>
-        }
-      </div>
     </div>
-  </div>
-</section>
+  </section>
+</main>
