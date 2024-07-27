@@ -964,7 +964,7 @@ export const Recipes = [
     star: false,
     introText: 'My ice cream brings all the people to the yard.',
     description:
-      "Hummus is a delicious and nutritious spread made primarily from mashed chickpeas, tahini, olive oil, lemon juice, and garlic. It's a staple in Middle Eastern and Mediterranean cuisines and has gained global popularity due to its versatility and health benefits.",
+      'Ice cream is a frozen dessert made from a mixture of milk, cream, sugar, and flavorings. With an ice cream machine, you can easily make your own homemade ice cream and customize it to your liking. So grab a scoop and enjoy the creamy goodness of homemade ice cream.',
     tags: {
       quick: false,
       easy: true,
@@ -1029,12 +1029,11 @@ export const Recipes = [
       },
     ],
     instructions: [
-      'Slice one full garlic in half and rub with olive oil.',
-      'Roast garlic for one hour wrapped in foil or parchment paper.',
-      'Add the remaining ingredients to a blender, then run until smooth.',
-      'Make a spiral in the hummus and top with olive oil and smoked paprika.',
+      'Add all the ingredients together in a bowl and mix.',
+      'Add to your ice cream machine and let churn until done.',
     ],
-    notes: 'Include all the aquafaba for a super smooth hummus, otherwise just about half of the aquafaba.',
+    notes:
+      'Add more sugar, replace the sugar with agave syrup/maple syrup/corn syrup, or even add alcohol like rum to make the ice cream more scoopable. Sugar and syrups prevent ice crystal formation and alcohol lowers the freezing point.',
   },
   //   Mirza Ghasemi
   {
