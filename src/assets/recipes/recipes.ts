@@ -1033,7 +1033,7 @@ export const Recipes = [
       'Add to your ice cream machine and let churn until done.',
     ],
     notes:
-      'Add more sugar, replace the sugar with agave syrup/maple syrup/corn syrup, or even add alcohol like rum to make the ice cream more scoopable. Sugar and syrups prevent ice crystal formation and alcohol lowers the freezing point.',
+      'Add more sugar, replace the sugar with agave syrup/maple syrup/corn syrup, or even add alcohol like rum to make the ice cream more scoopable. Sugar and syrups prevent ice crystal formation and alcohol lowers the freezing point. A successful cornbread ice cream was made with 1.5 cup milk, 0.5 cup cream, 0.5 cup syrup, 0.25 tsp salt, and 0.5 cup polenta. It could have benefited from corn as well, blended with the milk in a high-speed mixer.',
   },
   //   Mirza Ghasemi
   {
