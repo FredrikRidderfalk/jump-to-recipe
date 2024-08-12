@@ -11,7 +11,7 @@ import { Recipes } from '../../../assets/recipes/recipes';
 })
 export class RecipeComponent implements OnInit {
   isDropdownOpen = false;
-  servings = 2;
+  servings = 1;
   ingredientDoneStatus: boolean[] = [];
   instructionDoneStatus: boolean[] = [];
   recipe: any = null;
