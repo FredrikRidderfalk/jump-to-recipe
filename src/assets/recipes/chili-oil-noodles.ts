@@ -1,4 +1,4 @@
-export const ChiliOilNoodles = {
+export const chiliOilNoodles = {
   name: 'Chili oil noodles',
   param: 'chili-oil-noodles',
   recipeImage: '../assets/images/chili-oil-noodles.jpg',
