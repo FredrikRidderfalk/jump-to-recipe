@@ -1,6 +1,7 @@
 import { tapenade } from './tapenade';
 import { pesto } from './pesto';
 import { chiliOilNoodles } from './chili-oil-noodles';
+import { stickyBananaSpongePudding } from './sticky-banana-sponge-pudding';
 
 export const Recipes = [
   //   Template
@@ -42,6 +43,7 @@ export const Recipes = [
   tapenade,
   chiliOilNoodles,
   pesto,
+  stickyBananaSpongePudding,
   //  Coffee Tres Leches
   {
     name: 'Coffee Tres Leches',
