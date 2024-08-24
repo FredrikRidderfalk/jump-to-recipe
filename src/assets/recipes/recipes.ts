@@ -4,42 +4,6 @@ import { chiliOilNoodles } from './chili-oil-noodles';
 import { stickyBananaSpongePudding } from './sticky-banana-sponge-pudding';
 
 export const Recipes = [
-  //   Template
-  // {
-  //   name: 'Recipe',
-  //   param: 'recipe',
-  //   recipeImage: '../assets/images/recipe.jpg',
-  //   star: false,
-  //   introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.',
-  //   description:
-  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-  //   tags: {
-  //     quick: false,
-  //     easy: false,
-  //     temperature: null,
-  //     clean: false,
-  //     cheap: false,
-  //   },
-  //   ingredients: [
-  //     {
-  //       name: 'MSG',
-  //       amount: 1,
-  //       unit: 'tbsp',
-  //       flex: '',
-  //       optional: false,
-  //       topping: false,
-  //       done: false,
-  //     },
-  //   ],
-  //   instructions: [
-  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  //   ],
-  //   notes: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  // },
   tapenade,
   chiliOilNoodles,
   pesto,
