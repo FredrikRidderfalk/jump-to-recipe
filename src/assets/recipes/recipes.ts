@@ -2,12 +2,14 @@ import { tapenade } from './tapenade';
 import { pesto } from './pesto';
 import { chiliOilNoodles } from './chili-oil-noodles';
 import { stickyBananaSpongePudding } from './sticky-banana-sponge-pudding';
+import { lentilStew } from './lentil-stew';
 
 export const Recipes = [
   tapenade,
   chiliOilNoodles,
   pesto,
   stickyBananaSpongePudding,
+  lentilStew,
   //  Coffee Tres Leches
   {
     name: 'Coffee Tres Leches',

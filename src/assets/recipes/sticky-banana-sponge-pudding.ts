@@ -1,7 +1,7 @@
 export const stickyBananaSpongePudding = {
   name: 'Sticky Banana Sponge Pudding',
-  param: 'sticky_banana_sponge_pudding',
-  recipeImage: '../assets/images/sticky_banana_sponge_pudding.jpg',
+  param: 'sticky-banana-sponge-pudding',
+  recipeImage: '../assets/images/sticky-banana-sponge-pudding.jpg',
   star: false,
   introText:
     "This indulgent Sticky Banana Sponge Pudding combines the richness of ripe bananas with a luscious hazelnut toffee sauce for a dessert that's warm, comforting, and utterly irresistible.",
