@@ -1,7 +1,7 @@
 export const southwestDressing = {
   name: 'Southwest Dressing',
   param: 'southwest-dressing',
-  recipeImage: '../assets/images/southwest-dressing.jpg',
+  recipeImage: 'assets/images/southwest-dressing.jpg',
   star: false,
   introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.',
   description:

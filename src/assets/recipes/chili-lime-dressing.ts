@@ -1,7 +1,7 @@
 export const chiliLimeDressing = {
   name: 'Chili Lime Dressing',
   param: 'chili-lime-dressing',
-  recipeImage: '../assets/images/chili-lime-dressing.jpg',
+  recipeImage: 'assets/images/chili-lime-dressing.jpg',
   star: false,
   introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.',
   description:

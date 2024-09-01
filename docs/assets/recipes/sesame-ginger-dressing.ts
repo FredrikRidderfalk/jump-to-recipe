@@ -1,7 +1,7 @@
 export const sesameGingerDressing = {
   name: 'Sesame Ginger Dressing',
   param: 'sesame-ginger-dressing',
-  recipeImage: '../assets/images/sesame-ginger-dressing.jpg',
+  recipeImage: 'assets/images/sesame-ginger-dressing.jpg',
   star: false,
   introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.',
   description:

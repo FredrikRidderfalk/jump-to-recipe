@@ -29,7 +29,7 @@ export const Recipes = [
   {
     name: 'Arancini',
     param: 'arancini',
-    recipeImage: '../assets/images/arancini.jpg',
+    recipeImage: 'assets/images/arancini.jpg',
     star: false,
     introText:
       'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
@@ -138,7 +138,7 @@ export const Recipes = [
   {
     name: 'Burger',
     param: 'burger',
-    recipeImage: '../assets/images/burger.jpg',
+    recipeImage: 'assets/images/burger.jpg',
     star: true,
     introText:
       'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
@@ -247,7 +247,7 @@ export const Recipes = [
   {
     name: 'Garlic Noodles',
     param: 'garlic-noodles',
-    recipeImage: '../assets/images/ramen.png',
+    recipeImage: 'assets/images/ramen.png',
     star: true,
     introText:
       'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
@@ -356,7 +356,7 @@ export const Recipes = [
   {
     name: 'Hummus',
     param: 'hummus',
-    recipeImage: '../assets/images/hummus.jpg',
+    recipeImage: 'assets/images/hummus.jpg',
     star: false,
     introText:
       'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
@@ -455,7 +455,7 @@ export const Recipes = [
   {
     name: 'Ice Cream',
     param: 'ice-cream',
-    recipeImage: '../assets/images/ice-cream.jpg',
+    recipeImage: 'assets/images/ice-cream.jpg',
     star: false,
     introText: 'My ice cream brings all the people to the yard.',
     description:
@@ -534,7 +534,7 @@ export const Recipes = [
   {
     name: 'Mirza Ghasemi',
     param: 'mirza-ghasemi',
-    recipeImage: '../assets/images/mirza-ghasemi.jpg',
+    recipeImage: 'assets/images/mirza-ghasemi.jpg',
     star: false,
     introText:
       'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
@@ -623,7 +623,7 @@ export const Recipes = [
   {
     name: 'Pancakes',
     param: 'pancakes',
-    recipeImage: '../assets/images/pancakes.jpg',
+    recipeImage: 'assets/images/pancakes.jpg',
     star: true,
     introText: 'Swedish-style.',
     description:
@@ -704,7 +704,7 @@ export const Recipes = [
   {
     name: 'Poké',
     param: 'poke',
-    recipeImage: '../assets/images/poke.jpg',
+    recipeImage: 'assets/images/poke.jpg',
     star: true,
     introText:
       'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
@@ -813,7 +813,7 @@ export const Recipes = [
   {
     name: 'Orange Tofu',
     param: 'orange-tofu',
-    recipeImage: '../assets/images/orange-tofu.jpg',
+    recipeImage: 'assets/images/orange-tofu.jpg',
     star: true,
     introText:
       'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
@@ -922,7 +922,7 @@ export const Recipes = [
   {
     name: 'Panna Cotta',
     param: 'panna-cotta',
-    recipeImage: '../assets/images/panna-cotta.jpg',
+    recipeImage: 'assets/images/panna-cotta.jpg',
     star: false,
     introText:
       'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
@@ -993,7 +993,7 @@ export const Recipes = [
   {
     name: 'Ramen',
     param: 'ramen',
-    recipeImage: '../assets/images/ramen.png',
+    recipeImage: 'assets/images/ramen.png',
     star: true,
     introText:
       'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
@@ -1104,7 +1104,7 @@ export const Recipes = [
   {
     name: 'Swedish Balls',
     param: 'swedish-balls',
-    recipeImage: '../assets/images/swedish-balls.jpg',
+    recipeImage: 'assets/images/swedish-balls.jpg',
     star: true,
     introText:
       'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
@@ -1213,7 +1213,7 @@ export const Recipes = [
   {
     name: 'Tagine',
     param: 'tagine',
-    recipeImage: '../assets/images/tagine.png',
+    recipeImage: 'assets/images/tagine.png',
     star: false,
     introText:
       'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
@@ -1424,7 +1424,7 @@ export const Recipes = [
   {
     name: 'Tortilla Soup',
     param: 'tortilla-soup',
-    recipeImage: '../assets/images/tortilla-soup.jpg',
+    recipeImage: 'assets/images/tortilla-soup.jpg',
     star: true,
     introText:
       'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',

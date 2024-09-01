@@ -1,7 +1,7 @@
 export const rootVegetableSoup = {
   name: 'Root Vegetable Soup',
   param: 'root-vegetable-soup',
-  recipeImage: '../assets/images/root-vegetable-soup.jpg',
+  recipeImage: 'assets/images/root-vegetable-soup.jpg',
   star: false,
   introText:
     'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',

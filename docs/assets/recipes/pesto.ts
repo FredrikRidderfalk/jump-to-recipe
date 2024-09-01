@@ -1,7 +1,7 @@
 export const pesto = {
   name: 'Pesto',
   param: 'pesto',
-  recipeImage: '../assets/images/pesto.jpg',
+  recipeImage: 'assets/images/pesto.jpg',
   star: false,
   introText: 'A versatile and flavorful sauce made from fresh basil, perfect for pasta, sandwiches, and more.',
   description:

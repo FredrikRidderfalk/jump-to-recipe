@@ -1,7 +1,7 @@
 export const lemonTahiniDressing = {
   name: 'Lemon Tahini Dressing',
   param: 'lemon-tahini-dressing',
-  recipeImage: '../assets/images/lemon-tahini-dressing.jpg',
+  recipeImage: 'assets/images/lemon-tahini-dressing.jpg',
   star: false,
   introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.',
   description:

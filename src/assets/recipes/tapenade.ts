@@ -1,7 +1,7 @@
 export const tapenade = {
   name: 'Tapenade',
   param: 'tapenade',
-  recipeImage: '../assets/images/tapenade.jpg',
+  recipeImage: 'assets/images/tapenade.jpg',
   star: false,
   introText: 'A versatile and flavorful sauce made from fresh basil, perfect for pasta, sandwiches, and more.',
   description:

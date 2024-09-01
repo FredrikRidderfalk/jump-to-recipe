@@ -1,7 +1,7 @@
 export const lentilStew = {
   name: 'Lentil Stew',
   param: 'lentil-stew',
-  recipeImage: '../assets/images/lentil-stew.jpg',
+  recipeImage: 'assets/images/lentil-stew.jpg',
   star: false,
   introText:
     'This hearty lentil stew combines a rich blend of spices, aromatic vegetables, and a hint of citrus to create a comforting and flavorful dish perfect for any season.',

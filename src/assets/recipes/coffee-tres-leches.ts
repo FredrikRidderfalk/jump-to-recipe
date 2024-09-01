@@ -1,7 +1,7 @@
 export const coffeeTresLeches = {
   name: 'Coffee Tres Leches',
   param: 'coffee-tres-leches',
-  recipeImage: '../assets/images/coffee-tres-leches.jpg',
+  recipeImage: 'assets/images/coffee-tres-leches.jpg',
   star: false,
   introText:
     'A rich and decadent dessert that combines the classic Tres Leches with a hint of coffee for an extra flavor boost.',

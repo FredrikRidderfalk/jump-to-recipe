@@ -1,7 +1,7 @@
 export const pestoDressing = {
   name: 'Pesto Dressing',
   param: 'pesto-dressing',
-  recipeImage: '../assets/images/pesto-dressing.jpg',
+  recipeImage: 'assets/images/pesto-dressing.jpg',
   star: false,
   introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.',
   description:

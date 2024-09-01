@@ -1,7 +1,7 @@
 export const thaiBasilSauce = {
   name: 'Thai Basil Sauce',
   param: 'thai-basil-sauce',
-  recipeImage: '../assets/images/thai-basil-sauce.jpg',
+  recipeImage: 'assets/images/thai-basil-sauce.jpg',
   star: false,
   introText:
     'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
