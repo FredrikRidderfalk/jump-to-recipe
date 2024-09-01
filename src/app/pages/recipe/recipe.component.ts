@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavigationEnd, Router } from '@angular/router';
-import { Recipes } from '../../../assets/recipes/recipes';
+import { Recipes } from 'assets/recipes/recipes';
 
 @Component({
   selector: 'app-recipe',
