@@ -1,5 +1,20 @@
 <main class="mx-auto max-w-screen-lg">
-  <div class="bg-white rounded-2xl m-5">
+  <div class="relative bg-white rounded-2xl m-5">
+    <div
+      class="absolute top-0 right-0 w-14 h-14 rounded-full m-6 cursor-pointer bg-white hover:bg-slate-100 transition-all duration-300"
+      role="link"
+      [routerLink]="['/']"
+    >
+      <div class="relative w-14 h-14">
+        <div
+          class="absolute top-1/2 left-1/2 w-8 h-1 rounded-sm bg-slate-700 transform -translate-x-1/2 -translate-y-1/2 rotate-45"
+        ></div>
+        <div
+          class="absolute top-1/2 left-1/2 w-8 h-1 rounded-sm bg-slate-700 transform -translate-x-1/2 -translate-y-1/2 -rotate-45"
+        ></div>
+      </div>
+    </div>
+
     <section class="text-slate-600 body-font overflow-hidden">
       <div class="container px-5 py-5 lg:pt-24 mx-auto">
         <div class="lg:w-4/5 mx-auto flex flex-wrap">
