@@ -1,5 +1,5 @@
 export const chiliOilNoodles = {
-  name: 'Chili oil noodles',
+  name: 'Chili Oil Noodles',
   param: 'chili-oil-noodles',
   recipeImage: 'assets/images/chili-oil-noodles.jpg',
   star: false,

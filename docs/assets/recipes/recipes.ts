@@ -12,12 +12,13 @@ import { sesameGingerDressing } from './sesame-ginger-dressing';
 import { tomatoPasta } from './tomato-pasta';
 import { thaiBasilSauce } from './thai-basil-sauce';
 import { rootVegetableSoup } from './root-vegetable-soup';
+import { quinoaSalad } from './quinoa-salad';
 
 export const Recipes = [
-  tapenade,
   chiliOilNoodles,
-  pesto,
   stickyBananaSpongePudding,
+  pesto,
+  tapenade,
   lentilStew,
   coffeeTresLeches,
   pestoDressing,
@@ -25,6 +26,7 @@ export const Recipes = [
   lemonTahiniDressing,
   chiliLimeDressing,
   sesameGingerDressing,
+  quinoaSalad,
   //   Arancini
   {
     name: 'Arancini',
