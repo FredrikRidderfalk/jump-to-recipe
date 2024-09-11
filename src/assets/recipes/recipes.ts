@@ -13,6 +13,7 @@ import { tomatoPasta } from './tomato-pasta';
 import { thaiBasilSauce } from './thai-basil-sauce';
 import { rootVegetableSoup } from './root-vegetable-soup';
 import { quinoaSalad } from './quinoa-salad';
+import { crispyChiliOil } from './crispy-chili-oil';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -27,6 +28,7 @@ export const Recipes = [
   chiliLimeDressing,
   sesameGingerDressing,
   quinoaSalad,
+  crispyChiliOil,
   //   Arancini
   {
     name: 'Arancini',
