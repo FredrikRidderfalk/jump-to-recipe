@@ -14,6 +14,9 @@ import { thaiBasilSauce } from './thai-basil-sauce';
 import { rootVegetableSoup } from './root-vegetable-soup';
 import { quinoaSalad } from './quinoa-salad';
 import { crispyChiliOil } from './crispy-chili-oil';
+import { kladdkaka } from './kladdkaka';
+import { balsamicDressing } from './balsamic-vinaigrette';
+import { thaiGreenCurry } from './thai-green-curry';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -29,6 +32,9 @@ export const Recipes = [
   sesameGingerDressing,
   quinoaSalad,
   crispyChiliOil,
+  kladdkaka,
+  balsamicDressing,
+  thaiGreenCurry,
   //   Arancini
   {
     name: 'Arancini',
