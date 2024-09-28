@@ -1,16 +1,16 @@
-export const rootVegetableSoup = {
-  name: 'Root Vegetable Soup',
-  param: 'root-vegetable-soup',
-  recipeImage: 'assets/images/root-vegetable-soup.jpg',
+export const rootVegetableStew = {
+  name: 'Root Vegetable Stew',
+  param: 'root-vegetable-stew',
+  recipeImage: '../assets/images/root-vegetable-stew.jpg',
   star: false,
   introText:
-    'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
+    'This hearty root vegetable stew is a comforting and wholesome meal packed with nutrients and earthy flavors. Perfect for chilly days, it combines root vegetables, red lentils, and a tangy tomato base to create a satisfying vegan dish.',
   description:
-    "Hummus is a delicious and nutritious spread made primarily from mashed chickpeas, tahini, olive oil, lemon juice, and garlic. It's a staple in Middle Eastern and Mediterranean cuisines and has gained global popularity due to its versatility and health benefits.",
+    'Root Vegetable Stew is a flavorful blend of potatoes, celery root, carrots, and parsnips simmered with red lentils in a seasoned broth. The stew has a savory and slightly tangy flavor profile, enriched by garlic and herbs like oregano. It’s a simple, filling, and nutritious meal that’s easy to prepare and perfect for cozy dinners.',
   tags: {
-    quick: true,
+    quick: false,
     easy: true,
-    temperature: null,
+    temperature: '',
     clean: true,
     cheap: true,
   },
@@ -25,7 +25,7 @@ export const rootVegetableSoup = {
       done: false,
     },
     {
-      name: 'Root sellery',
+      name: 'Root celery',
       amount: 250,
       unit: 'g',
       flex: '',
@@ -64,6 +64,15 @@ export const rootVegetableSoup = {
       name: 'Water',
       amount: 1500,
       unit: 'ml',
+      flex: '',
+      optional: false,
+      topping: false,
+      done: false,
+    },
+    {
+      name: 'Vegetable bouillon',
+      amount: 3,
+      unit: 'cubes',
       flex: '',
       optional: false,
       topping: false,
@@ -134,12 +143,13 @@ export const rootVegetableSoup = {
     },
   ],
   instructions: [
-    'Boil the pasta in salted water until al dente.',
-    'Chop garlic and add to pan with oil on medium heat.',
-    'After a minute, add tomato purée and sugar. Fry for 2 minutes.',
-    'Add cream and sundried tomatoes, as well as any optional ingredients. Boil for 2 minutes.',
-    'Add pasta to the sauce and mix. Serve with feta and basil.',
+    'Dice the potatoes, root celery, carrots, and parsnips into bite-sized pieces. Peel the vegetables if necessary.',
+    'In a large pot, combine the diced vegetables, water, and bouillon. Bring to a boil over medium-high heat.',
+    'Reduce the heat and simmer for 10 minutes.',
+    'Stir in the lentils, ketchup, white pepper, dried oregano, chili (if using), and vinegar. Let it simmer for another 10 minutes to allow the flavors to meld.',
+    'If you’d like a richer flavor, optionally serve with finely chopped garlic mixed with sour cream on top.',
+    'Taste and adjust the seasoning as needed before serving.',
   ],
   notes:
-    'Any root veggies go well in this dish, and any seasoning or sauce can be added for a different flavor profile.',
+    'This stew is versatile—you can swap out any root vegetables or add beans and faux meat for extra protein. For added depth, try roasting the vegetables before adding them to the pot. Adjust the spice level by increasing or decreasing the amount of chili or opting for a milder alternative.',
 };

@@ -11,7 +11,7 @@ import { chiliLimeDressing } from './chili-lime-dressing';
 import { sesameGingerDressing } from './sesame-ginger-dressing';
 import { tomatoPasta } from './tomato-pasta';
 import { thaiBasilSauce } from './thai-basil-sauce';
-import { rootVegetableSoup } from './root-vegetable-soup';
+import { rootVegetableStew } from './root-vegetable-stew';
 import { quinoaSalad } from './quinoa-salad';
 import { crispyChiliOil } from './crispy-chili-oil';
 import { kladdkaka } from './kladdkaka';
@@ -35,6 +35,7 @@ export const Recipes = [
   kladdkaka,
   balsamicDressing,
   thaiGreenCurry,
+  rootVegetableStew,
   //   Arancini
   {
     name: 'Arancini',
@@ -1108,8 +1109,6 @@ export const Recipes = [
     ],
     notes: 'MSG is amazing in this dish.',
   },
-  //   Root Vegetable Soup
-  rootVegetableSoup,
   //   Swedish Balls
   {
     name: 'Swedish Balls',
