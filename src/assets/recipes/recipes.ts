@@ -17,6 +17,7 @@ import { crispyChiliOil } from './crispy-chili-oil';
 import { kladdkaka } from './kladdkaka';
 import { balsamicDressing } from './balsamic-vinaigrette';
 import { thaiGreenCurry } from './thai-green-curry';
+import { overnightOats } from './overnightOats';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -36,6 +37,7 @@ export const Recipes = [
   balsamicDressing,
   thaiGreenCurry,
   rootVegetableStew,
+  overnightOats,
   //   Arancini
   {
     name: 'Arancini',
