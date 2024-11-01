@@ -107,7 +107,7 @@ export const tomatoPasta = {
     },
   ],
   instructions: [
-    'Boil the pasta in salted water until al dente.',
+    'Boil the pasta in salted water until al dente, ~12 min.',
     'Chop garlic and add to pan with oil on medium heat.',
     'After a minute, add tomato purée and sugar. Fry for 2 minutes.',
     'Add cream and sundried tomatoes, as well as any optional ingredients. Boil for 2 minutes.',
