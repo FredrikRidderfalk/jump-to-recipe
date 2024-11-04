@@ -21,12 +21,14 @@ import { overnightOats } from './overnightOats';
 import { arancini } from './arancini';
 import { burger } from './burger';
 import { garlicNoodles } from './garlic-noodles';
+import { taquitos } from './taquitos';
 
 export const Recipes = [
   chiliOilNoodles,
   stickyBananaSpongePudding,
   pesto,
   tapenade,
+  taquitos,
   lentilStew,
   coffeeTresLeches,
   pestoDressing,
@@ -43,7 +45,6 @@ export const Recipes = [
   overnightOats,
   arancini,
   burger,
-  //   Garlic Noodles
   garlicNoodles,
   //   Hummus
   {
