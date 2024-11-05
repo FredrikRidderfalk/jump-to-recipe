@@ -124,7 +124,7 @@ export const taquitos = {
       done: false,
     },
     {
-      name: 'Cherry tomatoes',
+      name: 'Tomato',
       amount: 0.25,
       unit: 'cup',
       flex: '',
@@ -134,14 +134,13 @@ export const taquitos = {
     },
   ],
   instructions: [
-    'In a food processor, combine the black beans, garlic, jalapeno, salt, curry powder, cumin, and lime juice. Process until smooth, scraping down the sides as needed.',
-    'Heat a large skillet over medium heat. Lightly warm the tortillas one at a time until pliable, about 10-15 seconds per side.',
+    'In a food processor, combine the black beans, garlic, jalapeno, salt, curry powder, cumin, and lime juice. Process until smooth.',
+    'Heat a large skillet over medium heat. Lightly warm the tortillas one at a time until pliable if stiff, about 10-15 seconds per side.',
     'Spread a few tablespoons of the black bean mixture onto each tortilla, leaving a small border around the edges. If desired, sprinkle vegan cheese on top of the filling.',
-    'Roll each tortilla tightly around the filling to form a taquito.',
+    'Roll each tortilla tightly around the filling to form a taquito, or simply fold it in half.',
     'Return the skillet to medium heat and add a small amount of oil. Place the taquitos seam-side down in the skillet and cook until golden and crispy on all sides, rotating as needed, about 2-3 minutes per side.',
-    'While the taquitos are cooking, make the guacamole by mashing together the avocado, red onion, and cherry tomatoes in a bowl. Season with salt to taste.',
+    'While the taquitos are cooking, make the guacamole by mashing together the avocado, finely chopped red onion, and chopped tomatoes in a bowl. Season with salt to taste.',
     'Serve the taquitos hot with a side of guacamole and optional cilantro as garnish.',
   ],
-  notes:
-    'For extra crispiness, you can also bake the taquitos at 400°F (200°C) for 12-15 minutes, flipping halfway through. Feel free to adjust the spice level by adding more or less jalapeno. Serve with your favorite salsa or vegan sour cream for even more flavor!',
+  notes: 'Serve with your favorite salsa or vegan sour cream for even more flavor!',
 };
