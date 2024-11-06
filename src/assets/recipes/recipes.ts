@@ -22,6 +22,7 @@ import { arancini } from './arancini';
 import { burger } from './burger';
 import { garlicNoodles } from './garlic-noodles';
 import { taquitos } from './taquitos';
+import { bulgurSalad } from './bulgur-salad';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -46,6 +47,7 @@ export const Recipes = [
   arancini,
   burger,
   garlicNoodles,
+  bulgurSalad,
   //   Hummus
   {
     name: 'Hummus',
@@ -112,7 +114,7 @@ export const Recipes = [
       {
         name: 'Lemon',
         amount: 1,
-        unit: '', // could specify unit or note it's one whole lemon
+        unit: '',
         flex: '',
         optional: false,
         topping: false,
