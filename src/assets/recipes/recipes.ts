@@ -23,6 +23,7 @@ import { burger } from './burger';
 import { garlicNoodles } from './garlic-noodles';
 import { taquitos } from './taquitos';
 import { bulgurSalad } from './bulgur-salad';
+import { padKraPao } from './pad-kra-pao';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -48,6 +49,7 @@ export const Recipes = [
   burger,
   garlicNoodles,
   bulgurSalad,
+  padKraPao,
   //   Hummus
   {
     name: 'Hummus',

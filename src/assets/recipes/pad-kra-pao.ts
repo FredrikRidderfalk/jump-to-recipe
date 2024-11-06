@@ -1,0 +1,51 @@
+export const padKraPao = {
+  name: 'Pad Kra Pao',
+  param: 'pad-kra-pao',
+  recipeImage: '../assets/images/pad-kra-pao.jpg',
+  star: false,
+  introText:
+    'A Thai-inspired vegan Pad Kra Pao made with chickpeas and fragrant holy basil for a flavorful, plant-based twist on a classic.',
+  description:
+    'Pad Kra Pao is a beloved Thai street food known for its bold flavors and aromatic holy basil. This vegan version uses chickpeas as a hearty plant-based protein, combining them with garlic, red onion, and jalapeno for a deliciously spicy kick. Served over jasmine rice, this dish is easy to make and perfect for a quick, satisfying meal.',
+  tags: { quick: true, easy: true, temperature: '', clean: true, cheap: true },
+  ingredients: [
+    { name: 'Jasmine rice', amount: 1, unit: 'cup', flex: '', optional: false, topping: false, done: false },
+    { name: 'Chickpeas', amount: 200, unit: 'g', flex: '', optional: false, topping: false, done: false },
+    {
+      name: 'Holy basil',
+      amount: 0.5,
+      unit: 'cup',
+      flex: 'Thai basil or any kind of basil you have.',
+      optional: false,
+      topping: false,
+      done: false,
+    },
+    { name: 'Oil', amount: 0.25, unit: 'cup', flex: '', optional: false, topping: false, done: false },
+    { name: 'Garlic', amount: 6, unit: 'cloves', flex: '', optional: false, topping: false, done: false },
+    { name: 'Red onion', amount: 1, unit: '', flex: '', optional: false, topping: false, done: false },
+    {
+      name: 'Jalapeno',
+      amount: 1,
+      unit: '',
+      flex: 'Chili flakes, or another kind of chili',
+      optional: false,
+      topping: false,
+      done: false,
+    },
+    { name: 'Light soy sauce', amount: 2, unit: 'tbsp', flex: '', optional: false, topping: false, done: false },
+    { name: 'Dark soy sauce', amount: 1, unit: 'tbsp', flex: '', optional: false, topping: false, done: false },
+    { name: 'Vegan oyster sauce', amount: 2, unit: 'tbsp', flex: '', optional: false, topping: false, done: false },
+  ],
+  instructions: [
+    'Cook the jasmine rice according to package instructions and set aside.',
+    'In a small bowl, mix the light soy sauce, dark soy sauce, and vegan oyster sauce to create the sauce. Set aside.',
+    'Heat the oil in a large skillet or wok over medium heat.',
+    'Add the garlic, red onion, and jalapeno to the skillet. Sauté for 2-3 minutes, until fragrant and the onion is translucent.',
+    'Add the chickpeas to the skillet and stir-fry for another 2-3 minutes, allowing them to absorb the flavors.',
+    'Pour in the prepared sauce and stir well to coat the chickpeas and vegetables evenly.',
+    'Add the holy basil to the skillet, stirring gently until it wilts and becomes fragrant, about 1-2 minutes.',
+    'Serve the chickpea mixture over the jasmine rice. Garnish with extra basil if desired.',
+  ],
+  notes:
+    'This vegan Pad Kra Pao can be adjusted to your preferred spice level. For a spicier dish, add more jalapenos or use a hotter chili pepper. If you can’t find holy basil, Thai basil or regular basil can be used as a substitute, though the flavor will differ slightly.',
+};
