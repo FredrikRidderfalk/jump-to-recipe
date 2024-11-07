@@ -24,6 +24,7 @@ import { garlicNoodles } from './garlic-noodles';
 import { taquitos } from './taquitos';
 import { bulgurSalad } from './bulgur-salad';
 import { padKraPao } from './pad-kra-pao';
+import { hummus } from './hummus';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -50,105 +51,7 @@ export const Recipes = [
   garlicNoodles,
   bulgurSalad,
   padKraPao,
-  //   Hummus
-  {
-    name: 'Hummus',
-    param: 'hummus',
-    recipeImage: 'assets/images/hummus.jpg',
-    star: false,
-    introText:
-      'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
-    description:
-      "Hummus is a delicious and nutritious spread made primarily from mashed chickpeas, tahini, olive oil, lemon juice, and garlic. It's a staple in Middle Eastern and Mediterranean cuisines and has gained global popularity due to its versatility and health benefits.",
-    tags: {
-      quick: true,
-      easy: true,
-      temperature: 400,
-      clean: true,
-      cheap: true,
-    },
-    ingredients: [
-      {
-        name: 'Chickpeas',
-        amount: 400,
-        unit: 'g',
-        flex: '',
-        optional: false,
-        topping: false,
-        done: false,
-      },
-      {
-        name: 'Roasted garlic',
-        amount: 1,
-        unit: '', // could specify unit or note it's one whole garlic
-        flex: '',
-        optional: true,
-        topping: false,
-        done: false,
-      },
-      {
-        name: 'Tahini',
-        amount: 0.67,
-        unit: 'cup',
-        flex: '',
-        optional: false,
-        topping: false,
-        done: false,
-      },
-      {
-        name: 'Olive oil',
-        amount: 4,
-        unit: 'tbsp',
-        flex: '',
-        optional: false,
-        topping: false,
-        done: false,
-      },
-      {
-        name: 'Black salt',
-        amount: 1,
-        unit: 'tsp',
-        flex: '',
-        optional: false,
-        topping: false,
-        done: false,
-      },
-      {
-        name: 'Lemon',
-        amount: 1,
-        unit: '',
-        flex: '',
-        optional: false,
-        topping: false,
-        done: false,
-      },
-      {
-        name: 'Smoked paprika',
-        amount: null,
-        unit: '',
-        flex: '',
-        optional: false,
-        topping: true,
-        done: false,
-      },
-      {
-        name: 'Fancy olive oil',
-        amount: null,
-        unit: '',
-        flex: '',
-        optional: false,
-        topping: true,
-        done: false,
-      },
-    ],
-    instructions: [
-      'Slice one full garlic in half and rub with olive oil.',
-      'Roast garlic for one hour wrapped in foil or parchment paper.',
-      'Add the remaining ingredients to a blender, then run until smooth.',
-      'Make a spiral in the hummus and top with olive oil and smoked paprika.',
-    ],
-    notes: 'Include all the aquafaba for a super smooth hummus, otherwise just about half of the aquafaba.',
-  },
+  hummus,
   //   Ice cream
   {
     name: 'Ice Cream',
