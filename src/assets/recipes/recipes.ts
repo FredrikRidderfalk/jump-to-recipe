@@ -25,6 +25,7 @@ import { taquitos } from './taquitos';
 import { bulgurSalad } from './bulgur-salad';
 import { padKraPao } from './pad-kra-pao';
 import { hummus } from './hummus';
+import { salsa } from './salsa';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -52,6 +53,7 @@ export const Recipes = [
   bulgurSalad,
   padKraPao,
   hummus,
+  salsa,
   //   Ice cream
   {
     name: 'Ice Cream',
