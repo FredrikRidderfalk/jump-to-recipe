@@ -26,6 +26,7 @@ import { bulgurSalad } from './bulgur-salad';
 import { padKraPao } from './pad-kra-pao';
 import { hummus } from './hummus';
 import { salsa } from './salsa';
+import { gamjaJorim } from './gamja-jorim';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -54,6 +55,7 @@ export const Recipes = [
   padKraPao,
   hummus,
   salsa,
+  gamjaJorim,
   //   Ice cream
   {
     name: 'Ice Cream',
