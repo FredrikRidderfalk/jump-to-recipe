@@ -125,10 +125,9 @@ export const gamjaJorim = {
     },
   ],
   instructions: [
-    'Submerge the potato chunks in cold water for 10 to 15 minutes to remove excess starch. Pat them dry before cooking.',
-    'In a large skillet, heat the olive oil over high heat. Add the potatoes and cook for 4 to 5 minutes until they begin to brown.',
+    'In a large skillet, heat the oil over high heat. Add the potatoes and cook for 4 to 5 minutes until they begin to brown.',
     'Add the onion, garlic, bell pepper, and chilies. Sauté for another 2 minutes, then add the brown rice syrup and toss to coat the vegetables evenly.',
-    'Deglaze the pan with the soy sauce, then add the vegetable broth and bring the mixture to a boil. Reduce the heat, cover, and cook for 15 minutes, until the potatoes are almost fork-tender. Occasionally lift the lid to spoon braising liquid over the potatoes.',
+    'Deglaze the pan with the soy sauce, then add the vegetable broth and bring the mixture to a boil. Reduce the heat, cover, and cook for 15 minutes, until the potatoes are almost fork-tender.',
     'Once the potatoes are nearly fork-tender, remove the lid and continue cooking for an additional 2 minutes, allowing the braising liquid to reduce to a glaze-like consistency.',
     'Add the sesame oil, black pepper, and sesame seeds. Do not stir too much once the potatoes are fully cooked. Serve warm.',
   ],
