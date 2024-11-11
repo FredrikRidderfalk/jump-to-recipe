@@ -1,0 +1,73 @@
+export const dryCaramel = {
+  name: 'Dry Caramel',
+  param: 'dry-caramel',
+  recipeImage: '../assets/images/dry-caramel.jpg',
+  star: false,
+  introText:
+    "Dry caramel produces a very rich intense caramelized taste and a very dark amber color. Perfect for salted caramel that needs rigidity and doesn't ooze.",
+  description:
+    'This technique for making salted caramel sauce is called the "dry" method because it doesn\'t use any water. Instead, you use high heat to melt the sugar directly without dissolving it first. It produces a very rich intense caramelized taste (with slight burnt sugar bitterness) and a very dark amber color.',
+  tags: {
+    quick: false,
+    easy: false,
+    temperature: '118',
+    clean: true,
+    cheap: true,
+  },
+  ingredients: [
+    {
+      name: 'Sugar',
+      amount: 150,
+      unit: 'g',
+      flex: '',
+      optional: false,
+      topping: false,
+      done: false,
+    },
+    {
+      name: 'Cream',
+      amount: 100,
+      unit: 'ml',
+      flex: '',
+      optional: false,
+      topping: false,
+      done: false,
+    },
+    {
+      name: 'Butter',
+      amount: 50,
+      unit: 'g',
+      flex: '',
+      optional: false,
+      topping: false,
+      done: false,
+    },
+    {
+      name: 'Sea salt',
+      amount: 1,
+      unit: 'tsp',
+      flex: 'Any salt.',
+      optional: true,
+      topping: false,
+      done: false,
+    },
+    {
+      name: 'Vanilla extract',
+      amount: 0.5,
+      unit: 'tsp',
+      flex: '',
+      optional: true,
+      topping: false,
+      done: false,
+    },
+  ],
+  instructions: [
+    'In a heavy-bottomed saucepan, add the sugar and set to medium heat. Stir gently until the sugar dissolves completely.',
+    'Once all the sugar has dissolved, take the pan off the heat and slowly add the cream with the optional vanilla extract while stirring. If the caramel hardens, return the pan to low heat and stir until the caramel is smooth.',
+    'Once all cream is stirred in, add the butter and stir until melted.',
+    'Put the caramel back on medium heat until the temperature reaches 118°C.',
+    'Add the optional sea salt for a salted caramel.',
+  ],
+  notes:
+    'For best results, use a candy thermometer to ensure precise temperatures. Be careful when adding the cream and butter, as the caramel will bubble up significantly. You can also sprinkle additional sea salt on top of the caramel as it cools for extra flavor.',
+};

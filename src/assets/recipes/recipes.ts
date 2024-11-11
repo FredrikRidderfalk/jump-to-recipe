@@ -28,6 +28,7 @@ import { hummus } from './hummus';
 import { salsa } from './salsa';
 import { gamjaJorim } from './gamja-jorim';
 import { pancakes } from './pancakes';
+import { dryCaramel } from './dry-caramel';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -41,6 +42,7 @@ export const Recipes = [
   southwestDressing,
   lemonTahiniDressing,
   chiliLimeDressing,
+  dryCaramel,
   sesameGingerDressing,
   quinoaSalad,
   crispyChiliOil,
