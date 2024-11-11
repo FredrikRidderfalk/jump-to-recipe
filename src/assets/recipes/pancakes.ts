@@ -74,5 +74,5 @@ export const pancakes = {
     'Pour in the milk while stirring to avoid lumps forming.',
     'Add butter to a pan on medium high heat and fry the pancake. Flip when bottom is turning golden in color.',
   ],
-  notes: '',
+  notes: 'For American-style pancakes, add less milk and potentially more baking powder.',
 };
