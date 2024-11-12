@@ -10,7 +10,7 @@ export const kladdkaka = {
   tags: {
     quick: true,
     easy: true,
-    temperature: '150°C',
+    temperature: '150',
     clean: true,
     cheap: true,
   },
