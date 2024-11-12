@@ -89,12 +89,12 @@ export const kladdkaka = {
     },
   ],
   instructions: [
-    'In a medium saucepan, melt the vegan butter over medium heat. Add the plant-based milk, syrup, and sugar. Stir continuously and let the mixture simmer until slightly caramelized, about 5-7 minutes.',
+    'In a medium saucepan, melt the vegan butter over medium heat. Add the plant-based milk, syrup, and sugar. Alternatively melt the butter in a microwave.',
     'Remove the pot from heat and stir in the dark chocolate (if using) until fully melted.',
-    'Add the flour, cocoa powder, and salt to the pot, and mix until you get a smooth batter.',
+    'Add the flour, cocoa powder, and salt to a bowl, then pour in the wet ingredients. Mix until you get a smooth batter.',
     'Grease a 9x9 inch baking dish and pour the batter into it, spreading it evenly.',
-    'Bake in a preheated oven at 150°C for about 25 minutes. The cake should be soft and gooey in the center.',
-    'Let the cake cool slightly before serving, as it will set a bit more as it cools. Serve warm with vegan whipped cream or a scoop of plant-based ice cream if desired.',
+    'Bake in a preheated oven at 150°C for about 18 minutes. The cake should be soft and gooey in the center.',
+    'Let the cake cool slightly before serving, as it will set a bit more as it cools. Sift powdered sugar on top. Serve warm with vegan whipped cream or a scoop of plant-based ice cream if desired.',
   ],
   notes:
     'Kladdkaka is traditionally very soft and slightly underbaked, giving it its signature gooey texture. For a firmer texture, you can bake it for a few more minutes, but be careful not to overbake it. You can also sprinkle some powdered sugar on top for extra sweetness or serve it with fresh berries.',
