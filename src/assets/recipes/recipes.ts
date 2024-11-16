@@ -145,10 +145,9 @@ export const Recipes = [
     param: 'mirza-ghasemi',
     recipeImage: 'assets/images/mirza-ghasemi.jpg',
     star: false,
-    introText:
-      'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
+    introText: 'A delicious Persian eggplant dish that is perfect for breakfast, lunch, or dinner.',
     description:
-      "This might just be our favorite soup of all time. A one-pot dish, super quick to make, no frying, just a bit of boiling, and the flexibility of the dish is on par with fried rice! You could put pretty much anything into the soup, and you can also choose any BBQ sauce of your liking or make one yourself with just 4 ingredients. Also, it's freakishly delicious and addictive.",
+      "Mirza Ghasemi is a traditional Persian dish made with eggplant, tomatoes, garlic, and eggs. It's a simple and flavorful dish that is perfect for breakfast, lunch, or dinner. The smoky flavor of the eggplant combined with the sweetness of the tomatoes and the richness of the eggs makes this dish a real treat. Serve it with some warm bread or rice for a satisfying meal that will leave you feeling full and happy.",
     tags: {
       quick: true,
       easy: true,
