@@ -1,9 +1,10 @@
 <main class="mx-auto max-w-screen-lg">
   <div class="relative bg-white rounded-2xl m-5">
-    <div
+    <button
       class="absolute top-0 right-0 w-14 h-14 rounded-full m-6 cursor-pointer bg-white hover:bg-slate-100 transition-all duration-300"
       role="link"
       [routerLink]="['/']"
+      aria-label="Close recipe view"
     >
       <div class="relative w-14 h-14">
         <div
@@ -13,7 +14,7 @@
           class="absolute top-1/2 left-1/2 w-8 h-1 rounded-sm bg-slate-700 transform -translate-x-1/2 -translate-y-1/2 -rotate-45"
         ></div>
       </div>
-    </div>
+    </button>
 
     <section class="text-slate-600 body-font overflow-hidden">
       <div class="container px-5 py-5 lg:pt-24 mx-auto">
@@ -244,6 +245,9 @@
               <ul class="list-inside list-[katakana-iroha] space-y-2">
                 @for (ingredient of recipe.ingredients; track ingredient.name; let i = $index) {
                   <li
+                    role="checkbox"
+                    [attr.aria-checked]="ingredientDoneStatus[i]"
+                    tabindex="0"
                     class="relative group cursor-pointer rounded-sm hover:bg-slate-50"
                     [ngClass]="{ 'line-through text-slate-400': ingredientDoneStatus[i] }"
                     (click)="toggleIngredientDone(i)"
