@@ -144,7 +144,7 @@ export const stickyBananaSpongePudding = {
   ],
   instructions: [
     'Lightly grease a 9-inch square baking dish and preheat the oven to 170°C.',
-    'Mix together the milk and apple cider vinegar, then set aside to thicken and form a buttermilk-like consistency.',
+    'Mix together the milk and apple cider vinegar, then set aside for at least 10 minutes to thicken and form a buttermilk-like consistency.',
     'Once thickened, pour the mixture into a large mixing bowl and add the bananas, dairy-free yoghurt, vegetable oil, and light brown sugar.',
     "Sift in the flour, baking powder, bicarbonate of soda, and salt. Gently mix until just combined. It's okay if there are some small lumps.",
     'Pour the batter into the prepared baking dish and bake for 35-40 minutes, or until the sponge is well-risen and springs back when touched.',
