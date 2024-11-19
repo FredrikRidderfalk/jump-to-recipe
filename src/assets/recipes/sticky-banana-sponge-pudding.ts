@@ -61,7 +61,7 @@ export const stickyBananaSpongePudding = {
       done: false,
     },
     {
-      name: 'Light brown sugar',
+      name: 'Sugar',
       amount: 200,
       unit: 'g',
       flex: 'Substitute with coconut sugar for a deeper flavor',
