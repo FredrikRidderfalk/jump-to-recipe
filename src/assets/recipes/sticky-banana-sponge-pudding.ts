@@ -17,7 +17,7 @@ export const stickyBananaSpongePudding = {
   ingredients: [
     {
       name: 'Flour',
-      amount: 280,
+      amount: 360,
       unit: 'g',
       flex: '',
       optional: false,
@@ -26,7 +26,7 @@ export const stickyBananaSpongePudding = {
     },
     {
       name: 'Ripe bananas',
-      amount: 2,
+      amount: 3,
       unit: '',
       flex: '',
       optional: false,
@@ -35,7 +35,7 @@ export const stickyBananaSpongePudding = {
     },
     {
       name: 'Baking powder',
-      amount: 3,
+      amount: 4,
       unit: 'tsp',
       flex: '',
       optional: false,
@@ -52,19 +52,19 @@ export const stickyBananaSpongePudding = {
       done: false,
     },
     {
-      name: 'Baking soda',
+      name: 'Cinnamon',
       amount: 1,
       unit: 'tsp',
       flex: '',
-      optional: false,
+      optional: true,
       topping: false,
       done: false,
     },
     {
-      name: 'Sugar',
-      amount: 200,
-      unit: 'g',
-      flex: 'Substitute with coconut sugar for a deeper flavor',
+      name: 'Baking soda',
+      amount: 1,
+      unit: 'tsp',
+      flex: '',
       optional: false,
       topping: false,
       done: false,
@@ -107,7 +107,7 @@ export const stickyBananaSpongePudding = {
     },
     {
       name: 'Light brown sugar',
-      amount: 100,
+      amount: 250,
       unit: 'g',
       flex: 'Use dark brown sugar for a richer taste, or white sugar for a slightly lighter flavor',
       optional: false,
@@ -116,7 +116,7 @@ export const stickyBananaSpongePudding = {
     },
     {
       name: 'Butter',
-      amount: 80,
+      amount: 100,
       unit: 'g',
       flex: '',
       optional: false,
@@ -125,7 +125,7 @@ export const stickyBananaSpongePudding = {
     },
     {
       name: 'Cream',
-      amount: 180,
+      amount: 120,
       unit: 'g',
       flex: 'Coconut cream can be used for a thicker consistency',
       optional: false,
@@ -145,7 +145,7 @@ export const stickyBananaSpongePudding = {
   instructions: [
     'Lightly grease a 9-inch square baking dish and preheat the oven to 170°C.',
     'Mix together the milk and apple cider vinegar, then set aside for at least 10 minutes to thicken and form a buttermilk-like consistency.',
-    'Once thickened, pour the mixture into a large mixing bowl and add the bananas, dairy-free yoghurt, vegetable oil, and light brown sugar.',
+    'Once thickened, pour the mixture into a large mixing bowl and add the bananas, dairy-free yoghurt, vegetable oil, and 150g of the light brown sugar.',
     "Sift in the flour, baking powder, bicarbonate of soda, and salt. Gently mix until just combined. It's okay if there are some small lumps.",
     'Pour the batter into the prepared baking dish and bake for 35-40 minutes, or until the sponge is well-risen and springs back when touched.',
     'While the sponge is baking, prepare the toffee sauce. In a saucepan, melt together the light brown sugar, dairy-free butter, and hazelnut butter over medium-high heat, stirring constantly until the mixture begins to bubble.',
