@@ -17,7 +17,7 @@ export const stickyBananaSpongePudding = {
   ingredients: [
     {
       name: 'Flour',
-      amount: 360,
+      amount: 180,
       unit: 'g',
       flex: '',
       optional: false,
@@ -26,7 +26,7 @@ export const stickyBananaSpongePudding = {
     },
     {
       name: 'Ripe bananas',
-      amount: 3,
+      amount: 1,
       unit: '',
       flex: '',
       optional: false,
@@ -35,7 +35,16 @@ export const stickyBananaSpongePudding = {
     },
     {
       name: 'Baking powder',
-      amount: 4,
+      amount: 2,
+      unit: 'tsp',
+      flex: '',
+      optional: false,
+      topping: false,
+      done: false,
+    },
+    {
+      name: 'Baking soda',
+      amount: 0.5,
       unit: 'tsp',
       flex: '',
       optional: false,
@@ -44,7 +53,7 @@ export const stickyBananaSpongePudding = {
     },
     {
       name: 'Salt',
-      amount: 1,
+      amount: 0.5,
       unit: 'tsp',
       flex: '',
       optional: false,
@@ -53,7 +62,7 @@ export const stickyBananaSpongePudding = {
     },
     {
       name: 'Cinnamon',
-      amount: 1,
+      amount: 0.5,
       unit: 'tsp',
       flex: '',
       optional: true,
@@ -61,17 +70,8 @@ export const stickyBananaSpongePudding = {
       done: false,
     },
     {
-      name: 'Baking soda',
-      amount: 1,
-      unit: 'tsp',
-      flex: '',
-      optional: false,
-      topping: false,
-      done: false,
-    },
-    {
       name: 'Yoghurt',
-      amount: 100,
+      amount: 50,
       unit: 'g',
       flex: 'Any plant-based yoghurt',
       optional: false,
@@ -80,7 +80,7 @@ export const stickyBananaSpongePudding = {
     },
     {
       name: 'Vegetable oil',
-      amount: 100,
+      amount: 50,
       unit: 'ml',
       flex: 'Any neutral oil',
       optional: false,
@@ -89,7 +89,7 @@ export const stickyBananaSpongePudding = {
     },
     {
       name: 'Milk',
-      amount: 360,
+      amount: 180,
       unit: 'ml',
       flex: 'Any plant-based milk',
       optional: false,
@@ -98,7 +98,7 @@ export const stickyBananaSpongePudding = {
     },
     {
       name: 'Apple cider vinegar',
-      amount: 1,
+      amount: 0.5,
       unit: 'tbsp',
       flex: 'White vinegar or even citrus juice can be used as a substitute',
       optional: false,
@@ -107,7 +107,7 @@ export const stickyBananaSpongePudding = {
     },
     {
       name: 'Light brown sugar',
-      amount: 250,
+      amount: 125,
       unit: 'g',
       flex: 'Use dark brown sugar for a richer taste, or white sugar for a slightly lighter flavor',
       optional: false,
@@ -116,7 +116,7 @@ export const stickyBananaSpongePudding = {
     },
     {
       name: 'Butter',
-      amount: 100,
+      amount: 50,
       unit: 'g',
       flex: '',
       optional: false,
@@ -125,18 +125,9 @@ export const stickyBananaSpongePudding = {
     },
     {
       name: 'Cream',
-      amount: 120,
+      amount: 60,
       unit: 'g',
       flex: 'Coconut cream can be used for a thicker consistency',
-      optional: false,
-      topping: false,
-      done: false,
-    },
-    {
-      name: 'Hazelnut butter',
-      amount: 80,
-      unit: 'g',
-      flex: 'Almond, pistachio, or peanut butter can be used instead',
       optional: false,
       topping: false,
       done: false,
@@ -145,11 +136,11 @@ export const stickyBananaSpongePudding = {
   instructions: [
     'Lightly grease a 9-inch square baking dish and preheat the oven to 170°C.',
     'Mix together the milk and apple cider vinegar, then set aside for at least 10 minutes to thicken and form a buttermilk-like consistency.',
-    'Once thickened, pour the mixture into a large mixing bowl and add the bananas, dairy-free yoghurt, vegetable oil, and 150g of the light brown sugar.',
+    'Once thickened, pour the mixture into a large mixing bowl and add the bananas, dairy-free yoghurt, vegetable oil, and 75g of the light brown sugar.',
     "Sift in the flour, baking powder, bicarbonate of soda, and salt. Gently mix until just combined. It's okay if there are some small lumps.",
-    'Pour the batter into the prepared baking dish and bake for 35-40 minutes, or until the sponge is well-risen and springs back when touched.',
-    'While the sponge is baking, prepare the toffee sauce. In a saucepan, melt together the light brown sugar, dairy-free butter, and hazelnut butter over medium-high heat, stirring constantly until the mixture begins to bubble.',
-    'Remove the saucepan from heat and carefully stir in the dairy-free double cream. Mix well and allow the sauce to cool and thicken.',
+    'Pour the batter into the prepared baking dish and bake for 35-40 minutes, or until the sponge is well-risen and springs back when touched. Bake the first 20 minutes covered with foil, then remove the foil and bake for another 15-20 minutes.',
+    'While the sponge is baking, prepare the toffee sauce. In a saucepan, melt together the light brown sugar and dairy-free butter over medium-high heat, stirring constantly until the mixture begins to bubble.',
+    'Remove the saucepan from heat and carefully stir in the dairy-free cream. Mix well and allow the sauce to cool and thicken.',
     'Once the sponge has cooled for about 10 minutes, poke holes into it using a chopstick or similar tool.',
     'Pour the toffee sauce over the sponge, ensuring it soaks into the holes. Allow the pudding to absorb the sauce for at least 20 minutes before serving.',
   ],
