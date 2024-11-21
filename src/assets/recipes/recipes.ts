@@ -30,6 +30,8 @@ import { gamjaJorim } from './gamja-jorim';
 import { pancakes } from './pancakes';
 import { dryCaramel } from './dry-caramel';
 import { iceCream } from './ice-cream';
+import { cremeBrulee } from './creme-brulee';
+import { waffles } from './waffles';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -61,6 +63,8 @@ export const Recipes = [
   salsa,
   gamjaJorim,
   pancakes,
+  cremeBrulee,
+  waffles,
   //   Ice cream
   iceCream,
   //   Mirza Ghasemi
