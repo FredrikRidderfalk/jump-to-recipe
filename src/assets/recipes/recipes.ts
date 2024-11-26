@@ -32,6 +32,7 @@ import { dryCaramel } from './dry-caramel';
 import { iceCream } from './ice-cream';
 import { cremeBrulee } from './creme-brulee';
 import { waffles } from './waffles';
+import { kakiage } from './kakiage';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -65,6 +66,7 @@ export const Recipes = [
   pancakes,
   cremeBrulee,
   waffles,
+  kakiage,
   //   Ice cream
   iceCream,
   //   Mirza Ghasemi
