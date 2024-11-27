@@ -33,6 +33,7 @@ import { iceCream } from './ice-cream';
 import { cremeBrulee } from './creme-brulee';
 import { waffles } from './waffles';
 import { kakiage } from './kakiage';
+import { peanutButterCornflakeBars } from './peanut-butter-cornflake-bars';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -67,7 +68,7 @@ export const Recipes = [
   cremeBrulee,
   waffles,
   kakiage,
-  //   Ice cream
+  peanutButterCornflakeBars,
   iceCream,
   //   Mirza Ghasemi
   {
