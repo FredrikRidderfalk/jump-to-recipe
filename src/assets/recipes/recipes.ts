@@ -35,6 +35,7 @@ import { waffles } from './waffles';
 import { kakiage } from './kakiage';
 import { peanutButterCornflakeBars } from './peanut-butter-cornflake-bars';
 import { mushroomPolenta } from './mushroom-polenta';
+import { mutabbal } from './mutabbal';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -72,6 +73,7 @@ export const Recipes = [
   peanutButterCornflakeBars,
   iceCream,
   mushroomPolenta,
+  mutabbal,
   //   Mirza Ghasemi
   {
     name: 'Mirza Ghasemi',
