@@ -34,6 +34,7 @@ import { cremeBrulee } from './creme-brulee';
 import { waffles } from './waffles';
 import { kakiage } from './kakiage';
 import { peanutButterCornflakeBars } from './peanut-butter-cornflake-bars';
+import { mushroomPolenta } from './mushroom-polenta';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -70,6 +71,7 @@ export const Recipes = [
   kakiage,
   peanutButterCornflakeBars,
   iceCream,
+  mushroomPolenta,
   //   Mirza Ghasemi
   {
     name: 'Mirza Ghasemi',
