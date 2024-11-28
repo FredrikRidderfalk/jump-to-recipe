@@ -10,7 +10,7 @@ export const cinnamonRolls = {
   tags: {
     quick: false,
     easy: true,
-    temperature: '180°C',
+    temperature: '250°C',
     clean: false,
     cheap: true,
   },
@@ -105,7 +105,7 @@ export const cinnamonRolls = {
     'Roll out the dough on a floured surface into a rectangle about 1 cm thick. Spread the filling evenly over the dough.',
     'Starting from one long edge, roll the dough tightly into a log. Slice the log into 8–10 rolls and place them in a greased baking dish.',
     'Cover the rolls and let them rise for another 30–45 minutes, or until puffy.',
-    'Preheat the oven to 180°C. Bake the cinnamon rolls for 20–25 minutes, or until golden brown.',
+    'Preheat the oven to 250°C. Bake the cinnamon rolls for 8 minutes, or until golden brown.',
     'Let the rolls cool slightly before serving. Optionally, drizzle with vegan icing or enjoy as is!',
   ],
   notes:
