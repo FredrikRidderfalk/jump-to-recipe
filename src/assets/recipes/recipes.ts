@@ -38,6 +38,7 @@ import { mushroomPolenta } from './mushroom-polenta';
 import { mutabbal } from './mutabbal';
 import { cinnamonRolls } from './cinnamon-rolls';
 import { breakBread } from './break-bread';
+import { saffronMarzipanSwirls } from './saffron-marzipan-swirls';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -78,6 +79,7 @@ export const Recipes = [
   mutabbal,
   cinnamonRolls,
   breakBread,
+  saffronMarzipanSwirls,
   //   Mirza Ghasemi
   {
     name: 'Mirza Ghasemi',
