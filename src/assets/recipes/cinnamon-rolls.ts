@@ -6,7 +6,7 @@ export const cinnamonRolls = {
   introText:
     'Soft, fluffy, and perfectly spiced, these vegan cinnamon rolls are a classic treat that’s perfect for any time of day.',
   description:
-    'These homemade vegan cinnamon rolls are made with a fluffy dough, filled with a sweet cinnamon-sugar mixture, and baked to golden perfection. They’re the ultimate comfort dessert or brunch addition, loved by kids and adults alike.',
+    'These cinnamon rolls are made with a fluffy dough, filled with a sweet cinnamon-sugar mixture, and baked to golden perfection. They’re the ultimate comfort dessert or brunch addition, loved by kids and adults alike.',
   tags: {
     quick: false,
     easy: true,
@@ -79,7 +79,7 @@ export const cinnamonRolls = {
       done: false,
     },
     {
-      name: 'Cinnamon',
+      name: 'Cinnamon (for filling)',
       amount: 0.5,
       unit: 'tbsp',
       flex: '',
@@ -98,16 +98,16 @@ export const cinnamonRolls = {
     },
   ],
   instructions: [
-    'Warm the milk to lukewarm temperature (not hot), and dissolve the yeast in it. Let it sit for 5–10 minutes until frothy.',
+    'Warm the milk to lukewarm temperature, and dissolve the yeast in it. Let it sit for 5–10 minutes until frothy.',
     'In a mixing bowl, combine the flour, sugar, and salt. Add the yeast mixture and melted butter. Mix until a dough forms.',
     'Knead the dough on a floured surface for 8–10 minutes until smooth and elastic. Place the dough in a lightly greased bowl, cover, and let it rise in a warm place for 1–1.5 hours, or until doubled in size.',
     'In a small bowl, prepare the filling by combining softened butter, cinnamon, and sugar until it forms a spreadable mixture.',
     'Roll out the dough on a floured surface into a rectangle about 1 cm thick. Spread the filling evenly over the dough.',
     'Starting from one long edge, roll the dough tightly into a log. Slice the log into 8–10 rolls and place them in a greased baking dish.',
     'Cover the rolls and let them rise for another 30–45 minutes, or until puffy.',
-    'Preheat the oven to 250°C. Bake the cinnamon rolls for 8 minutes, or until golden brown.',
-    'Let the rolls cool slightly before serving. Optionally, drizzle with vegan icing or enjoy as is!',
+    'Preheat the oven to 250°C. Glaze the rolls with melted butter. Bake the cinnamon rolls for 8 minutes, or until golden brown.',
+    'Let the rolls cool slightly before serving.',
   ],
   notes:
-    'For extra indulgence, top these rolls with a simple glaze made of powdered sugar and plant-based milk. Store any leftovers in an airtight container for up to 2 days, and reheat for a few seconds in the microwave for the best texture.',
+    'For extra indulgence, top these rolls with a simple glaze made of powdered sugar and milk. Store any leftovers in an airtight container for up to 2 days, and reheat for a few seconds in the microwave for the best texture.',
 };
