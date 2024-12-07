@@ -52,7 +52,7 @@ export const taquitos = {
       done: false,
     },
     {
-      name: 'Curry powder',
+      name: 'Curry seasoning',
       amount: 0.5,
       unit: 'tsp',
       flex: '',
