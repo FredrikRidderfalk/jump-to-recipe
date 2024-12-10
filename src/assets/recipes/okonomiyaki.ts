@@ -8,7 +8,7 @@ export const okonomiyaki = {
   description:
     'Okonomiyaki is a classic Japanese comfort food that translates to "grill what you like." This vegan version features a light and fluffy batter, a medley of fresh vegetables, and a delightful combination of toppings that make each bite an explosion of flavors. Whether you’re hosting friends or enjoying a cozy night in, this dish is sure to impress!',
   tags: {
-    quick: false,
+    quick: true,
     easy: true,
     temperature: '',
     clean: true,
@@ -16,7 +16,7 @@ export const okonomiyaki = {
   },
   ingredients: [
     {
-      name: 'All-purpose flour',
+      name: 'Flour',
       amount: 0.5,
       unit: 'cup',
       flex: '',
@@ -52,7 +52,7 @@ export const okonomiyaki = {
       done: false,
     },
     {
-      name: 'Light soy sauce',
+      name: 'Light soy',
       amount: 1,
       unit: 'tbsp',
       flex: '',
@@ -70,7 +70,7 @@ export const okonomiyaki = {
       done: false,
     },
     {
-      name: 'Green cabbage, finely shredded',
+      name: 'Cabbage',
       amount: 1,
       unit: 'cup',
       flex: '',
@@ -79,7 +79,7 @@ export const okonomiyaki = {
       done: false,
     },
     {
-      name: 'Carrots, shredded',
+      name: 'Carrot',
       amount: 0.25,
       unit: 'cup',
       flex: '',
@@ -88,7 +88,7 @@ export const okonomiyaki = {
       done: false,
     },
     {
-      name: 'Scallions, chopped',
+      name: 'Scallion',
       amount: 0.25,
       unit: 'cup',
       flex: '',
@@ -97,16 +97,7 @@ export const okonomiyaki = {
       done: false,
     },
     {
-      name: 'Shiitake mushrooms, thinly sliced',
-      amount: 1,
-      unit: 'handful',
-      flex: '',
-      optional: true,
-      topping: false,
-      done: false,
-    },
-    {
-      name: 'Pickled ginger (beni shoga), finely chopped',
+      name: 'Pickled ginger (beni shoga)',
       amount: 1,
       unit: 'small handful',
       flex: '',
@@ -118,22 +109,13 @@ export const okonomiyaki = {
       name: 'Okonomiyaki sauce',
       amount: '',
       unit: '',
-      flex: 'homemade or store-bought',
+      flex: 'Make your own with 4 parts ketchup, 2 parts Worcestershire sauce, and 1 part syrup',
       optional: false,
       topping: true,
       done: false,
     },
     {
-      name: 'Vegan Japanese-style mayo',
-      amount: '',
-      unit: '',
-      flex: 'homemade or store-bought',
-      optional: false,
-      topping: true,
-      done: false,
-    },
-    {
-      name: 'Aonori or crushed nori sheets',
+      name: 'Mayo',
       amount: '',
       unit: '',
       flex: '',
@@ -142,16 +124,16 @@ export const okonomiyaki = {
       done: false,
     },
     {
-      name: 'Toasted sesame seeds',
+      name: 'Aonori',
       amount: '',
       unit: '',
-      flex: '',
+      flex: 'Crushed nori sheets',
       optional: false,
       topping: true,
       done: false,
     },
     {
-      name: 'Extra scallions, sliced',
+      name: 'Sesame seeds',
       amount: '',
       unit: '',
       flex: '',
@@ -170,8 +152,9 @@ export const okonomiyaki = {
     },
   ],
   instructions: [
+    'Finely chop the cabbage, carrot, scallions, and any other vegetables you’d like to include in your okonomiyaki. Set aside.',
     'In a large bowl, whisk together the flour, cornstarch, baking powder, sugar, water (or dashi), and soy sauce until you have a smooth batter.',
-    'Add the shredded cabbage, carrots, scallions, and any optional add-ins like mushrooms or pickled ginger to the batter. Mix until the vegetables are evenly coated.',
+    'Add the shredded cabbage and other chopped up ingredients. Mix until the vegetables are evenly coated.',
     'Heat a large non-stick skillet or griddle over medium heat and lightly grease with a small amount of oil.',
     'Spoon a portion of the batter onto the skillet and shape it into a round pancake, about 1/2 inch thick. Cook for 4-5 minutes on one side until golden brown and set, then carefully flip and cook for another 3-4 minutes on the other side.',
     'Transfer the cooked okonomiyaki to a plate and repeat with the remaining batter.',
