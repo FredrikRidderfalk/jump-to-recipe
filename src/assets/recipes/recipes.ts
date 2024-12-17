@@ -42,6 +42,7 @@ import { saffronMarzipanSwirls } from './saffron-marzipan-swirls';
 import { okonomiyaki } from './okonomiyaki';
 import { tteokbokki } from './tteokbokki';
 import { scallionPancakes } from './scallion-pancakes';
+import { chocolateChipCookies } from './chocolate-chip-cookies';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -86,6 +87,7 @@ export const Recipes = [
   okonomiyaki,
   tteokbokki,
   scallionPancakes,
+  chocolateChipCookies,
   //   Mirza Ghasemi
   {
     name: 'Mirza Ghasemi',
