@@ -43,6 +43,7 @@ import { okonomiyaki } from './okonomiyaki';
 import { tteokbokki } from './tteokbokki';
 import { scallionPancakes } from './scallion-pancakes';
 import { chocolateChipCookies } from './chocolate-chip-cookies';
+import { crispyRiceSalad } from './crispy-rice-salad';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -88,6 +89,7 @@ export const Recipes = [
   tteokbokki,
   scallionPancakes,
   chocolateChipCookies,
+  crispyRiceSalad,
   //   Mirza Ghasemi
   {
     name: 'Mirza Ghasemi',
