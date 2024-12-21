@@ -10,7 +10,7 @@ export const chocolateChipCookies = {
   tags: {
     quick: false,
     easy: true,
-    temperature: '220',
+    temperature: '225',
     clean: false,
     cheap: true,
   },
