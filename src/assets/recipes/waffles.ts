@@ -25,7 +25,7 @@ export const waffles = {
     },
     {
       name: 'Sugar',
-      amount: 40,
+      amount: 20,
       unit: 'g',
       flex: '',
       optional: true,
@@ -43,7 +43,7 @@ export const waffles = {
     },
     {
       name: 'Flour',
-      amount: 60,
+      amount: 80,
       unit: 'g',
       flex: '',
       optional: false,
