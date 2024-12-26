@@ -26,7 +26,7 @@ export const chocolateChipCookies = {
     },
     {
       name: 'Brown sugar',
-      amount: 100,
+      amount: 60,
       unit: 'g',
       flex: '',
       optional: false,
@@ -35,7 +35,7 @@ export const chocolateChipCookies = {
     },
     {
       name: 'Sugar',
-      amount: 50,
+      amount: 40,
       unit: 'g',
       flex: '',
       optional: false,
@@ -98,7 +98,7 @@ export const chocolateChipCookies = {
     },
     {
       name: 'Salt',
-      amount: 0.5,
+      amount: 0.25,
       unit: 'tsp',
       flex: '',
       optional: false,
