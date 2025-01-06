@@ -128,5 +128,5 @@ export const chocolateChipCookies = {
     'Let the cookies cool on the baking sheet for 5 minutes before transferring to a wire rack to cool completely.',
   ],
   notes:
-    'For extra indulgence, sprinkle a pinch of sea salt on top of the cookies before baking. You can also experiment with add-ins like chopped nuts, dried fruits, or different types of chocolate for a unique twist!',
+    'For extra indulgence, sprinkle a pinch of sea salt on top of the cookies before baking. You can also experiment with add-ins like chopped nuts, dried fruits, or different types of chocolate.',
 };
