@@ -71,7 +71,7 @@ export const kladdkaka = {
     },
     {
       name: 'Salt',
-      amount: 0.5,
+      amount: 0.25,
       unit: 'tsp',
       flex: '',
       optional: false,
