@@ -34,6 +34,15 @@ export const bulgurSalad = {
       done: false,
     },
     {
+      name: 'Vegetable bouillon cube',
+      amount: 1,
+      unit: '',
+      flex: '',
+      optional: false,
+      topping: false,
+      done: false,
+    },
+    {
       name: 'Pickles',
       amount: 0.5,
       unit: 'cup',
@@ -106,15 +115,6 @@ export const bulgurSalad = {
       done: false,
     },
     {
-      name: 'Salt',
-      amount: 1,
-      unit: 'tsp',
-      flex: '',
-      optional: false,
-      topping: false,
-      done: false,
-    },
-    {
       name: 'Cumin',
       amount: 1,
       unit: 'tsp',
@@ -143,7 +143,8 @@ export const bulgurSalad = {
     },
   ],
   instructions: [
-    'In a bowl, add the bulgur, water, and tomato purée and mix it thoroughly.',
+    'Bring the water to a simmer with the bouillon cube until the cube is dissolved.',
+    'In a bowl, add the bulgur, bouillon, and tomato purée and mix it thoroughly.',
     'Add spices along with the olive oil and mix again.',
     'Dice up all the vegetables and herbs, then add the pickles, tomatoes, herbs, beans, and green onions to the bulgur mix.',
     'Add the cooked and cooled bulgur to the bowl of vegetables and pour the dressing over the top. Toss everything together until well combined.',
