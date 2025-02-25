@@ -45,6 +45,7 @@ import { scallionPancakes } from './scallion-pancakes';
 import { chocolateChipCookies } from './chocolate-chip-cookies';
 import { crispyRiceSalad } from './crispy-rice-salad';
 import { mushroomBourguignon } from './mushroomBourguignon';
+import { spongeCake } from './sponge-cake';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -92,6 +93,7 @@ export const Recipes = [
   chocolateChipCookies,
   crispyRiceSalad,
   mushroomBourguignon,
+  spongeCake,
   //   Mirza Ghasemi
   {
     name: 'Mirza Ghasemi',
@@ -1107,4 +1109,5 @@ export const Recipes = [
     notes:
       'This soup is slightly different each time we make it thanks to its versitility. Sometimes we also add plant-based melty cheese to it or plant-based sour cream with garlic.',
   },
+  spongeCake,
 ];
