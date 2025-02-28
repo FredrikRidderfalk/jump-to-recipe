@@ -94,7 +94,6 @@ export const Recipes = [
   chocolateChipCookies,
   crispyRiceSalad,
   mushroomBourguignon,
-  spongeCake,
   //   Mirza Ghasemi
   {
     name: 'Mirza Ghasemi',
