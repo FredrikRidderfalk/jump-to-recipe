@@ -46,6 +46,7 @@ import { chocolateChipCookies } from './chocolate-chip-cookies';
 import { crispyRiceSalad } from './crispy-rice-salad';
 import { mushroomBourguignon } from './mushroomBourguignon';
 import { spongeCake } from './sponge-cake';
+import { mushroomPasta } from './mushroom-pasta';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -1110,4 +1111,5 @@ export const Recipes = [
       'This soup is slightly different each time we make it thanks to its versitility. Sometimes we also add plant-based melty cheese to it or plant-based sour cream with garlic.',
   },
   spongeCake,
+  mushroomPasta,
 ];
