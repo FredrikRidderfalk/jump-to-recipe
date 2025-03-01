@@ -47,6 +47,7 @@ import { crispyRiceSalad } from './crispy-rice-salad';
 import { mushroomBourguignon } from './mushroomBourguignon';
 import { spongeCake } from './sponge-cake';
 import { mushroomPasta } from './mushroom-pasta';
+import { orangeTofu } from './orange-tofu';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -1111,4 +1112,5 @@ export const Recipes = [
   },
   spongeCake,
   mushroomPasta,
+  orangeTofu,
 ];
