@@ -4,9 +4,9 @@ export const spongeCake = {
   recipeImage: '../assets/images/sponge-cake.jpg',
   star: false,
   introText:
-    'This light and fluffy vegan sponge cake is perfect for any occasion. Whether enjoyed plain or layered with fillings, it’s a simple yet delicious treat.',
+    'This light and fluffy sponge cake is perfect for any occasion. Whether enjoyed plain or layered with fillings, it’s a simple yet delicious treat.',
   description:
-    'This vegan sponge cake is soft, airy, and easy to make with just a few pantry staples. Using a combination of dairy-free milk, yogurt, and oil, it achieves a moist texture without the need for eggs. Perfect as a base for layered cakes, cupcakes, or simply enjoyed on its own with a dusting of powdered sugar.',
+    'This sponge cake is soft, airy, and easy to make with just a few pantry staples. Using a combination of dairy-free milk, yogurt, and oil, it achieves a moist texture without the need for eggs. Perfect as a base for layered cakes, cupcakes, or simply enjoyed on its own with a dusting of powdered sugar.',
   tags: {
     quick: true,
     easy: true,
@@ -34,7 +34,7 @@ export const spongeCake = {
       done: false,
     },
     {
-      name: 'Bicarbonate of soda (baking soda)',
+      name: 'Baking soda',
       amount: 0.125,
       unit: 'tsp',
       flex: '',
@@ -52,7 +52,7 @@ export const spongeCake = {
       done: false,
     },
     {
-      name: 'Light brown sugar',
+      name: 'Sugar',
       amount: 75,
       unit: 'g',
       flex: '',
@@ -61,7 +61,7 @@ export const spongeCake = {
       done: false,
     },
     {
-      name: 'Dark brown sugar',
+      name: 'Brown sugar',
       amount: 50,
       unit: 'g',
       flex: '',
@@ -70,16 +70,16 @@ export const spongeCake = {
       done: false,
     },
     {
-      name: 'Vegan yogurt',
+      name: 'Yogurt',
       amount: 50,
       unit: 'g',
-      flex: '',
+      flex: 'Milk or buttermilk',
       optional: false,
       topping: false,
       done: false,
     },
     {
-      name: 'Vegetable or light olive oil',
+      name: 'Vegetable oil',
       amount: 60,
       unit: 'g',
       flex: '',
@@ -88,7 +88,7 @@ export const spongeCake = {
       done: false,
     },
     {
-      name: 'Dairy-free milk',
+      name: 'Milk',
       amount: 100,
       unit: 'g',
       flex: '',
@@ -100,12 +100,12 @@ export const spongeCake = {
   instructions: [
     'Preheat the oven to 175°C (fan) and grease or line a cake tin with parchment paper.',
     'In a large mixing bowl, whisk together the flour, baking powder, baking soda, salt, and both types of sugar.',
-    'In a separate bowl, combine the vegan yogurt, oil, and dairy-free milk. Whisk until smooth.',
-    'Gradually add the wet ingredients to the dry ingredients, stirring gently until just combined. Do not overmix.',
-    'Pour the batter into the prepared cake tin and smooth the top.',
-    'Bake for 18-20 minutes, or until a toothpick inserted into the center comes out clean.',
+    'In a separate bowl, combine the yogurt, oil, and milk. Whisk until smooth.',
+    'Add the dry ingredients to the wet ingredients, stirring until just combined.',
+    'Pour the batter into the prepared dish or ramekins.',
+    'Bake for 18 minutes if using small muffin ramekins, 20 min if using large muffin ramekins, and 25 min if using a 20 x 20 cm dish, or until a toothpick inserted into the center comes out clean.',
     'Allow the cake to cool in the tin for 5 minutes before transferring it to a wire rack to cool completely.',
   ],
   notes:
-    'For added flavor, consider incorporating vanilla extract or lemon zest into the batter. This sponge cake can also be used as a base for layered cakes or cupcakes. Store in an airtight container at room temperature for up to 3 days, or refrigerate for longer freshness.',
+    'Whist the dry ingredients with a balloon whisk to minimize risk for flour lumps. For one serving of this recipe, a round 20 x 20 cm dish is ideal, or muffin ramekins. For muffin ramekins. For added flavor, consider incorporating vanilla extract or lemon zest into the batter. This sponge cake can also be used as a base for layered cakes or cupcakes. Store in an airtight container or bag at room temperature for up to 3 days, or refrigerate for longer freshness. Can also be frozen.',
 };
