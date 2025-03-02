@@ -15,7 +15,7 @@ export const waffles = {
   },
   ingredients: [
     {
-      name: 'Vegan butter',
+      name: 'Butter',
       amount: 40,
       unit: 'g',
       flex: '',
