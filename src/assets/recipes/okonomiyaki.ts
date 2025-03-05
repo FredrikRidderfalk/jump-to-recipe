@@ -17,7 +17,7 @@ export const okonomiyaki = {
   ingredients: [
     {
       name: 'Flour',
-      amount: 0.5,
+      amount: 1,
       unit: 'cup',
       flex: '',
       optional: false,
