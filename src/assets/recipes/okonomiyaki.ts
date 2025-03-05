@@ -109,7 +109,7 @@ export const okonomiyaki = {
       name: 'Okonomiyaki sauce',
       amount: '',
       unit: '',
-      flex: 'Make your own with 4 parts ketchup, 2 parts Worcestershire sauce, and 1 part syrup',
+      flex: 'Make your own with 4 parts ketchup, 2 parts Worcestershire sauce, 1 part light soy, and 1 part syrup',
       optional: false,
       topping: true,
       done: false,
