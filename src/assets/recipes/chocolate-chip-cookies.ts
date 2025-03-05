@@ -122,7 +122,7 @@ export const chocolateChipCookies = {
     'Add the dry ingredients to the wet mixture, stirring until a soft dough forms. Be careful not to overmix.',
     'Fold in the vegan chocolate chips until evenly distributed.',
     'Chill in a fridge covered by plastic wrap for at least 12 hours.',
-    'Preheat your oven to 225°C (450°F) and line a baking sheet with parchment paper.',
+    'Preheat your oven to 225°C (450°F) fan and line a baking sheet with parchment paper.',
     'Scoop the dough onto the prepared baking sheet, spacing each cookie about a couple centimeters apart. Flatten the dough slightly, or not, your choice.',
     'Bake for 8-10 minutes, or until the surface looks golden brown.',
     'Let the cookies cool on the baking sheet for 5 minutes before transferring to a wire rack to cool completely.',
