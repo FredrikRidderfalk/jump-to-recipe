@@ -17,7 +17,7 @@ export const tteokbokki = {
   ingredients: [
     {
       name: 'Rice cakes (tteok)',
-      amount: 300,
+      amount: 500,
       unit: 'g',
       flex: '',
       optional: false,
