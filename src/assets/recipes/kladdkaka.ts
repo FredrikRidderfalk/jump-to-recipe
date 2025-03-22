@@ -89,7 +89,7 @@ export const kladdkaka = {
     },
   ],
   instructions: [
-    'In a medium saucepan, melt the vegan butter over medium heat. Add the plant-based milk, syrup, and sugar. Alternatively melt the butter in a microwave.',
+    'In a medium saucepan, melt the vegan butter over medium heat. Add the plant-based milk, syrup, and sugar (and optional dark chocolate) in the pan when adding the butter. Alternatively melt the butter in a microwave.',
     'Remove the pot from heat and stir in the dark chocolate (if using) until fully melted.',
     'Add the flour, cocoa powder, and salt to a bowl, then pour in the wet ingredients. Mix until you get a smooth batter.',
     'Grease a 9x9 inch baking dish and pour the batter into it, spreading it evenly.',
