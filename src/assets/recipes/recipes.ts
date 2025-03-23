@@ -50,6 +50,7 @@ import { mushroomPasta } from './mushroom-pasta';
 import { orangeTofu } from './orange-tofu';
 import { bananaCake } from './banana-cake';
 import { mirzaGhasemi } from './mirza-ghasemi';
+import { scallionSesameWaffles } from './scallion-sesame-waffles';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -1029,4 +1030,5 @@ export const Recipes = [
   mushroomPasta,
   orangeTofu,
   bananaCake,
+  scallionSesameWaffles,
 ];
