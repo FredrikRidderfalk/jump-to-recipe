@@ -93,7 +93,7 @@ export const kladdkaka = {
     'Remove the pot from heat and stir in the dark chocolate (if using) until fully melted.',
     'Add the flour, cocoa powder, and salt to a bowl, then pour in the wet ingredients. Mix until you get a smooth batter.',
     'Grease a 9x9 inch baking dish and pour the batter into it, spreading it evenly.',
-    'Bake at 150°C for about 24 minutes. The cake should be soft and gooey in the center.',
+    'Bake at 150°C for about 24 minutes (16 minutes if using oven fan setting). The cake should be soft and gooey in the center.',
     'Let the cake cool slightly before serving, as it will set a bit more as it cools. Sift powdered sugar on top. Serve warm with vegan whipped cream or a scoop of plant-based ice cream if desired.',
   ],
   notes:
