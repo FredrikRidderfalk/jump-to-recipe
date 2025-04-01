@@ -51,6 +51,7 @@ import { orangeTofu } from './orange-tofu';
 import { bananaCake } from './banana-cake';
 import { mirzaGhasemi } from './mirza-ghasemi';
 import { scallionSesameWaffles } from './scallion-sesame-waffles';
+import { mapoTofu } from './mapo-tofu';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -1031,4 +1032,5 @@ export const Recipes = [
   orangeTofu,
   bananaCake,
   scallionSesameWaffles,
+  mapoTofu,
 ];
