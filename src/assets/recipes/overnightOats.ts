@@ -72,7 +72,7 @@ export const overnightOats = {
     {
       name: 'Sesame seeds',
       amount: 1,
-      unit: 'tsp',
+      unit: 'tbsp',
       flex: '',
       optional: true,
       topping: false,
