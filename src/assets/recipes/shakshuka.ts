@@ -24,6 +24,15 @@ export const shakshuka = {
       done: false,
     },
     {
+      name: 'Butter',
+      amount: 25,
+      unit: 'g',
+      flex: '',
+      optional: false,
+      topping: false,
+      done: false,
+    },
+    {
       name: 'Bell pepper',
       amount: 1,
       unit: '',
