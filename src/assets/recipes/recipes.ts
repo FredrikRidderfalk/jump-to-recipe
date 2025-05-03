@@ -55,6 +55,7 @@ import { mapoTofu } from './mapo-tofu';
 import { poke } from './poke';
 import { karēRaisu } from './karē-raisu';
 import { americanCinnamonRolls } from './american-cinnamon-rolls';
+import { shakshuka } from './shakshuka';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -106,6 +107,7 @@ export const Recipes = [
   poke,
   karēRaisu,
   americanCinnamonRolls,
+  shakshuka,
   //   Orange Tofu
   {
     name: 'Orange Tofu',
