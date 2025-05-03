@@ -54,6 +54,7 @@ import { scallionSesameWaffles } from './scallion-sesame-waffles';
 import { mapoTofu } from './mapo-tofu';
 import { poke } from './poke';
 import { karēRaisu } from './karē-raisu';
+import { americanCinnamonRolls } from './american-cinnamon-rolls';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -104,6 +105,7 @@ export const Recipes = [
   mirzaGhasemi,
   poke,
   karēRaisu,
+  americanCinnamonRolls,
   //   Orange Tofu
   {
     name: 'Orange Tofu',
