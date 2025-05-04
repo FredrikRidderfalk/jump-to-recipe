@@ -43,7 +43,7 @@ export const mushroomBourguignon = {
       done: false,
     },
     {
-      name: 'Vegan butter',
+      name: 'Butter',
       amount: 2,
       unit: 'tbsp',
       flex: '',
@@ -52,7 +52,7 @@ export const mushroomBourguignon = {
       done: false,
     },
     {
-      name: 'Vegan cream',
+      name: 'Cream',
       amount: 2,
       unit: 'tbsp',
       flex: '',
@@ -73,7 +73,7 @@ export const mushroomBourguignon = {
       name: 'Salt',
       amount: 1,
       unit: 'tbsp',
-      flex: '',
+      flex: 'Vegetable bouillon or stock cube can be used instead.',
       optional: false,
       topping: false,
       done: false,
@@ -124,15 +124,6 @@ export const mushroomBourguignon = {
       done: false,
     },
     {
-      name: 'Olive oil',
-      amount: 3,
-      unit: 'tbsp',
-      flex: '',
-      optional: false,
-      topping: false,
-      done: false,
-    },
-    {
       name: 'Balsamic vinegar',
       amount: 80,
       unit: 'ml',
@@ -172,7 +163,7 @@ export const mushroomBourguignon = {
   instructions: [
     'Peel and chop the potatoes, carrots, and parsnip into chunks. Bring 800 ml of water to a boil in a large pot, add the salt, and boil the root vegetables for 25 minutes until tender.',
     'Drain the vegetables and mash them with the vegan butter and cream. Set aside.',
-    'Meanwhile, heat the olive oil in a large skillet over medium heat. Add the mushrooms and onions, cooking until softened and lightly browned, about 8–10 minutes.',
+    'Meanwhile, add butter or oil in a large skillet over medium heat. Add the mushrooms and onions, cooking until softened and lightly browned, about 8–10 minutes.',
     'Add the minced garlic, oregano, and white pepper to the skillet. Stir well and cook for another 2–3 minutes until fragrant.',
     'Deglaze the skillet by adding the balsamic vinegar, light soy sauce, and red wine. Stir and let it simmer for 5 minutes to reduce slightly.',
     'In a small bowl, mix the cornstarch with 2 tablespoons of water to create a slurry. Slowly pour the slurry into the skillet while stirring to thicken the sauce.',
