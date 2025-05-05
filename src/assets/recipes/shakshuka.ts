@@ -18,7 +18,7 @@ export const shakshuka = {
       name: 'Tomatoes',
       amount: 400,
       unit: 'g',
-      flex: 'Canned or fresh.',
+      flex: 'Canned whole, fresh, or crushed.',
       optional: false,
       topping: false,
       done: false,
