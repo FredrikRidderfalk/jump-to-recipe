@@ -1,5 +1,5 @@
 export const bananaCake = {
-  name: 'Banana Cake',
+  name: 'Banana Cake (not ready yet)',
   param: 'banana-cake',
   recipeImage: '../assets/images/sticky-banana-sponge-pudding.jpg',
   star: false,
