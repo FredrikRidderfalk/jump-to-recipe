@@ -98,14 +98,14 @@ export const bananaCake = {
     },
   ],
   instructions: [
-    'Preheat the oven to 175°C (fan) and grease or line a cake tin with parchment paper.',
-    'In a large mixing bowl, whisk together the flour, baking powder, baking soda, salt, and both types of sugar.',
-    'In a separate bowl, mash the ripe bananas and combine with the oil and milk. Whisk until smooth.',
-    'Add the dry ingredients to the wet ingredients, stirring until just combined.',
-    'Pour the batter into the prepared dish or ramekins.',
-    'Bake for 18 minutes if using small muffin ramekins, 20 min if using large muffin ramekins, and 25 min if using a 20 x 20 cm dish, or until a toothpick inserted into the center comes out clean.',
-    'Allow the cake to cool in the tin for 5 minutes before transferring it to a wire rack to cool completely.',
+    'Preheat the oven to 180°C and grease or line a loaf dish with parchment paper.',
+    'In a large mixing bowl, whisk together the flour, baking powder, baking soda, salt, and white sugar.',
+    'In a separate bowl, mash the ripe bananas and combine with the oil, brown sugar, and milk. Whisk until smooth.',
+    'Add the wet and dry ingredients together, stirring until just combined.',
+    'Pour the batter into a loaf dish.',
+    'Bake for 45 minutes, or until a toothpick inserted into the center comes out clean.',
+    'Allow the cake to cool for at least another 30 minutes before cutting into it.',
   ],
   notes:
-    'Whist the dry ingredients with a balloon whisk to minimize risk for flour lumps. For one serving of this recipe, a round 20 x 20 cm dish is ideal, or muffin ramekins. For muffin ramekins. For added flavor, consider incorporating vanilla extract or lemon zest into the batter. This sponge cake can also be used as a base for layered cakes or cupcakes. Store in an airtight container or bag at room temperature for up to 3 days, or refrigerate for longer freshness. Can also be frozen.',
+    'Whisk the dry ingredients with a balloon whisk to minimize risk for flour lumps. This sponge cake can also be used as a base for layered cakes or cupcakes. Store in an airtight container or bag at room temperature for up to 3 days, or refrigerate for longer freshness. Can also be frozen.',
 };
