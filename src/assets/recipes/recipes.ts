@@ -57,6 +57,7 @@ import { karēRaisu } from './karē-raisu';
 import { americanCinnamonRolls } from './american-cinnamon-rolls';
 import { shakshuka } from './shakshuka';
 import { chickpeaCurry } from './chickpea-curry';
+import { makhani } from './makhani';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -107,6 +108,7 @@ export const Recipes = [
   mirzaGhasemi,
   poke,
   karēRaisu,
+  makhani,
   americanCinnamonRolls,
   shakshuka,
   chickpeaCurry,
