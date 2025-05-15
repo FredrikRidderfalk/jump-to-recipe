@@ -10,14 +10,14 @@ export const hummus = {
   tags: {
     quick: true,
     easy: true,
-    temperature: 400,
+    temperature: null,
     clean: true,
     cheap: true,
   },
   ingredients: [
     {
       name: 'Chickpeas',
-      amount: 400,
+      amount: 450,
       unit: 'g',
       flex: '',
       optional: false,
