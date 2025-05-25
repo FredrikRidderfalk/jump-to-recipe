@@ -58,6 +58,7 @@ import { americanCinnamonRolls } from './american-cinnamon-rolls';
 import { shakshuka } from './shakshuka';
 import { chickpeaCurry } from './chickpea-curry';
 import { makhani } from './makhani';
+import { gochujangPasta } from './gochujang-pasta';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -112,6 +113,7 @@ export const Recipes = [
   americanCinnamonRolls,
   shakshuka,
   chickpeaCurry,
+  gochujangPasta,
   //   Orange Tofu
   {
     name: 'Orange Tofu',
@@ -936,4 +938,5 @@ export const Recipes = [
   bananaCake,
   scallionSesameWaffles,
   mapoTofu,
+  gochujangPasta,
 ];
