@@ -59,6 +59,7 @@ import { shakshuka } from './shakshuka';
 import { chickpeaCurry } from './chickpea-curry';
 import { makhani } from './makhani';
 import { gochujangPasta } from './gochujang-pasta';
+import { rhubarbPie } from './rhubarb-pie';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -939,4 +940,5 @@ export const Recipes = [
   scallionSesameWaffles,
   mapoTofu,
   gochujangPasta,
+  rhubarbPie,
 ];
