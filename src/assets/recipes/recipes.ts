@@ -61,6 +61,7 @@ import { makhani } from './makhani';
 import { gochujangPasta } from './gochujang-pasta';
 import { rhubarbPie } from './rhubarb-pie';
 import { gochujangNoodles } from './gochujang-noodles';
+import { lemonPepperGarlicChickpeas } from './lemon-pepper-garlic-chickpeas';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -943,4 +944,5 @@ export const Recipes = [
   gochujangPasta,
   rhubarbPie,
   gochujangNoodles,
+  lemonPepperGarlicChickpeas,
 ];
