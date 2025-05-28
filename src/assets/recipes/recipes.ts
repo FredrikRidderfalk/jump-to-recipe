@@ -62,6 +62,7 @@ import { gochujangPasta } from './gochujang-pasta';
 import { rhubarbPie } from './rhubarb-pie';
 import { gochujangNoodles } from './gochujang-noodles';
 import { lemonPepperGarlicChickpeas } from './lemon-pepper-garlic-chickpeas';
+import { leonChimichurri } from './leon-chimichurri';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -945,4 +946,5 @@ export const Recipes = [
   rhubarbPie,
   gochujangNoodles,
   lemonPepperGarlicChickpeas,
+  leonChimichurri,
 ];
