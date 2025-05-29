@@ -10,7 +10,7 @@ export const americanCinnamonRolls = {
   tags: {
     quick: false,
     easy: false,
-    temperature: '180°C',
+    temperature: '180',
     clean: false,
     cheap: true,
   },
@@ -26,7 +26,7 @@ export const americanCinnamonRolls = {
     },
     {
       name: 'Butter',
-      amount: 60,
+      amount: 50,
       unit: 'g',
       flex: '',
       optional: false,
@@ -34,9 +34,9 @@ export const americanCinnamonRolls = {
       done: false,
     },
     {
-      name: 'Plant-based milk',
-      amount: 240,
-      unit: 'ml',
+      name: 'Milk',
+      amount: 1,
+      unit: 'cup',
       flex: '',
       optional: false,
       topping: false,
@@ -44,7 +44,7 @@ export const americanCinnamonRolls = {
     },
     {
       name: 'Sugar',
-      amount: 25,
+      amount: 40,
       unit: 'g',
       flex: '',
       optional: false,
@@ -126,8 +126,8 @@ export const americanCinnamonRolls = {
   ],
   instructions: [
     'Warm the milk to lukewarm temperature (36-39°C), and dissolve the yeast in it. Let it sit for 5–10 minutes until frothy.',
-    'In a mixing bowl, combine the flour, sugar, baking powder, and salt. Add the yeast mixture and melted butter. Mix until a dough forms.',
-    'Knead the dough on a floured surface for 8–10 minutes until smooth and elastic. Place the dough in a lightly greased bowl, cover, and let it rise in a warm place for 1–1.5 hours, or until doubled in size.',
+    'In a mixing bowl, combine the flour, sugar, baking powder, and salt. Add the yeast mixture and melted butter. Mix until a dough forms. Let it rise in a warm place for 1–1.5 hours, or until doubled in size.',
+    'Knead the dough on a floured surface for 8–10 minutes until smooth and elastic.',
     'In a small bowl, prepare the filling by combining softened butter, cinnamon, and sugar until it forms a spreadable mixture.',
     'Roll out the dough on a floured surface into a rectangle about 1 cm thick. Spread the filling evenly over the dough.',
     'Starting from one long edge, roll the dough tightly into a log. Slice the log into 8–10 rolls and place them in a greased baking dish or a dish with parchement paper.',
