@@ -98,7 +98,7 @@ export const bananaCake = {
     },
   ],
   instructions: [
-    'Preheat the oven to 180°C and grease or line a loaf dish with parchment paper.',
+    'Preheat the oven to 175°C and grease or line a loaf dish with parchment paper.',
     'In a large mixing bowl, whisk together the flour, baking powder, baking soda, salt, and white sugar.',
     'In a separate bowl, mash the ripe bananas and combine with the oil, brown sugar, and milk. Whisk until smooth.',
     'Add the wet and dry ingredients together, stirring until just combined.',
