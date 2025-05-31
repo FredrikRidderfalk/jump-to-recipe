@@ -1,12 +1,12 @@
-export const bananaCake = {
-  name: 'Banana Cake (not ready yet)',
-  param: 'banana-cake',
-  recipeImage: '../assets/images/sticky-banana-sponge-pudding.jpg',
+export const bananaBread = {
+  name: 'Banana Bread',
+  param: 'banana-bread',
+  recipeImage: '../assets/images/banana-bread.jpg',
   star: false,
   introText:
-    'This light and fluffy banana cake is perfect for any occasion. Whether enjoyed plain or layered with fillings, it’s a simple yet delicious treat.',
+    'This light and fluffy banana bread is perfect for any occasion. Whether enjoyed plain or with icing, it’s a simple yet delicious treat.',
   description:
-    'This banana cake is soft, airy, and easy to make with just a few pantry staples. Using ripe bananas, dairy-free milk, and oil, it achieves a moist texture without the need for eggs. Perfect as a base for layered cakes, cupcakes, or simply enjoyed on its own with a dusting of powdered sugar.',
+    'This banana bread is a classic recipe that’s easy to make and incredibly satisfying. The ripe bananas add natural sweetness and moisture, while the combination of white and brown sugar gives it a rich flavor. It’s perfect for breakfast, a snack, or even dessert. Enjoy it plain or with a drizzle of icing for an extra treat.',
   tags: {
     quick: true,
     easy: true,
