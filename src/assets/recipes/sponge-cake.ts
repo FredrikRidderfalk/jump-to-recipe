@@ -17,7 +17,7 @@ export const spongeCake = {
   ingredients: [
     {
       name: 'All-purpose flour',
-      amount: 140,
+      amount: 150,
       unit: 'g',
       flex: '',
       optional: false,
@@ -98,12 +98,12 @@ export const spongeCake = {
     },
   ],
   instructions: [
-    'Preheat the oven to 175°C (fan) and grease or line a cake tin with parchment paper.',
+    'Preheat the oven to 175°C and grease or line a cake tin with parchment paper.',
     'In a large mixing bowl, whisk together the flour, baking powder, baking soda, salt, and both types of sugar.',
     'In a separate bowl, combine the yogurt, oil, and milk. Whisk until smooth.',
     'Add the dry ingredients to the wet ingredients, stirring until just combined.',
     'Pour the batter into the prepared dish or ramekins.',
-    'Bake for 18 minutes if using small muffin ramekins, 20 min if using large muffin ramekins, and 25 min if using a 20 x 20 cm dish, or until a toothpick inserted into the center comes out clean.',
+    'Bake for 18 minutes if using small muffin ramekins, 20 min if using large muffin ramekins, and 30 min if using a 20 x 20 cm dish, or until a toothpick inserted into the center comes out clean.',
     'Allow the cake to cool in the tin for 5 minutes before transferring it to a wire rack to cool completely.',
   ],
   notes:
