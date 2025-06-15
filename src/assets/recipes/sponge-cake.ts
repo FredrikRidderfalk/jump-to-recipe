@@ -44,7 +44,7 @@ export const spongeCake = {
     },
     {
       name: 'Salt',
-      amount: 0.25,
+      amount: 0.5,
       unit: 'tsp',
       flex: '',
       optional: false,
@@ -99,13 +99,13 @@ export const spongeCake = {
   ],
   instructions: [
     'Preheat the oven to 175°C and grease or line a cake tin with parchment paper.',
-    'In a large mixing bowl, whisk together the flour, baking powder, baking soda, salt, and both types of sugar.',
-    'In a separate bowl, combine the yogurt, oil, and milk. Whisk until smooth.',
+    'In a large mixing bowl, whisk together the flour, baking powder, baking soda, salt, and the white sugar. Mix it with a balloon whisk to prevent any flour lumps forming.',
+    'In a separate bowl, combine the yogurt, brown sugar, oil, and milk. Whisk until smooth (but no worries if there are some brown sugar lumps, just leave them be).',
     'Add the dry ingredients to the wet ingredients, stirring until just combined.',
     'Pour the batter into the prepared dish or ramekins.',
     'Bake for 18 minutes if using small muffin ramekins, 20 min if using large muffin ramekins, and 30 min if using a 20 x 20 cm dish, or until a toothpick inserted into the center comes out clean.',
     'Allow the cake to cool in the tin for 5 minutes before transferring it to a wire rack to cool completely.',
   ],
   notes:
-    'Whist the dry ingredients with a balloon whisk to minimize risk for flour lumps. For one serving of this recipe, a round 20 x 20 cm dish is ideal, or muffin ramekins. For added flavor, consider incorporating vanilla extract or lemon zest into the batter. This sponge cake can also be used as a base for layered cakes or cupcakes. Store in an airtight container or bag at room temperature for up to 3 days, or refrigerate for longer freshness. Can also be frozen. If mixing in berries like blueberries or strawberries, add up to 150g. This replaces the 50g of yogurt.',
+    'For one serving of this recipe, a round 20 x 20 cm dish is ideal, or muffin ramekins. For added flavor, consider incorporating vanilla extract or lemon zest into the batter. This sponge cake can also be used as a base for layered cakes or cupcakes. Store in an airtight container or bag at room temperature for up to 3 days, or refrigerate for longer freshness. Can also be frozen. If mixing in berries like blueberries or strawberries, add up to 150g. This replaces the 50g of yogurt.',
 };
