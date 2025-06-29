@@ -5,7 +5,7 @@ export const orangeTofu = {
   star: true,
   introText: 'A flavorful and tangy orange tofu donburi that is perfect for a quick and satisfying meal.',
   description:
-    'This orange tofu donburi combines the sweetness of orange with the savory flavors of soy sauce and garlic. The tofu is coated in a cornstarch mixture and then cooked until crispy, before being tossed in a delicious orange sauce. Serve it over rice for a complete meal.',
+    'This orange tofu donburi combines the sweetness of orange with the savory flavors of light soy and garlic. The tofu is cooked until crispy, before being tossed in a delicious orange sauce. Serve it over rice for a complete meal.',
   tags: {
     quick: true,
     easy: true,
@@ -115,7 +115,7 @@ export const orangeTofu = {
     },
     {
       name: 'Spring onion',
-      amount: 4,
+      amount: 2,
       unit: '',
       flex: '',
       optional: false,
@@ -125,13 +125,12 @@ export const orangeTofu = {
   ],
   instructions: [
     'Cook your rice.',
-    'Cut the tofu into cubes and coat with cornstarch.',
+    'Cut the tofu into cubes.',
     'In a pan on medium-high heat, heat some vegetable oil and cook the tofu until crispy. Set aside.',
     'In the same pan, lower to medium heat and add the garlic, light soy sauce, brown sugar, MSG, gochugaru, and rice vinegar. Stir to combine.',
-    'Add the orange juice and a cornstarch slurry. Cook until the sauce thickens a bit.',
+    'Add the orange juice and a cornstarch slurry made from 1 part starch and two parts water. Cook until the sauce thickens a bit.',
     'Add the tofu back to the pan and toss to coat in the sauce.',
     'Serve the orange tofu over rice and garnish with chopped spring onions and sesame seeds.',
   ],
-  notes:
-    'Try this dunburi with sushi rice. Toss the tofu in the sauce just before serving to keep it crispy. The best way to oat the tofu is by shaking it in a bag or container with a lid along with the cornstarch.',
+  notes: 'Try this dunburi with sushi rice. Toss the tofu in the sauce just before serving to keep it crispy.',
 };
