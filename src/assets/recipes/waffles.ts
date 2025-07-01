@@ -3,9 +3,9 @@ export const waffles = {
   param: 'waffles',
   recipeImage: '../assets/images/waffles.jpg',
   star: false,
-  introText: 'These light and crispy vegan waffles are perfect for a cozy breakfast or brunch.',
+  introText: 'These light and crispy waffles are perfect for a cozy breakfast or brunch.',
   description:
-    'Golden, crispy, and fluffy, these vegan waffles are made with simple ingredients and are easy to prepare. Whether served with syrup, fresh fruits, or vegan whipped cream, they are sure to become a family favorite.',
+    'Golden, crispy, and fluffy, these waffles are made with simple ingredients and are easy to prepare. Whether served with syrup, jam, fresh fruits, or whipped cream, they are sure to become a family favorite.',
   tags: {
     quick: true,
     easy: true,
