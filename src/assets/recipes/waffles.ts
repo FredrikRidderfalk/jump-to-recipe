@@ -80,5 +80,5 @@ export const waffles = {
     'Serve warm with your favorite toppings like maple syrup, fresh fruits, or whipped cream.',
   ],
   notes:
-    'For a crispier texture, allow the waffles to cool on a wire rack for a few minutes before serving. You can also make these waffles in advance and reheat them in a toaster or oven for a quick breakfast.',
+    'If making the batter in advance, you need to wait with adding the baking powder. Add it just before cooking the waffles to ensure they remain fluffy and rise properly. A tip is to also wait with adding the sugar so that the baking powder can be mixed with something of a larger volume when adding it to the batter. Otherwise, the baking powder may clump together and not distribute evenly.',
 };
