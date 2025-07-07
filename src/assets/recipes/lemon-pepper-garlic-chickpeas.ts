@@ -162,5 +162,5 @@ export const lemonPepperGarlicChickpeas = {
     'Garnish with fresh herbs if desired and serve hot with bread.',
   ],
   notes:
-    "This dish is very adaptable - you can adjust the thickness of the sauce by adding more or less water. If you don't have lemon pepper spice mix, you can make your own by combining lemon zest, black pepper, and perhaps a pinch of garlic powder.",
+    "This dish is very adaptable - you can adjust the thickness of the sauce by adding more or less water. If you don't have lemon pepper spice mix, you can make your own by combining lemon zest, black pepper, and perhaps a pinch of garlic powder. A wonderful Mexican alternative to this spice mix is Tajín, which is a chili-lime seasoning that adds a nice kick.",
 };
