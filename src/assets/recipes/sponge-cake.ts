@@ -107,5 +107,5 @@ export const spongeCake = {
     'Allow the cake to cool in the tin for 5 minutes before transferring it to a wire rack to cool completely.',
   ],
   notes:
-    'For one serving of this recipe, a round 20 x 20 cm dish is ideal, or muffin ramekins. For added flavor, consider incorporating vanilla extract or lemon zest into the batter. This sponge cake can also be used as a base for layered cakes or cupcakes. Store in an airtight container or bag at room temperature for up to 3 days, or refrigerate for longer freshness. Can also be frozen. If mixing in berries like blueberries or strawberries, add up to 150g. This replaces the 50g of yogurt.',
+    'For one serving of this recipe, a round 20 x 20 cm dish is ideal, or muffin ramekins. For added flavor, consider incorporating vanilla extract or lemon zest into the batter. This sponge cake can also be used as a base for layered cakes or cupcakes. Store in an airtight container or bag at room temperature for up to 3 days, or refrigerate for longer freshness. Can also be frozen. If mixing in berries like blueberries or strawberries, add up to 150g. This replaces the 50g of yogurt. Sprinkle sugar on top for a sweet, crusty surface.',
 };
