@@ -17,7 +17,7 @@ export const spongeCake = {
   ingredients: [
     {
       name: 'All-purpose flour',
-      amount: 150,
+      amount: 160,
       unit: 'g',
       flex: '',
       optional: false,
