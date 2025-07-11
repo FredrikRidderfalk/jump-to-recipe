@@ -125,5 +125,5 @@ export const oatMuffins = {
     'Allow the muffins to cool in the tin for 20 minutes before serving.',
   ],
   notes:
-    'For oat muffins, standard muffin tins are ideal. For added flavor, consider incorporating vanilla extract, cinnamon (1/2 to 1 tsp), or even a handful of dried fruit (like raisins or cranberries) into the batter. Store in an airtight container or bag at room temperature for up to 3 days, or refrigerate for longer freshness. Can also be frozen. Sprinkle sugar on top for a sweet, crusty surface. If mixing in berries like blueberries or strawberries, add up to 150g. This replaces the 50g of yogurt. Or if making banana or apple sauce muffins, replace the yogurt at a 1:1 ratio',
+    'For oat muffins, standard muffin tins are ideal. For added flavor, consider incorporating vanilla extract, cinnamon (1/2 to 1 tsp), or even a handful of dried fruit (like raisins or cranberries) into the batter. Store in an airtight container or bag at room temperature for up to 3 days, or refrigerate for longer freshness. Can also be frozen. Sprinkle sugar on top for a sweet, crusty surface. If mixing in berries like blueberries or strawberries, add up to 100g. This replaces the 50g of yogurt. Or if making banana or apple sauce muffins, replace the yogurt at a 1:1 ratio',
 };
