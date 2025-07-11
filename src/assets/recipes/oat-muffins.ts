@@ -14,6 +14,20 @@ export const oatMuffins = {
     clean: true,
     cheap: true,
   },
+  versions: [
+    {
+      name: 'Oat Muffins',
+      param: 'oat-muffins',
+    },
+    {
+      name: 'Banana Oat Muffins',
+      param: 'banana',
+    },
+    {
+      name: 'Berry Oat Muffins',
+      param: 'berry',
+    },
+  ],
   ingredients: [
     {
       name: 'All-purpose flour',

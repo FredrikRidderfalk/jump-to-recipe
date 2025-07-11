@@ -64,7 +64,7 @@ import { gochujangNoodles } from './gochujang-noodles';
 import { lemonPepperGarlicChickpeas } from './lemon-pepper-garlic-chickpeas';
 import { leonChimichurri } from './leon-chimichurri';
 import { tortillaSoup } from './tortilla-soup';
-import { oatMuffins } from './oats-muffins';
+import { oatMuffins } from './oat-muffins';
 
 export const Recipes = [
   chiliOilNoodles,
