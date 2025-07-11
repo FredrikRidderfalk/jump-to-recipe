@@ -70,6 +70,15 @@ export const spongeCake = {
       done: false,
     },
     {
+      name: 'Milk',
+      amount: 100,
+      unit: 'g',
+      flex: '',
+      optional: false,
+      topping: false,
+      done: false,
+    },
+    {
       name: 'Yogurt',
       amount: 50,
       unit: 'g',
@@ -81,15 +90,6 @@ export const spongeCake = {
     {
       name: 'Vegetable oil',
       amount: 60,
-      unit: 'g',
-      flex: '',
-      optional: false,
-      topping: false,
-      done: false,
-    },
-    {
-      name: 'Milk',
-      amount: 100,
       unit: 'g',
       flex: '',
       optional: false,
