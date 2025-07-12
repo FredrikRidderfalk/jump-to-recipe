@@ -66,6 +66,7 @@ import { leonChimichurri } from './leon-chimichurri';
 import { tortillaSoup } from './tortilla-soup';
 import { oatMuffins } from './oat-muffins';
 import { bananaOatMuffins } from './banana-oat-muffins';
+import { mangoSerranoMuffins } from './mango-serrano-muffins';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -637,4 +638,4 @@ export const Recipes = [
 ];
 
 // All recipes including alternative versions or base recipes
-export const AllRecipes = [...Recipes, bananaOatMuffins];
+export const AllRecipes = [...Recipes, bananaOatMuffins, mangoSerranoMuffins];
