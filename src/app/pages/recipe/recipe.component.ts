@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavigationEnd, Router, RouterLink } from '@angular/router';
-import { Recipes } from 'assets/recipes/recipes';
+import { AllRecipes } from 'assets/recipes/recipes';
 
 @Component({
   selector: 'app-recipe',
@@ -17,7 +17,7 @@ export class RecipeComponent implements OnInit {
   recipe: any = null;
 
   constructor(private router: Router) {
-    Recipes.forEach((recipe) => {
+    AllRecipes.forEach((recipe) => {
       if (window.location.search.includes(recipe.param)) {
         this.recipe = recipe;
       }
