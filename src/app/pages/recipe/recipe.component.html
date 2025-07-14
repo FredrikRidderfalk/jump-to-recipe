@@ -143,7 +143,7 @@
               <div class="mb-5 space-y-2">
                 @for (version of recipe.versions; track version) {
                   <a
-                    class="cursor-pointer block rounded-sm hover:bg-slate-50"
+                    class="cursor-pointer block rounded-sm hover:bg-slate-50 underline"
                     [routerLink]="['/recipe', version.param]"
                   >
                     {{ version.name }}
