@@ -1,12 +1,12 @@
-export const oatMuffins = {
-  name: 'Oat Muffins',
-  param: 'oat-muffins',
-  recipeImage: '../assets/images/oat-muffins.jpg',
+export const muffins = {
+  name: 'Muffins',
+  param: 'muffins',
+  recipeImage: '../assets/images/muffins.jpg',
   star: false,
   introText:
-    'These moist and hearty oat muffins are a delicious twist on a classic sponge cake. Perfect for a wholesome breakfast or snack!',
+    'These moist and hearty classic muffins are a delicious twist on a classic sponge cake. Perfect for a wholesome breakfast or snack!',
   description:
-    'This recipe adapts the light and airy sponge cake into wholesome oat muffins. The addition of oats provides a satisfying texture and added fiber, making them a perfect grab-and-go treat. They remain moist and flavorful with the combination of dairy-free milk, yogurt, and oil, without the need for eggs.',
+    'Classic muffins are soft, fluffy, and lightly sweetened individual cakes, perfect for breakfast or a snack. They have a tender crumb and a golden top, and can be enjoyed plain or with a variety of mix-ins like fruit, chocolate chips, or nuts. Easy to make and endlessly versatile, muffins are a staple in home baking.',
   tags: {
     quick: true,
     easy: true,
@@ -14,19 +14,24 @@ export const oatMuffins = {
     clean: true,
     cheap: true,
   },
+  versions: [
+    {
+      name: 'Oat Muffins',
+      param: 'oat-muffins',
+    },
+    {
+      name: 'Banana Oat Muffins',
+      param: 'banana-oat-muffins',
+    },
+    {
+      name: 'Mango Serrano Muffins',
+      param: 'mango-serrano-muffins',
+    },
+  ],
   ingredients: [
     {
       name: 'All-purpose flour',
-      amount: 100,
-      unit: 'g',
-      flex: '',
-      optional: false,
-      topping: false,
-      done: false,
-    },
-    {
-      name: 'Rolled Oats',
-      amount: 100,
+      amount: 160,
       unit: 'g',
       flex: '',
       optional: false,
@@ -117,7 +122,7 @@ export const oatMuffins = {
   ],
   instructions: [
     'Preheat the oven to 175°C and grease or line muffin tins with paper liners.',
-    'In a large mixing bowl, whisk together the flour, oats, baking powder, baking soda, salt, and the white sugar. Mix it with a balloon whisk to prevent any flour lumps forming.',
+    'In a large mixing bowl, whisk together the flour, baking powder, baking soda, salt, and the white sugar. Mix it with a balloon whisk to prevent any flour lumps forming.',
     'In a separate bowl, combine the yogurt, brown sugar, oil, and milk. Whisk until smooth (but no worries if there are some brown sugar lumps, just leave them be).',
     'Add the dry ingredients to the wet ingredients, stirring until just combined.',
     'Pour the batter into the prepared muffin liners, filling them about 2/3 full.',
@@ -125,5 +130,5 @@ export const oatMuffins = {
     'Allow the muffins to cool in the tin for 20 minutes before serving.',
   ],
   notes:
-    'For oat muffins, standard muffin tins are ideal. For added flavor, consider incorporating vanilla extract, cinnamon (1/2 to 1 tsp), or even a handful of dried fruit (like raisins or cranberries) into the batter. Store in an airtight container or bag at room temperature for up to 3 days, or refrigerate for longer freshness. Can also be frozen. Sprinkle sugar on top for a sweet, crusty surface. If mixing in berries like blueberries or strawberries, add up to 100g. This replaces the 50g of yogurt. Or if making banana or apple sauce muffins, replace the yogurt at a 1:1 ratio',
+    'Store in an airtight container or bag at room temperature for up to 3 days, or refrigerate for longer freshness. Can also be frozen. Sprinkle sugar on top for a sweet, crusty surface. If mixing in berries like blueberries or strawberries, add up to 100g. This replaces the 50g of yogurt. Or if making banana or apple sauce muffins, replace the yogurt at a 1:1 ratio',
 };
