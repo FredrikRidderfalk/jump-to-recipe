@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NavigationEnd, Router, RouterLink } from '@angular/router';
+import { NavigationEnd, Router, RouterLink, ActivatedRoute } from '@angular/router';
 import { AllRecipes } from 'assets/recipes/recipes';
 
 @Component({
@@ -16,13 +16,10 @@ export class RecipeComponent implements OnInit {
   instructionDoneStatus: boolean[] = [];
   recipe: any = null;
 
-  constructor(private router: Router) {
-    AllRecipes.forEach((recipe) => {
-      if (window.location.search.includes(recipe.param)) {
-        this.recipe = recipe;
-      }
-    });
-
+  constructor(
+    private router: Router,
+    private route: ActivatedRoute,
+  ) {
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
         window.scrollTo(0, 0); // Scroll to the top of the page on every navigation end event
@@ -31,7 +28,10 @@ export class RecipeComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log(this.recipe);
+    this.route.params.subscribe((params) => {
+      const recipeParam = params['param'];
+      this.recipe = AllRecipes.find((recipe) => recipe.param === recipeParam);
+    });
   }
 
   toggleDropdown(): void {

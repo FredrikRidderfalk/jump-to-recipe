@@ -16,16 +16,12 @@ export const oatMuffins = {
   },
   versions: [
     {
-      name: 'Oat Muffins',
-      param: 'oat-muffins',
-    },
-    {
       name: 'Banana Oat Muffins',
-      param: 'banana',
+      param: 'banana-oat-muffins',
     },
     {
-      name: 'Berry Oat Muffins',
-      param: 'berry',
+      name: 'Mango Serrano Muffins',
+      param: 'mango-serrano-muffins',
     },
   ],
   ingredients: [
