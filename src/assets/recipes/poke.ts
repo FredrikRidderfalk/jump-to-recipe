@@ -132,7 +132,7 @@ export const poke = {
       done: false,
     },
     {
-      name: 'Nori (seaweed sheets)',
+      name: 'Nori',
       amount: 0.5,
       unit: 'sheet',
       flex: '',
