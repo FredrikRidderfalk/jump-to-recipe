@@ -1,12 +1,12 @@
-export const muffins = {
-  name: 'Muffins',
-  param: 'muffins',
-  recipeImage: '../assets/images/muffins.jpg',
+export const basilStrawberryMuffins = {
+  name: 'Basil Strawberry Muffins',
+  param: 'basil-strawberry-muffins',
+  recipeImage: '../assets/images/basil-strawberry-muffins.png',
   star: false,
   introText:
-    'These moist and hearty classic muffins are a delicious twist on a classic sponge cake. Perfect for a wholesome breakfast or snack!',
+    'These unique basil strawberry muffins combine the sweet, juicy flavor of strawberries with the aromatic freshness of basil. Perfect for a delightful breakfast or snack!',
   description:
-    'Classic muffins are soft, fluffy, and lightly sweetened individual cakes, perfect for breakfast or a snack. They have a tender crumb and a golden top, and can be enjoyed plain or with a variety of mix-ins like fruit, chocolate chips, or nuts. Easy to make and endlessly versatile, muffins are a staple in home baking.',
+    'This recipe transforms classic muffins by incorporating fresh strawberries and basil, creating a delightful flavor combination. The strawberries add natural sweetness and moisture, while the basil provides a unique herbal note that elevates these muffins to something special. These muffins are moist, flavorful, and sure to impress anyone who loves a sweet-and-savory twist.',
   tags: {
     quick: true,
     easy: true,
@@ -14,24 +14,6 @@ export const muffins = {
     clean: true,
     cheap: true,
   },
-  versions: [
-    {
-      name: 'Oat Muffins',
-      param: 'oat-muffins',
-    },
-    {
-      name: 'Banana Oat Muffins',
-      param: 'banana-oat-muffins',
-    },
-    {
-      name: 'Mango Serrano Muffins',
-      param: 'mango-serrano-muffins',
-    },
-    {
-      name: 'Basil Strawberry Muffins',
-      param: 'basil-strawberry-muffins',
-    },
-  ],
   ingredients: [
     {
       name: 'All-purpose flour',
@@ -106,19 +88,37 @@ export const muffins = {
       done: false,
     },
     {
-      name: 'Yogurt',
-      amount: 50,
+      name: 'Strawberries',
+      amount: 100,
       unit: 'g',
-      flex: 'Milk, buttermilk, or a puréed fruit like banana or applesauce.',
+      flex: '',
       optional: false,
       topping: false,
       done: false,
     },
     {
-      name: 'Vinegar',
-      amount: 1,
+      name: 'Basil',
+      amount: 0.5,
+      unit: 'cup',
+      flex: '',
+      optional: false,
+      topping: false,
+      done: false,
+    },
+    {
+      name: 'Balsamic vinegar',
+      amount: 2,
       unit: 'tbsp',
-      flex: 'Any light-colored vinegar like rice or apple cider vinegar works well.',
+      flex: '',
+      optional: false,
+      topping: false,
+      done: false,
+    },
+    {
+      name: 'Black pepper',
+      amount: 1,
+      unit: 'tsp',
+      flex: '',
       optional: false,
       topping: false,
       done: false,
@@ -126,13 +126,14 @@ export const muffins = {
   ],
   instructions: [
     'Preheat the oven to 175°C and grease or line muffin tins with paper liners.',
-    'In a large mixing bowl, whisk together the flour, baking powder, baking soda, salt, and the white sugar. Mix it with a balloon whisk to prevent any flour lumps forming.',
-    'In a separate bowl, combine the yogurt, brown sugar, oil, and milk. Whisk until smooth (but no worries if there are some brown sugar lumps, just leave them be).',
+    'Chop the strawberries into fine cubes. Pick your basil leaves.',
+    'In a large mixing bowl, whisk together the flour, baking powder, baking soda, salt, black pepper, and the white sugar.',
+    'In a separate bowl, combine the strawberries, basil, brown sugar, oil, milk, and balsamic vinegar. Whisk until well mixed.',
     'Add the dry ingredients to the wet ingredients, stirring until just combined.',
     'Pour the batter into the prepared muffin liners, filling them about 2/3 full.',
     'Bake for 18 minutes if using small muffin ramekins, 20-23 min if using large muffin ramekins, or until a toothpick inserted into the center comes out clean.',
     'Allow the muffins to cool in the tin for 20 minutes before serving.',
   ],
   notes:
-    'Store in an airtight container or bag at room temperature for up to 3 days, or refrigerate for longer freshness. Can also be frozen. Sprinkle sugar on top for a sweet, crusty surface. If mixing in berries like blueberries or strawberries, add up to 100g. This replaces the 50g of yogurt. Or if making banana or apple sauce muffins, replace the yogurt at a 1:1 ratio',
+    'Fresh or frozen strawberries can be used. Adjust the amount of black pepper to your spice preference. Store in an airtight container at room temperature for up to 3 days, or refrigerate for longer freshness. Can also be frozen. Sprinkle sugar on top for a sweet, crusty surface.',
 };

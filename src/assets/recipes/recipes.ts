@@ -68,6 +68,7 @@ import { oatMuffins } from './oat-muffins';
 import { bananaOatMuffins } from './banana-oat-muffins';
 import { mangoSerranoMuffins } from './mango-serrano-muffins';
 import { muffins } from './muffins';
+import { basilStrawberryMuffins } from './basil-strawberry-muffins';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -639,4 +640,4 @@ export const Recipes = [
 ];
 
 // All recipes including alternative versions or base recipes
-export const AllRecipes = [...Recipes, bananaOatMuffins, mangoSerranoMuffins, oatMuffins];
+export const AllRecipes = [...Recipes, bananaOatMuffins, mangoSerranoMuffins, oatMuffins, basilStrawberryMuffins];
