@@ -268,8 +268,15 @@
                     [ngClass]="{ 'line-through text-slate-400': ingredientDoneStatus[i] }"
                     (click)="toggleIngredientDone(i)"
                   >
-                    {{ ingredient.name }}{{ ingredient.amount ? ", " + ingredient.amount * servings : "" }}
-                    {{ ingredient.unit ? ingredient.unit : "" }}
+                    @if (ingredient.link) {
+                      <a class="underline hover:text-slate-500" [routerLink]="['/recipe', ingredient.link]">
+                        <span>{{ ingredient.name }}</span>
+                      </a>
+                    } @else {
+                      <span>{{ ingredient.name }}</span>
+                    }
+                    <span class="mr-1">{{ ingredient.amount ? ", " + ingredient.amount * servings : "" }}</span>
+                    <span class="mr-1">{{ ingredient.unit ? ingredient.unit : "" }}</span>
                     @if (ingredient.flex) {
                       <div
                         class="inline-block text-slate-700 mr-1 bg-green-50 border border-green-600 rounded-md px-2 text-xs font-medium"

@@ -69,6 +69,7 @@ import { bananaOatMuffins } from './banana-oat-muffins';
 import { mangoSerranoMuffins } from './mango-serrano-muffins';
 import { muffins } from './muffins';
 import { basilStrawberryMuffins } from './basil-strawberry-muffins';
+import { pestoPasta } from './pesto-pasta';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -637,6 +638,7 @@ export const Recipes = [
   leonChimichurri,
   tortillaSoup,
   muffins,
+  pestoPasta,
 ];
 
 // All recipes including alternative versions or base recipes
