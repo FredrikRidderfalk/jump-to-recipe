@@ -1,1 +1,55 @@
-export const pestoMelt = {};
+export const pestoMelt = {
+  name: 'Pesto Melt',
+  param: 'pesto-melt',
+  recipeImage: 'assets/images/pesto-melt.jpg',
+  star: false,
+  introText: 'A delicious grilled cheese sandwich with a pesto twist.',
+  description:
+    'This pesto melt recipe is a delicious and easy-to-make dish that can be prepared in under 30 minutes. It features gooey melted cheese and vibrant homemade pesto, all sandwiched between crispy bread.',
+  tags: {
+    quick: true,
+    easy: true,
+    temperature: '',
+    clean: false,
+    cheap: false,
+  },
+  ingredients: [
+    {
+      name: 'Bread',
+      amount: 2,
+      unit: 'slices',
+      flex: 'Any bread of your choice',
+      optional: false,
+      topping: false,
+      done: false,
+    },
+    {
+      name: 'Cheese',
+      amount: 20,
+      unit: 'g',
+      flex: 'Any melting cheese',
+      optional: false,
+      topping: false,
+      done: false,
+    },
+    {
+      name: 'Pesto',
+      amount: 0.25,
+      unit: 'cup',
+      flex: '',
+      optional: false,
+      topping: false,
+      done: false,
+      link: 'pesto',
+    },
+  ],
+  instructions: [
+    'Spread pesto on one side of each slice of bread.',
+    'Place cheese between the slices of bread, pesto side inwards.',
+    'Heat a skillet over medium heat and add a little oil or butter.',
+    'Grill the sandwich for about 3-4 minutes on each side, or until the bread is golden brown and the cheese is melted.',
+    'Serve hot, optionally with a side salad or soup.',
+  ],
+  notes:
+    'This pesto melt is incredibly versatile; you can experiment with different types of cheese or add extra ingredients like tomatoes or spinach for added flavor and nutrition.',
+};
