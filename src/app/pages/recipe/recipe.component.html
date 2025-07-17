@@ -143,7 +143,7 @@
               <div class="mb-5 space-y-2">
                 @for (version of recipe.versions; track version) {
                   <a
-                    class="cursor-pointer block rounded-sm hover:bg-slate-50 underline"
+                    class="cursor-pointer block rounded-sm hover:bg-slate-50 hover:text-slate-500 underline"
                     [routerLink]="['/recipe', version.param]"
                   >
                     {{ version.name }}
@@ -152,7 +152,6 @@
               </div>
             }
 
-            <!-- Ingredients -->
             <div class="flex justify-between items-center">
               <div class="flex items-center">
                 <h2 class="text-lg title-font font-bold text-slate-700">Ingredients</h2>
@@ -269,7 +268,13 @@
                     (click)="toggleIngredientDone(i)"
                   >
                     @if (ingredient.link) {
-                      <a class="underline hover:text-slate-500" [routerLink]="['/recipe', ingredient.link]">
+                      <a
+                        class="underline hover:text-slate-500"
+                        [routerLink]="['/recipe', ingredient.link]"
+                        target="_blank"
+                        rel="noopener"
+                        (click)="$event.stopPropagation()"
+                      >
                         <span>{{ ingredient.name }}</span>
                       </a>
                     } @else {
