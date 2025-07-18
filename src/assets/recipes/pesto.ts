@@ -86,5 +86,5 @@ export const pesto = {
     'Use immediately or store in an airtight container in the refrigerator for up to a week.',
   ],
   notes:
-    'This pesto is incredibly versatile; you can experiment with different nuts, seeds, or even add a bit of vegan Parmesan for extra richness. For a nut-free option, sunflower seeds work great!',
+    'This pesto is incredibly versatile; you can experiment with different nuts, seeds, or even add a bit of vegan Parmesan for extra richness. For a nut-free option, sunflower seeds work great. If you want a pesto dressing, simply thin it out with a bit more olive oil until you reach your desired consistency.',
 };
