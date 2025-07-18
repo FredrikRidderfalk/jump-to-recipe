@@ -29,7 +29,11 @@
           <div class="lg:w-1/2 w-full lg:pl-10 mt-6 lg:mt-0 flex flex-col justify-between">
             <div>
               <h2 class="text-sm title-font text-slate-500 tracking-widest mb-2">
-                RECIPE
+                @if (recipe.category) {
+                  {{ recipe.category | uppercase }}
+                } @else {
+                  RECIPE
+                }
                 <span>{{ recipe.star ? "⭐️" : "" }}</span>
               </h2>
               <h1 class="text-slate-700 text-3xl sm:text-4xl md:text-5xl title-font font-bold mb-4">
