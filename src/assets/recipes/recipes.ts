@@ -4,7 +4,6 @@ import { chiliOilNoodles } from './chili-oil-noodles';
 import { stickyBananaSpongePudding } from './sticky-banana-sponge-pudding';
 import { lentilStew } from './lentil-stew';
 import { coffeeTresLeches } from './coffee-tres-leches';
-import { pestoDressing } from './pesto-dressing';
 import { southwestDressing } from './southwest-dressing';
 import { lemonTahiniDressing } from './lemon-tahini-dressing';
 import { chiliLimeDressing } from './chili-lime-dressing';
@@ -83,7 +82,6 @@ export const Recipes = [
   taquitos,
   lentilStew,
   coffeeTresLeches,
-  pestoDressing,
   southwestDressing,
   lemonTahiniDressing,
   chiliLimeDressing,
