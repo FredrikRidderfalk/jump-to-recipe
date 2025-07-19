@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { NavigationEnd, Router, RouterLink, ActivatedRoute } from '@angular/router';
 import { AllRecipes } from 'assets/recipes/recipes';
 
 @Component({
   selector: 'app-recipe',
   standalone: true,
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, FormsModule],
   templateUrl: './recipe.component.html',
 })
 export class RecipeComponent implements OnInit {
-  isDropdownOpen = false;
   servings = 1;
   ingredientDoneStatus: boolean[] = [];
   instructionDoneStatus: boolean[] = [];
@@ -34,13 +34,16 @@ export class RecipeComponent implements OnInit {
     });
   }
 
-  toggleDropdown(): void {
-    this.isDropdownOpen = !this.isDropdownOpen;
+  incrementServings(): void {
+    if (this.servings < 12) {
+      this.servings++;
+    }
   }
 
-  updateServings(value: number): void {
-    this.servings = value;
-    this.toggleDropdown();
+  decrementServings(): void {
+    if (this.servings > 1) {
+      this.servings--;
+    }
   }
 
   toggleIngredientDone(index: number): void {
