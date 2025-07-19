@@ -71,8 +71,8 @@ export const pesto = {
     },
     {
       name: 'Vegetable oil',
-      amount: 4,
-      unit: 'tbsp',
+      amount: 0.25,
+      unit: 'cup',
       flex: 'Any oil works, like canola, olive, or avocado oil.',
       optional: false,
       topping: false,
