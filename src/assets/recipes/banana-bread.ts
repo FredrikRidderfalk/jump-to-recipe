@@ -7,6 +7,7 @@ export const bananaBread = {
     'This light and fluffy banana bread is perfect for any occasion. Whether enjoyed plain or with icing, it’s a simple yet delicious treat.',
   description:
     'This banana bread is a classic recipe that’s easy to make and incredibly satisfying. The ripe bananas add natural sweetness and moisture, while the combination of white and brown sugar gives it a rich flavor. It’s perfect for breakfast, a snack, or even dessert. Enjoy it plain or with a drizzle of icing for an extra treat.',
+  category: 'dessert',
   tags: {
     quick: true,
     easy: true,

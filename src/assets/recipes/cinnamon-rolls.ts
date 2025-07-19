@@ -7,6 +7,7 @@ export const cinnamonRolls = {
     'Soft, fluffy, and perfectly spiced, these vegan cinnamon rolls are a classic treat that’s perfect for any time of day.',
   description:
     'These cinnamon rolls are made with a fluffy dough, filled with a sweet cinnamon-sugar mixture, and baked to golden perfection. They’re the ultimate comfort dessert or brunch addition, loved by kids and adults alike.',
+  category: 'dessert',
   tags: {
     quick: false,
     easy: true,

@@ -6,6 +6,7 @@ export const rhubarbPie = {
   introText: 'A delicious and rustic rhubarb pie with a sweet oat crumble topping.',
   description:
     "This rhubarb pie combines tart rhubarb with a rich, buttery oat crumble topping. The cardamom adds a warm, aromatic touch that complements the tangy rhubarb perfectly. It's a simple yet satisfying dessert that celebrates the unique flavor of rhubarb.",
+  category: 'dessert',
   tags: {
     quick: false,
     easy: true,

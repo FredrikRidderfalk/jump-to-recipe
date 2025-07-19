@@ -7,6 +7,7 @@ export const oatMuffins = {
     'These moist and hearty oat muffins are a delicious twist on a classic sponge cake. Perfect for a wholesome breakfast or snack!',
   description:
     'This recipe adapts the light and airy sponge cake into wholesome oat muffins. The addition of oats provides a satisfying texture and added fiber, making them a perfect grab-and-go treat. They remain moist and flavorful with the combination of dairy-free milk, yogurt, and oil, without the need for eggs.',
+  category: 'dessert',
   tags: {
     quick: true,
     easy: true,

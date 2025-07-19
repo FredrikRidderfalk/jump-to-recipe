@@ -7,6 +7,7 @@ export const chocolateChipCookies = {
     'Indulge in the timeless delight of warm, gooey chocolate chip cookies. Perfectly chewy with crispy edges, they’re the ultimate treat for any occasion.',
   description:
     'These Levain-style chocolate chip cookies are a NYC classic. With their crisp edges and soft, chewy centers, they’re the perfect balance of sweet and salty. This recipe uses simple ingredients and straightforward techniques to create the ultimate homemade cookie.',
+  category: 'dessert',
   tags: {
     quick: false,
     easy: true,

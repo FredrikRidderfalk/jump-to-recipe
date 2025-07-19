@@ -7,6 +7,7 @@ export const bananaOatMuffins = {
     'These moist and hearty banana oat muffins combine the wholesome goodness of oats with the natural sweetness of ripe bananas. Perfect for a nutritious breakfast or snack!',
   description:
     'This recipe adapts the classic oat muffins by incorporating mashed ripe banana instead of yogurt, creating an even more moist and flavorful treat. The banana adds natural sweetness and extra moisture, while the oats provide satisfying texture and added fiber. These dairy-free muffins are perfect for using up overripe bananas.',
+  category: 'dessert',
   tags: {
     quick: true,
     easy: true,

@@ -7,6 +7,7 @@ export const muffins = {
     'These moist and hearty classic muffins are a delicious twist on a classic sponge cake. Perfect for a wholesome breakfast or snack!',
   description:
     'Classic muffins are soft, fluffy, and lightly sweetened individual cakes, perfect for breakfast or a snack. They have a tender crumb and a golden top, and can be enjoyed plain or with a variety of mix-ins like fruit, chocolate chips, or nuts. Easy to make and endlessly versatile, muffins are a staple in home baking.',
+  category: 'dessert',
   tags: {
     quick: true,
     easy: true,

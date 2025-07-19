@@ -7,6 +7,7 @@ export const coffeeTresLeches = {
     'A rich and decadent dessert that combines the classic Tres Leches with a hint of coffee for an extra flavor boost.',
   description:
     'This Coffee Tres Leches cake is a delightful twist on the traditional dessert, featuring layers soaked in a coffee-infused milk mixture and topped with whipped cream and powdered cacao. It’s perfect for coffee lovers and those looking to try something new.',
+  category: 'dessert',
   tags: {
     quick: false,
     easy: false,

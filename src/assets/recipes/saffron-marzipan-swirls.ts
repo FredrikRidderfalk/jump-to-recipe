@@ -7,6 +7,7 @@ export const saffronMarzipanSwirls = {
     'Soft, fluffy, and perfectly spiced, these saffron marzipan swirls are a seasonal treat that’s perfect for any time of day.',
   description:
     'These saffron marzipan swirls or rolls are made with a fluffy dough, filled with a sweet marzipan, and baked to golden perfection. They’re the ultimate comfort dessert or brunch addition, loved by kids and adults alike.',
+  category: 'dessert',
   tags: {
     quick: false,
     easy: true,

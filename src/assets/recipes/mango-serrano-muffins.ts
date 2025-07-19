@@ -7,6 +7,7 @@ export const mangoSerranoMuffins = {
     'These unique mango serrano muffins combine the tropical sweetness of ripe mango with a subtle kick from fresh serrano chili. Perfect for adventurous snackers or as a surprising breakfast treat!',
   description:
     'This recipe transforms classic muffins by using juicy mango instead of banana and omitting oats for a lighter crumb. The addition of serrano chili adds a gentle heat that pairs beautifully with the mango’s sweetness. These muffins are moist, flavorful, and sure to impress anyone who loves a sweet-and-spicy twist.',
+  category: 'dessert',
   tags: {
     quick: true,
     easy: true,

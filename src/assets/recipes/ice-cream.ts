@@ -6,6 +6,7 @@ export const iceCream = {
   introText: 'My ice cream brings all the people to the yard.',
   description:
     'Ice cream is a frozen dessert made from a mixture of milk, cream, sugar, and flavorings. With an ice cream machine, you can easily make your own homemade ice cream and customize it to your liking. So grab a scoop and enjoy the creamy goodness of homemade ice cream.',
+  category: 'dessert',
   tags: {
     quick: false,
     easy: true,

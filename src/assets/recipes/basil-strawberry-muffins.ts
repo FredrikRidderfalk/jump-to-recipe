@@ -7,6 +7,7 @@ export const basilStrawberryMuffins = {
     'These unique basil strawberry muffins combine the sweet, juicy flavor of strawberries with the aromatic freshness of basil. Perfect for a delightful breakfast or snack!',
   description:
     'This recipe transforms classic muffins by incorporating fresh strawberries and basil, creating a delightful flavor combination. The strawberries add natural sweetness and moisture, while the basil provides a unique herbal note that elevates these muffins to something special. These muffins are moist, flavorful, and sure to impress anyone who loves a sweet-and-savory twist.',
+  category: 'dessert',
   tags: {
     quick: true,
     easy: true,

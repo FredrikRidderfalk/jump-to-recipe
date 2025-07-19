@@ -7,6 +7,7 @@ export const spongeCake = {
     'This light and fluffy sponge cake is perfect for any occasion. Whether enjoyed plain or layered with fillings, it’s a simple yet delicious treat.',
   description:
     'This sponge cake is soft, airy, and easy to make with just a few pantry staples. Using a combination of dairy-free milk, yogurt, and oil, it achieves a moist texture without the need for eggs. Perfect as a base for layered cakes, cupcakes, or simply enjoyed on its own with a dusting of powdered sugar.',
+  category: 'dessert',
   tags: {
     quick: true,
     easy: true,
