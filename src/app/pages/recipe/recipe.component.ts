@@ -12,6 +12,7 @@ import { AllRecipes } from 'assets/recipes/recipes';
 })
 export class RecipeComponent implements OnInit {
   servings = 1;
+  isMetric = false;
   ingredientDoneStatus: boolean[] = [];
   instructionDoneStatus: boolean[] = [];
   recipe: any = null;
@@ -52,5 +53,31 @@ export class RecipeComponent implements OnInit {
 
   toggleInstructionDone(index: number): void {
     this.instructionDoneStatus[index] = !this.instructionDoneStatus[index];
+  }
+
+  setMetric(metric: boolean): void {
+    this.isMetric = metric;
+  }
+
+  convertAmount(amount: number | undefined, unit: string | undefined): string {
+    if (!amount || !unit) return '';
+
+    if (this.isMetric && unit.toLowerCase().includes('cup')) {
+      // Convert cups to ml (1 cup = 240ml)
+      const mlAmount = amount * 240;
+      return mlAmount.toString();
+    }
+
+    return amount.toString();
+  }
+
+  convertUnit(unit: string | undefined): string {
+    if (!unit) return '';
+
+    if (this.isMetric && unit.toLowerCase().includes('cup')) {
+      return 'ml';
+    }
+
+    return unit;
   }
 }
