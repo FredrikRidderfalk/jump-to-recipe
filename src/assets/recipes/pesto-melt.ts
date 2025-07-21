@@ -6,6 +6,7 @@ export const pestoMelt = {
   introText: 'A delicious grilled cheese sandwich with a pesto twist.',
   description:
     'This pesto melt recipe is a delicious and easy-to-make dish that can be prepared in under 30 minutes. It features gooey melted cheese and vibrant homemade pesto, all sandwiched between crispy bread.',
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

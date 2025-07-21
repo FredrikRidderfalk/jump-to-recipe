@@ -6,6 +6,7 @@ export const poke = {
   introText: 'A customizable and refreshing vegan poké bowl, perfect for a quick and healthy meal.',
   description:
     "This vegan poké bowl features a base of seasoned rice topped with marinated tofu, fresh vegetables, and a savory soy-based dressing. It's easy to adapt with your favorite toppings.",
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

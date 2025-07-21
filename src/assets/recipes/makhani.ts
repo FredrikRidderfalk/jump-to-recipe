@@ -6,6 +6,7 @@ export const makhani = {
   introText: 'A simple template for a flavorful Makhani curry, customizable with your choice of protein and spices.',
   description:
     'Makhani is a rich and creamy Indian curry, traditionally made with butter and cream. This version is easy to make and can be customized with your choice of protein, such as chickpeas or tofu. The spices create a warm and comforting flavor, making it a favorite for many. Serve it with rice or naan for a complete meal.',
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

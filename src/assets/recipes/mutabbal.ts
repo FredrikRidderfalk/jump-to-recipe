@@ -7,6 +7,7 @@ export const mutabbal = {
     'Mutabbal is a creamy, smoky, and flavorful eggplant dip that makes for the perfect appetizer or side dish. It’s a classic Middle Eastern favorite that pairs well with pita bread or fresh veggies.',
   description:
     'Mutabbal is a traditional Middle Eastern dip made from roasted eggplants blended with tahini, garlic, lemon juice, and a hint of olive oil. Its rich and smoky flavor makes it a crowd-pleaser and a versatile addition to any table. Enjoy it as a dip, spread, or even as part of a mezze platter.',
+  category: 'side',
   tags: {
     quick: false,
     easy: true,

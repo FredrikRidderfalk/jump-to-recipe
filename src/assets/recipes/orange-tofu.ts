@@ -6,6 +6,7 @@ export const orangeTofu = {
   introText: 'A flavorful and tangy orange tofu donburi that is perfect for a quick and satisfying meal.',
   description:
     'This orange tofu donburi combines the sweetness of orange with the savory flavors of light soy and garlic. The tofu is cooked until crispy, before being tossed in a delicious orange sauce. Serve it over rice for a complete meal.',
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

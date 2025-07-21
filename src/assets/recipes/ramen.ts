@@ -7,6 +7,7 @@ export const ramen = {
     'A comforting and satisfying noodle soup that is perfect for any day. This ramen recipe is quick, easy, and customizable with your favorite ingredients.',
   description:
     "Ramen is a Japanese noodle soup that has taken the world by storm. With its rich broth, tender noodles, and a variety of toppings, it's no wonder that ramen is a favorite comfort food for many.",
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

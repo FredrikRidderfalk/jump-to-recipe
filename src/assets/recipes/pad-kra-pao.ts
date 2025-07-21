@@ -7,6 +7,7 @@ export const padKraPao = {
     'A Thai-inspired vegan Pad Kra Pao made with chickpeas and fragrant holy basil for a flavorful, plant-based twist on a classic.',
   description:
     'Pad Kra Pao is a beloved Thai street food known for its bold flavors and aromatic holy basil. This vegan version uses chickpeas as a hearty plant-based protein, combining them with garlic, red onion, and jalapeno for a deliciously spicy kick. Served over jasmine rice, this dish is easy to make and perfect for a quick, satisfying meal.',
+  category: 'main',
   tags: { quick: true, easy: true, temperature: '', clean: true, cheap: true },
   ingredients: [
     { name: 'Jasmine rice', amount: 1, unit: 'cup', flex: '', optional: false, topping: false, done: false },

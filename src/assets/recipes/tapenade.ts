@@ -6,6 +6,7 @@ export const tapenade = {
   introText: 'A versatile and flavorful sauce made from fresh basil, perfect for pasta, sandwiches, and more.',
   description:
     'This tapenade recipe is a delicious and easy-to-make sauce that can be used in a variety of dishes. It features fresh basil, nuts, and nutritional yeast for a rich, cheesy flavor without the dairy.',
+  category: 'condiment',
   tags: {
     quick: true,
     easy: true,

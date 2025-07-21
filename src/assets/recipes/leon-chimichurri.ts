@@ -6,6 +6,7 @@ export const leonChimichurri = {
   introText: 'A creamy and flavorful chimichurri-style sauce with a León twist.',
   description:
     "This León chimichurri is a unique take on the classic Argentinian sauce, featuring a creamy mayo base with the perfect balance of heat from red pepper flakes and depth from garlic powder and mustard. The milk helps create a smooth, pourable consistency that's perfect as a condiment or dressing.",
+  category: 'condiment',
   tags: {
     quick: true,
     easy: true,

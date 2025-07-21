@@ -6,6 +6,7 @@ export const pestoPasta = {
   introText: 'A quick and delicious pasta dish featuring homemade pesto, perfect for a weeknight meal.',
   description:
     'This pesto pasta recipe is a delicious and easy-to-make dish that can be prepared in under 30 minutes. It features al dente pasta tossed with a vibrant homemade pesto sauce, made from fresh basil, nuts, and nutritional yeast for a rich, cheesy flavor.',
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

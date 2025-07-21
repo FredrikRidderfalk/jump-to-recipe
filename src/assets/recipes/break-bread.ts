@@ -7,6 +7,7 @@ export const breakBread = {
     'A simple and versatile bread recipe that is perfect for sandwiches, dipping, or just enjoying fresh out of the oven.',
   description:
     'This soft and fluffy bread is made with minimal ingredients and delivers maximum flavor. The addition of a touch of sugar and oil ensures a tender crumb and a golden crust. Great for both beginners and seasoned bakers!',
+  category: 'bread',
   tags: {
     quick: false,
     easy: true,

@@ -7,6 +7,7 @@ export const hummus = {
     'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
   description:
     "Hummus is a delicious and nutritious spread made primarily from mashed chickpeas, tahini, olive oil, lemon juice, and garlic. It's a staple in Middle Eastern and Mediterranean cuisines and has gained global popularity due to its versatility and health benefits.",
+  category: 'side',
   tags: {
     quick: true,
     easy: true,

@@ -8,6 +8,7 @@ export const karēRaisu = {
     'Karē raisu, or Japanese curry rice, is a comforting and hearty dish that combines a rich, flavorful curry sauce with tender vegetables and protein, served over fluffy rice. It’s a staple in Japanese households and is loved for its simplicity and deliciousness.',
   description:
     'Karē raisu is a beloved Japanese comfort food that features a thick, savory curry sauce made with a variety of vegetables and protein, served over steamed rice. The curry is typically mildly spiced, making it suitable for all ages. It’s a versatile dish that can be customized with different ingredients based on personal preferences.',
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

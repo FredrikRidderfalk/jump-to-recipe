@@ -6,6 +6,7 @@ export const kakiage = {
   introText: 'Crispy, golden, and packed with vegetables, these fritters are the perfect snack or appetizer.',
   description:
     'These kakiage are easy to make, customizable, and delightfully crunchy. They’re great for using up leftover veggies and are a hit with both kids and adults. Pair them with your favorite dipping sauce for a perfect treat!',
+  category: 'side',
   tags: {
     quick: true,
     easy: true,

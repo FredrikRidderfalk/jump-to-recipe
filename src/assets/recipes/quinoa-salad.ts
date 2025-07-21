@@ -7,6 +7,7 @@ export const quinoaSalad = {
     'A fresh and filling quinoa salad that combines roasted chickpeas, cauliflower, and vibrant veggies for a nutrient-packed, flavorful dish.',
   description:
     'This hearty quinoa salad is the perfect blend of roasted chickpeas, cauliflower, and colorful vegetables. The smoky flavor of paprika paired with the sweetness of agave syrup makes the roasted components stand out, while fresh ingredients like cucumber, avocado, and tomatoes add a refreshing crunch. Preserved lemon and jalapeños give it a zesty kick, making this salad a perfect lunch or side dish.',
+  category: 'main',
   tags: {
     quick: false,
     easy: true,
