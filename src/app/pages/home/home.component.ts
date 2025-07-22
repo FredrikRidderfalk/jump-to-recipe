@@ -17,6 +17,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   filteredRecipes: any[] = [];
   recipeViews: any = [];
   selectedCategories: Set<string> = new Set();
+  selectedTags: Set<string> = new Set();
   availableCategories: string[] = [];
 
   private destroy$ = new Subject<void>();
@@ -70,17 +71,37 @@ export class HomeComponent implements OnInit, OnDestroy {
   }
 
   filterRecipes(): void {
-    if (this.selectedCategories.size === 0) {
-      this.filteredRecipes = [...this.recipes];
-    } else {
-      this.filteredRecipes = this.recipes.filter(
-        (recipe) => recipe.category && this.selectedCategories.has(recipe.category),
-      );
-    }
+    this.filteredRecipes = this.recipes.filter((recipe) => {
+      // Category filtering
+      const categoryMatch =
+        this.selectedCategories.size === 0 || (recipe.category && this.selectedCategories.has(recipe.category));
+
+      // Tag filtering
+      const tagMatch = this.selectedTags.size === 0 || Array.from(this.selectedTags).some((tag) => recipe.tags[tag]);
+
+      return categoryMatch && tagMatch;
+    });
   }
 
   isCategorySelected(category: string): boolean {
     return this.selectedCategories.has(category);
+  }
+
+  toggleTag(tag: string): void {
+    if (this.selectedTags.has(tag)) {
+      this.selectedTags.delete(tag);
+    } else {
+      this.selectedTags.add(tag);
+    }
+    this.filterRecipes();
+  }
+
+  isTagSelected(tag: string): boolean {
+    return this.selectedTags.has(tag);
+  }
+
+  hasAnyTagSelected(): boolean {
+    return this.selectedTags.size > 0;
   }
 
   ngOnDestroy() {

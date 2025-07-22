@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -8,7 +8,12 @@ import { CommonModule } from '@angular/common';
   template: `
     <div class="flex space-x-2">
       <div
-        class="flex flex-col items-center justify-center text-slate-700 bg-green-50 border border-green-600 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition ease-in-out cursor-pointer"
+        (click)="onTagClick('quick')"
+        class="flex flex-col items-center justify-center text-slate-700 bg-green-50 border border-green-600 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition-all ease-in-out cursor-pointer"
+        [ngClass]="{
+          'opacity-50': hasAnyTagSelected && !isTagSelected('quick'),
+          'shadow-md': isTagSelected('quick')
+        }"
       >
         <svg class="mb-1" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -22,7 +27,12 @@ import { CommonModule } from '@angular/common';
       </div>
 
       <div
-        class="flex flex-col items-center justify-center text-slate-700 bg-purple-100 border border-purple-600 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition ease-in-out cursor-pointer"
+        (click)="onTagClick('easy')"
+        class="flex flex-col items-center justify-center text-slate-700 bg-purple-100 border border-purple-600 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition-all ease-in-out cursor-pointer"
+        [ngClass]="{
+          'opacity-50': hasAnyTagSelected && !isTagSelected('easy'),
+          'shadow-md': isTagSelected('easy')
+        }"
       >
         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -36,7 +46,12 @@ import { CommonModule } from '@angular/common';
       </div>
 
       <div
-        class="flex flex-col items-center justify-center text-slate-700 bg-orange-50 border border-orange-600 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition ease-in-out cursor-pointer"
+        (click)="onTagClick('temperature')"
+        class="flex flex-col items-center justify-center text-slate-700 bg-orange-50 border border-orange-600 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition-all ease-in-out cursor-pointer"
+        [ngClass]="{
+          'opacity-50': hasAnyTagSelected && !isTagSelected('temperature'),
+          'shadow-md': isTagSelected('temperature')
+        }"
       >
         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -50,7 +65,12 @@ import { CommonModule } from '@angular/common';
       </div>
 
       <div
-        class="flex flex-col items-center justify-center text-slate-700 bg-sky-100 border border-sky-600 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition ease-in-out cursor-pointer"
+        (click)="onTagClick('clean')"
+        class="flex flex-col items-center justify-center text-slate-700 bg-sky-100 border border-sky-600 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition-all ease-in-out cursor-pointer"
+        [ngClass]="{
+          'opacity-50': hasAnyTagSelected && !isTagSelected('clean'),
+          'shadow-md': isTagSelected('clean')
+        }"
       >
         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -64,7 +84,12 @@ import { CommonModule } from '@angular/common';
       </div>
 
       <div
-        class="flex flex-col items-center justify-center text-slate-700 bg-yellow-50 border border-yellow-500 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition ease-in-out cursor-pointer"
+        (click)="onTagClick('cheap')"
+        class="flex flex-col items-center justify-center text-slate-700 bg-yellow-50 border border-yellow-500 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition-all ease-in-out cursor-pointer"
+        [ngClass]="{
+          'opacity-50': hasAnyTagSelected && !isTagSelected('cheap'),
+          'shadow-md': isTagSelected('cheap')
+        }"
       >
         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -79,4 +104,19 @@ import { CommonModule } from '@angular/common';
     </div>
   `,
 })
-export class TagsComponent {}
+export class TagsComponent {
+  @Input() selectedTags: Set<string> = new Set();
+  @Output() tagToggle = new EventEmitter<string>();
+
+  get hasAnyTagSelected(): boolean {
+    return this.selectedTags.size > 0;
+  }
+
+  isTagSelected(tag: string): boolean {
+    return this.selectedTags.has(tag);
+  }
+
+  onTagClick(tag: string): void {
+    this.tagToggle.emit(tag);
+  }
+}
