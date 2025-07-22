@@ -6,6 +6,7 @@ export const cremeBrulee = {
   introText: 'Indulge in this silky vegan crème brûlée, a plant-based twist on the classic French dessert.',
   description:
     'This vegan crème brûlée offers a rich and creamy custard base topped with a caramelized sugar crust. Perfect for a dinner party or an indulgent treat, it’s surprisingly easy to make and uses simple, pantry-friendly ingredients.',
+  category: 'dessert',
   tags: {
     quick: false,
     easy: true,

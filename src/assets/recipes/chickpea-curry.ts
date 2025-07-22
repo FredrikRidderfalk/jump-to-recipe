@@ -6,6 +6,7 @@ export const chickpeaCurry = {
   introText: 'A quick and easy chickpea curry that’s packed with flavor and perfect for a weeknight dinner.',
   description:
     'Chickpea Curry is a delicious and satisfying dish made with chickpeas simmered in a spiced tomato sauce. It’s a one-pot meal that’s easy to prepare and can be served with rice or bread. The combination of spices creates a warm and comforting flavor, making it a favorite for many.',
+  category: 'main',
   tags: {
     quick: false,
     easy: true,

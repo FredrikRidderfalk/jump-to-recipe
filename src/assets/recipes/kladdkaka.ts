@@ -4,7 +4,7 @@ export const kladdkaka = {
   recipeImage: '../assets/images/kladdkaka.jpg',
   star: false,
   introText:
-    'Kladdkaka is a rich and gooey Swedish chocolate cake, similar to a brownie but with a delightfully underbaked center. It’s quick to make and offers a perfect blend of caramelized sweetness and dark chocolate decadence.',
+    'Kladdkaka is a rich and gooey Swedish chocolate cake, similar to a brownie but with a delightfully underbaked center.',
   description:
     'Kladdkaka is the Swedish answer to a gooey chocolate cake. This simple, indulgent dessert is known for its sticky, almost fudge-like center. The caramelized syrup and sugar bring out the deep, rich chocolate flavor, and the addition of dark chocolate adds an extra layer of richness.',
   category: 'dessert',

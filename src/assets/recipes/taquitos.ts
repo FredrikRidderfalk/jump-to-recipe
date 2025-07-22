@@ -1,5 +1,5 @@
 export const taquitos = {
-  name: 'Taquitos',
+  name: 'Bean Tacos',
   param: 'taquitos',
   recipeImage: '../assets/images/taquitos.jpg',
   star: false,
@@ -7,6 +7,7 @@ export const taquitos = {
     'Crispy, flavorful, and perfect for dipping, these vegan taquitos make a delicious snack or main dish. Serve with fresh guacamole for an extra burst of flavor!',
   description:
     'These vegan taquitos are stuffed with a spicy black bean filling and served with homemade guacamole. They’re easy to make, packed with protein, and bursting with flavor. Perfect for a quick meal or as party appetizers!',
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

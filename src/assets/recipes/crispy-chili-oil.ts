@@ -7,6 +7,7 @@ export const crispyChiliOil = {
     'This crispy chili oil is packed with bold flavors, combining aromatic spices and a fiery kick for a versatile condiment that enhances any dish.',
   description:
     'This homemade crispy chili oil brings together the deep flavors of roasted onion, garlic, and ginger with a satisfying crunch from sesame seeds. The perfect balance of heat and umami, this oil will elevate stir-fries, noodles, and rice bowls. Simple yet intensely flavorful, it’s a must-have addition to your pantry.',
+  category: 'condiment',
   tags: {
     quick: true,
     easy: true,

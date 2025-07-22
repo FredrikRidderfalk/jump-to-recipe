@@ -7,6 +7,7 @@ export const overnightOats = {
     'These easy and nutritious overnight oats are perfect for busy mornings. Packed with fiber, protein, and healthy fats, they make a balanced and delicious breakfast that you can prepare ahead of time.',
   description:
     'Overnight oats are a simple make-ahead breakfast option that’s both healthy and customizable. Oats are soaked in plant-based milk, combined with chia seeds, flax seeds, a hint of cinnamon, and a touch of sweetness from syrup. Top them with your favorite nuts, seeds, or dried fruits for extra texture and flavor.',
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

@@ -6,6 +6,7 @@ export const gochujangNoodles = {
   introText: 'Spicy and savory Korean-inspired noodles with a rich gochujang sauce.',
   description:
     'These gochujang noodles are a perfect fusion of Korean flavors with the convenience of ramen. The gochujang provides a deep, spicy-sweet heat while the butter adds richness. Combined with garlic, sesame oil, and soy sauce, this creates an incredibly flavorful and satisfying noodle dish.',
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

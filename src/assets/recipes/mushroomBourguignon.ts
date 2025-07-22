@@ -7,6 +7,7 @@ export const mushroomBourguignon = {
     'This hearty mushroom bourguignon is a rich and comforting dish, perfect for cozy evenings or special occasions.',
   description:
     'A vegan take on the classic French dish, mushroom bourguignon combines earthy mushrooms, sweet root vegetables, and a velvety red wine sauce for a deeply flavorful and satisfying meal. Serve it with mashed potatoes for the ultimate comfort food experience.',
+  category: 'main',
   tags: {
     quick: false,
     easy: true,

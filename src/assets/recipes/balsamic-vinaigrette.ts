@@ -7,6 +7,7 @@ export const balsamicDressing = {
     'This balsamic dressing is a perfect blend of tangy, sweet, and savory flavors, making it a delicious addition to any salad or roasted vegetable dish.',
   description:
     'A rich and flavorful balsamic dressing combining the sharpness of balsamic vinegar and the creamy sweetness of balsamic crème with a hint of garlic and mustard. This dressing adds a perfect balance of sweetness and acidity to salads, grilled vegetables, or even as a marinade for tofu or tempeh.',
+  category: 'condiment',
   tags: {
     quick: true,
     easy: true,

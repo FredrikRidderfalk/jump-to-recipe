@@ -6,6 +6,7 @@ export const cornChowder = {
   introText: 'A classic Szechuan dish featuring silky tofu in a spicy, savory sauce.',
   description:
     'Mapo Tofu is a beloved Szechuan recipe characterized by its bold flavors from doubanjiang, garlic, ginger, and Szechuan oil. This dish combines soft tofu with soy mince and is finished with a touch of cornstarch slurry for a silky sauce. Perfect served over steamed rice.',
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

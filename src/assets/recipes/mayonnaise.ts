@@ -7,6 +7,7 @@ export const mayonnaise = {
     'A rich and creamy mayonnaise that is perfect as a dip or spread. This plant-based version uses aquafaba to create a luscious texture similar to traditional mayo, but without eggs.',
   description:
     'This Mayonnaise is a versatile and flavorful condiment, made creamy by using aquafaba (chickpea water) as an egg substitute. With a punch of garlic and a hint of tangy lemon, this mayo is perfect for sandwiches, dipping, or drizzling over roasted vegetables. The black salt adds an eggy flavor, making it a great vegan alternative to traditional mayo.',
+  category: 'condiment',
   tags: {
     quick: true,
     easy: true,

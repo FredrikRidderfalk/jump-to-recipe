@@ -7,6 +7,7 @@ export const mushroomPolenta = {
     'A warm and hearty dish perfect for any occasion. This creamy polenta is topped with a savory mixture of mushrooms and onions, enhanced by the umami flavors of balsamic vinegar and soy sauce.',
   description:
     'Polenta with mushrooms and onions is a simple yet elegant dish that balances the creamy texture of polenta with the deep, rich flavors of sautéed mushrooms and onions. The addition of balsamic vinegar and soy sauce creates a perfect umami-packed topping, making it a comforting and satisfying meal.',
+  category: 'main',
   tags: {
     quick: false,
     easy: true,

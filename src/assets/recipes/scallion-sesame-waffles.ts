@@ -3,9 +3,9 @@ export const scallionSesameWaffles = {
   param: 'scallion-sesame-waffles',
   recipeImage: '../assets/images/waffles.jpg',
   star: false,
-  introText: 'These vegan waffles are infused with fresh scallion and toasted sesame flavors for a savory twist.',
+  introText: 'These waffles are infused with fresh scallion and toasted sesame flavors for a savory twist.',
   description:
-    'A twist on our classic vegan waffles, featuring a dash of sesame oil, loaded with fresh spring onions, aromatic five-spice powder, white pepper and crunchy sesame seeds. Perfect for a savory breakfast or brunch.',
+    'A twist on our classic waffles, featuring a dash of sesame oil, loaded with fresh spring onions, aromatic five-spice powder, white pepper and crunchy sesame seeds. Perfect for a savory breakfast or brunch.',
   category: 'main',
   tags: {
     quick: true,

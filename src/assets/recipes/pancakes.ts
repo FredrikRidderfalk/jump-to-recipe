@@ -6,6 +6,7 @@ export const pancakes = {
   introText: 'Swedish-style.',
   description:
     "These pancakes are a classic Swedish dish that's perfect for breakfast or brunch. They're light, fluffy, and delicious, and they're easy to make with just a few simple ingredients. Serve them with your favorite toppings, like fresh berries, whipped cream, or maple syrup.",
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

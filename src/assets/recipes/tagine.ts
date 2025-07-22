@@ -7,6 +7,7 @@ export const tagine = {
     'A fragrant and hearty North African chickpea stew with preserved lemons, green olives, and aromatic spices.',
   description:
     'This traditional Moroccan chickpea tagine combines earthy chickpeas with the bright tang of preserved lemons, briny green olives, and sweet craisins. Aromatic spices and crunchy cashew nuts create a complex, satisfying dish that pairs perfectly with rice, bulgur, couscous, or quinoa.',
+  category: 'main',
   tags: {
     quick: false,
     easy: true,

@@ -4,9 +4,10 @@ export const okonomiyaki = {
   recipeImage: '../assets/images/okonomiyaki.jpg',
   star: false,
   introText:
-    'A savory Japanese pancake loaded with vegetables and topped with a tangy-sweet sauce, creamy mayo, and a variety of umami-rich garnishes.',
+    'A savory Japanese cabbage pancake topped with a tangy-sweet sauce, creamy mayo, and a variety of umami-rich garnishes.',
   description:
     'Okonomiyaki is a classic Japanese comfort food that translates to "grill what you like." This vegan version features a light and fluffy batter, a medley of fresh vegetables, and a delightful combination of toppings that make each bite an explosion of flavors. Whether you’re hosting friends or enjoying a cozy night in, this dish is sure to impress!',
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

@@ -3,10 +3,10 @@ export const tomatoPasta = {
   param: 'tomato-pasta',
   recipeImage: 'assets/images/tomato-pasta.jpg',
   star: false,
-  introText:
-    'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
+  introText: 'A creamy and comforting pasta dish with a rich tomato sauce.',
   description:
-    "Hummus is a delicious and nutritious spread made primarily from mashed chickpeas, tahini, olive oil, lemon juice, and garlic. It's a staple in Middle Eastern and Mediterranean cuisines and has gained global popularity due to its versatility and health benefits.",
+    "Tomato pasta is a classic Italian dish that combines al dente pasta with a rich and flavorful tomato sauce. It's a comforting meal that's easy to prepare and can be customized with your favorite ingredients.",
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

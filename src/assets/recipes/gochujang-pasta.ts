@@ -6,6 +6,7 @@ export const gochujangPasta = {
   introText: 'A fusion dish combining Korean gochujang with creamy Italian pasta for a spicy, umami-rich meal.',
   description:
     'This Gochujang Pasta brings together the best of Korean and Italian cuisines. The fermented heat of gochujang pepper paste is balanced with rich cream and savory soy sauce, creating a silky sauce that clings perfectly to pasta. Quick to prepare and packed with bold flavors, this dish is perfect for weeknight dinners when you want something exciting with minimal effort.',
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

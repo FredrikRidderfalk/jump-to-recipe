@@ -6,6 +6,7 @@ export const mirzaGhasemi = {
   introText: 'A delicious Persian eggplant dish that is perfect for breakfast, lunch, or dinner.',
   description:
     "Mirza Ghasemi is a traditional Persian dish made with eggplant, tomatoes, garlic, and eggs. It's a simple and flavorful dish that is perfect for breakfast, lunch, or dinner. The smoky flavor of the eggplant combined with the sweetness of the tomatoes and the richness of the eggs makes this dish a real treat. Serve it with some warm bread or rice for a satisfying meal that will leave you feeling full and happy.",
+  category: 'side',
   tags: {
     quick: true,
     easy: true,

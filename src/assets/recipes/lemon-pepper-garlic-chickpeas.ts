@@ -6,6 +6,7 @@ export const lemonPepperGarlicChickpeas = {
   introText: 'Creamy, garlicky chickpeas with a bright lemon pepper flavor in a rich sauce.',
   description:
     'These lemon pepper garlic chickpeas are a comforting and flavorful dish that combines the warmth of garlic, the brightness of lemon pepper, and the creaminess of a rich sauce. The nutritional yeast adds a subtle savory depth while the optional cheese makes it even more indulgent. Perfect served with crusty bread for dipping.',
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

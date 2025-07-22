@@ -3,10 +3,10 @@ export const scallionPancakes = {
   param: 'scallion-pancakes',
   recipeImage: '../assets/images/scallion-pancakes.jpg',
   star: false,
-  introText:
-    'Crispy, flaky, and loaded with fresh scallions, these vegan scallion pancakes are the perfect savory snack or appetizer.',
+  introText: 'Crispy, flaky, and loaded with fresh scallions.',
   description:
     'Scallion pancakes, or "Cong You Bing," are a beloved Chinese street food. With their flaky layers and rich scallion flavor, they’re easier to make than you might think! This recipe uses simple ingredients and requires no special equipment. Perfect as a side dish or snack, these pancakes are crispy on the outside and chewy on the inside.',
+  category: 'side',
   tags: {
     quick: false,
     easy: true,

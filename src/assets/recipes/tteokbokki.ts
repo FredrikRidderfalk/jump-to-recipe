@@ -3,10 +3,10 @@ export const tteokbokki = {
   param: 'tteokbokki',
   recipeImage: '../assets/images/tteokbokki.jpg',
   star: false,
-  introText:
-    'A rich and chewy plant-based version of tteokbokki that brings the fiery-sweet flavors of Korean street food to your table.',
+  introText: 'Tteokbokki brings the fiery-sweet flavors of Korean street food to your table.',
   description:
-    'This tteokbokki is the perfect blend of chewy rice cakes and a spicy, sweet, and savory sauce. By replacing traditional fish-based ingredients with vegan alternatives, this recipe still delivers the classic bold flavors. Add your favorite vegetables, mushrooms, or tofu for a filling and satisfying meal that comes together in just 30 minutes.',
+    'This tteokbokki is the perfect blend of chewy rice cakes and a spicy, sweet, and savory sauce. Add your favorite vegetables, mushrooms, or tofu for a filling and satisfying meal that comes together in just 30 minutes.',
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

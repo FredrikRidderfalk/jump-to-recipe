@@ -6,6 +6,7 @@ export const mushroomPasta = {
   introText: 'A creamy and flavorful mushroom pasta that is quick and easy to make, perfect for a weeknight dinner.',
   description:
     'This mushroom pasta combines the earthy flavors of mushrooms with a creamy sauce, creating a comforting and satisfying dish. The addition of bouillon enhances the umami taste, while the optional chickpeas or other protein add a boost of nutrition.',
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

@@ -6,6 +6,7 @@ export const shakshuka = {
   introText: 'A hearty and flavorful dish with a spicy tomato sauce, perfect for breakfast or brunch.',
   description:
     'Shakshuka is a North African and Middle Eastern dish. It’s a one-pan meal that’s easy to make and packed with flavor. The sauce is made with tomatoes, bell peppers, onions, and spices, creating a rich and savory base for the eggs. Serve it with crusty bread for dipping.',
+  category: 'main',
   tags: {
     quick: false,
     easy: true,

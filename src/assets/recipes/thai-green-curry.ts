@@ -3,10 +3,10 @@ export const thaiGreenCurry = {
   param: 'thai-green-curry',
   recipeImage: '../assets/images/thai-green-curry.jpg',
   star: false,
-  introText:
-    'This Thai green curry is a fragrant and vibrant dish packed with fresh veggies, chickpeas, and the bold flavors of green curry paste and coconut milk.',
+  introText: 'This Thai green curry is a fragrant and vibrant dish packed with fresh veggies.',
   description:
     'A comforting, aromatic Thai green curry made with creamy coconut milk, fresh vegetables, chickpeas, and the distinctive taste of Thai basil and lime. This easy-to-make vegan curry is perfect for a quick weeknight meal while delivering a delicious burst of flavor in every bite.',
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

@@ -3,10 +3,10 @@ export const tortillaSoup = {
   param: 'tortilla-soup',
   recipeImage: '../assets/images/tortilla-soup.jpg',
   star: true,
-  introText:
-    'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
+  introText: 'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes.',
   description:
     'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it. The soup is usually made with corn tortillas, which add a crunchy texture to the soup. It also features beans, and we add all the aquafaba that comes with it. The soup is often garnished with toppings such as diced avocado, cilantro, red onion, and sour cream.',
+  category: 'main',
   tags: {
     quick: true,
     easy: true,

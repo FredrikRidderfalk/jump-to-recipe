@@ -6,6 +6,7 @@ export const swedishBalls = {
   introText: 'Delicious Swedish meatballs served with creamy gravy and lingonberry sauce.',
   description:
     "These Swedish meatballs are a comforting classic, featuring a rich and creamy gravy that's perfect for serving over mashed potatoes. The addition of lingonberry sauce adds a delightful tartness that balances the savory flavors.",
+  category: 'main',
   tags: {
     quick: false,
     easy: false,

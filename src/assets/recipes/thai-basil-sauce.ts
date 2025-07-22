@@ -3,10 +3,10 @@ export const thaiBasilSauce = {
   param: 'thai-basil-sauce',
   recipeImage: 'assets/images/thai-basil-sauce.jpg',
   star: false,
-  introText:
-    'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
+  introText: 'A quick and flavorful Thai basil sauce that brings a burst of flavor to any dish.',
   description:
-    "This might just be our favorite soup of all time. A one-pot dish, super quick to make, no frying, just a bit of boiling, and the flexibility of the dish is on par with fried rice! You could put pretty much anything into the soup, and you can also choose any BBQ sauce of your liking or make one yourself with just 4 ingredients. Also, it's freakishly delicious and addictive.",
+    'This Thai basil sauce is a versatile and aromatic addition to your meals. It features fresh Thai basil, garlic, and a blend of savory sauces that create a rich and fragrant sauce. Perfect for drizzling over stir-fries, noodles, or as a dipping sauce.',
+  category: 'condiment',
   tags: {
     quick: true,
     easy: true,

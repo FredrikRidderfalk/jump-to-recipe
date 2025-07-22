@@ -7,6 +7,7 @@ export const crispyRiceSalad = {
     'This crispy rice salad is a delightful mix of textures and flavors, perfect for a quick lunch or a refreshing side dish.',
   description:
     'Crispy rice forms the base of this vibrant salad, complemented by creamy avocado, crunchy cashews, and fresh vegetables. The zesty dressing brings it all together for a dish that’s both satisfying and nutritious. Perfect for any occasion, it’s as easy to make as it is delicious.',
+  category: 'main',
   tags: {
     quick: false,
     easy: true,
