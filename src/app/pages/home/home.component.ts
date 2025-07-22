@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { Recipes } from '../../../assets/recipes/recipes';
+import { Recipes } from '../../../assets/recipes';
 import { TagsComponent } from '../../components/tags.component';
 import { UpperCasePipe, CommonModule } from '@angular/common';
 import { ApiService } from '../../services/api.service';

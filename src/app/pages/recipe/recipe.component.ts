@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { NavigationEnd, Router, RouterLink, ActivatedRoute } from '@angular/router';
-import { AllRecipes } from 'assets/recipes/recipes';
+import { AllRecipes } from 'assets/recipes';
 
 @Component({
   selector: 'app-recipe',
