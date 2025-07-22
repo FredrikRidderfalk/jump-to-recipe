@@ -4,7 +4,7 @@ export const garlicNoodles = {
   recipeImage: 'assets/images/ramen.png',
   star: true,
   introText:
-    'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
+    'A one-pot dish, super quick to make, no frying, just a bit of boiling, and the flexibility of the dish is on par with fried rice!',
   description:
     "This might just be our favorite noodle dish of all time. A one-pot dish, super quick to make, no frying, just a bit of boiling, and the flexibility of the dish is on par with fried rice! You could put pretty much anything into the soup, and you can also choose any BBQ sauce of your liking or make one yourself with just 4 ingredients. Also, it's freakishly delicious and addictive.",
   category: 'main',

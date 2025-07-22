@@ -3,15 +3,14 @@ export const dryCaramel = {
   param: 'dry-caramel',
   recipeImage: '../assets/images/dry-caramel.jpg',
   star: false,
-  introText:
-    "Dry caramel produces a very rich intense caramelized taste and a very dark amber color. Perfect for salted caramel that needs rigidity and doesn't ooze.",
+  introText: "Dry caramel is perfect for salted caramel that needs rigidity and doesn't ooze.",
   description:
     'This technique for making salted caramel sauce is called the "dry" method because it doesn\'t use any water. Instead, you use high heat to melt the sugar directly without dissolving it first. It produces a very rich intense caramelized taste (with slight burnt sugar bitterness) and a very dark amber color.',
   category: 'dessert',
   tags: {
     quick: false,
     easy: false,
-    temperature: '118',
+    temperature: '',
     clean: true,
     cheap: true,
   },

@@ -4,7 +4,7 @@ export const gamjaJorim = {
   recipeImage: '../assets/images/gamja-jorim.jpg',
   star: false,
   introText:
-    'Gamja Jorim, or braised potatoes, is a beloved Korean side dish featuring tender potatoes in a savory-sweet soy glaze. Perfect as a comforting side to any meal, these potatoes are a crowd-pleaser at every family gathering.',
+    'Gamja Jorim, or braised potatoes, is a beloved Korean side dish featuring tender potatoes in a savory-sweet soy glaze.',
   description:
     'This dish is all about timing to achieve the perfect texture—tender on the inside and slightly crisp on the outside. This recipe uses Potatoes and infuses them with flavors of garlic, soy sauce, and sesame, creating an irresistible savory glaze.',
   category: 'side',

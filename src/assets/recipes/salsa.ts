@@ -4,7 +4,7 @@ export const salsa = {
   recipeImage: '../assets/images/salsa.jpg',
   star: false,
   introText:
-    'This fresh and zesty salsa is perfect for dipping, topping tacos, or adding a burst of flavor to any dish. Simple ingredients come together to make a vibrant, homemade salsa.',
+    'This fresh and zesty salsa is perfect for dipping, topping tacos, or adding a burst of flavor to any dish.',
   description:
     'This classic salsa recipe combines ripe tomatoes, fresh cilantro, and a hint of lime for a bright, refreshing dip that’s easy to make and perfect for any occasion. Adjust the heat level by adding more or less jalapeño to suit your taste.',
   category: 'condiment',

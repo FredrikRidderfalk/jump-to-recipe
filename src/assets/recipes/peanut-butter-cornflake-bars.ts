@@ -3,8 +3,7 @@ export const peanutButterCornflakeBars = {
   param: 'peanut-butter-cornflake-bars',
   recipeImage: '../assets/images/peanut-butter-cornflake-bars.jpg',
   star: false,
-  introText:
-    'These Peanut Butter Cornflake Bars are the perfect no-bake treat – crunchy, nutty, and satisfying. Made with simple ingredients, they’re quick and easy to whip up for a delicious snack or dessert.',
+  introText: 'These Peanut Butter Cornflake Bars are the perfect no-bake treat – crunchy, nutty, and satisfying.',
   description:
     'Indulge in the crunchy and nutty delight of these Peanut Butter Cornflake Bars. Combining the wholesome flavors of peanut butter, tahini, and a touch of maple syrup, these bars are bound together with cornflakes, cashews, and sesame seeds. They’re topped with a decadent layer of dark chocolate, making them an irresistible treat that’s both vegan and refined sugar-free.',
   category: 'dessert',
