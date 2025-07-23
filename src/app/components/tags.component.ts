@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   template: `
-    <div class="flex space-x-2">
+    <div class="flex flex-wrap gap-2">
       <div
         (click)="onTagClick('quick')"
         class="flex flex-col items-center justify-center text-slate-700 bg-green-50 border border-green-600 rounded-md py-2 px-2 text-xs font-medium w-16 h-16 hover:shadow-md transition-all ease-in-out cursor-pointer"
