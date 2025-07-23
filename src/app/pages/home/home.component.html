@@ -6,32 +6,34 @@
       <span>↓</span>
       JUMP TO RECIPE
     </h1>
+    <div class="flex justify-between">
+      <h3 class="font-medium text-sm text-slate-700 mb-1 tracking-widest">FILTER BY CATEGORY</h3>
+      <h3 class="font-medium text-sm text-slate-700 mb-1 tracking-widest">FILTER BY TAG</h3>
+    </div>
+    <div class="flex justify-between mb-4">
+      <!-- Category Filter Buttons -->
+      @if (availableCategories.length > 0) {
+        <div class="mb-6">
+          <div class="flex flex-wrap gap-2">
+            @for (category of availableCategories; track category) {
+              <button
+                type="button"
+                (click)="toggleCategory(category)"
+                class="px-4 py-2 text-sm font-medium rounded-md border border-slate-300 transition-colors duration-200"
+                [ngClass]="{
+                  'bg-slate-100 text-slate-800 border-slate-400': isCategorySelected(category),
+                  'bg-white text-slate-600 hover:bg-slate-50 hover:text-slate-800': !isCategorySelected(category)
+                }"
+              >
+                {{ category | titlecase }}
+              </button>
+            }
+          </div>
+        </div>
+      }
 
-    <div class="mb-4">
       <app-tags [selectedTags]="selectedTags" (tagToggle)="toggleTag($event)"></app-tags>
     </div>
-
-    <!-- Category Filter Buttons -->
-    @if (availableCategories.length > 0) {
-      <div class="mb-6">
-        <h3 class="text-sm font-semibold text-slate-700 mb-3">Filter by category</h3>
-        <div class="flex flex-wrap gap-2">
-          @for (category of availableCategories; track category) {
-            <button
-              type="button"
-              (click)="toggleCategory(category)"
-              class="px-4 py-2 text-sm font-medium rounded-md border border-slate-300 transition-colors duration-200"
-              [ngClass]="{
-                'bg-slate-100 text-slate-800 border-slate-400': isCategorySelected(category),
-                'bg-white text-slate-600 hover:bg-slate-50 hover:text-slate-800': !isCategorySelected(category)
-              }"
-            >
-              {{ category | titlecase }}
-            </button>
-          }
-        </div>
-      </div>
-    }
 
     <div class="flex flex-wrap -m-4">
       <!-- Recipe cards -->
