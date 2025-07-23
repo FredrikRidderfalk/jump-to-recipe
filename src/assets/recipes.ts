@@ -73,9 +73,11 @@ import { pestoMelt } from './recipes/pesto-melt';
 import { tagine } from './recipes/tagine';
 import { swedishBalls } from './recipes/swedish-balls';
 import { ramen } from './recipes/ramen';
+import { serranoSalsa } from './recipes/serrano-salsa';
 
 export const Recipes = [
   chiliOilNoodles,
+  serranoSalsa,
   stickyBananaSpongePudding,
   pesto,
   tapenade,
