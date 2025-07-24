@@ -80,4 +80,13 @@ export class RecipeComponent implements OnInit {
 
     return unit;
   }
+
+  getIngredientAmountText(ingredient: any): string {
+    if (!ingredient.amount) return '';
+
+    const amount = this.convertAmount(ingredient.amount * this.servings, ingredient.unit);
+    const unit = ingredient.unit ? this.convertUnit(ingredient.unit) : '';
+
+    return `, ${amount}${unit ? ' ' + unit : ''}`;
+  }
 }
