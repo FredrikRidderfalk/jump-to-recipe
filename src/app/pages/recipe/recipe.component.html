@@ -327,12 +327,23 @@
                           <span>{{ ingredient.name }}</span>
                         </div>
                       </a>
+                      <span>
+                        {{
+                          ingredient.amount ? ", " + convertAmount(ingredient.amount * servings, ingredient.unit) : ""
+                        }}
+                      </span>
                     } @else {
-                      <span>{{ ingredient.name }}</span>
+                      <span>
+                        {{
+                          ingredient.name +
+                            (ingredient.amount
+                              ? ", " +
+                                convertAmount(ingredient.amount * servings, ingredient.unit) +
+                                (ingredient.unit ? " " + convertUnit(ingredient.unit) : "")
+                              : "")
+                        }}
+                      </span>
                     }
-                    <span>
-                      {{ ingredient.amount ? ", " + convertAmount(ingredient.amount * servings, ingredient.unit) : "" }}
-                    </span>
                     <span class="mr-1">{{ ingredient.unit ? convertUnit(ingredient.unit) : "" }}</span>
                     @if (ingredient.flex) {
                       <div
