@@ -60,9 +60,9 @@ export class RecipeComponent implements OnInit {
   }
 
   convertAmount(amount: number | undefined, unit: string | undefined): string {
-    if (!amount || !unit) return '';
+    if (!amount) return '';
 
-    if (this.isMetric && unit.toLowerCase().includes('cup')) {
+    if (this.isMetric && unit && unit.toLowerCase().includes('cup')) {
       // Convert cups to ml (1 cup = 240ml)
       const mlAmount = amount * 240;
       return mlAmount.toString();
