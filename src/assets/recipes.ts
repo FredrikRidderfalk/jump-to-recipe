@@ -74,10 +74,12 @@ import { tagine } from './recipes/tagine';
 import { swedishBalls } from './recipes/swedish-balls';
 import { ramen } from './recipes/ramen';
 import { serranoSalsa } from './recipes/serrano-salsa';
+import { guacamole } from './recipes/guacamole';
 
 export const Recipes = [
   chiliOilNoodles,
   serranoSalsa,
+  guacamole,
   stickyBananaSpongePudding,
   pesto,
   tapenade,
