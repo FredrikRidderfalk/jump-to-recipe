@@ -5,7 +5,7 @@ export const guacamole = {
   star: true,
   introText: 'Fresh, creamy guacamole with a perfect balance of lime, cilantro, and serrano heat.',
   description:
-    'This classic guacamole recipe delivers the perfect combination of creamy avocado, bright lime juice, fresh cilantro, and a kick of heat from serrano pepper. Simple ingredients come together to create the ultimate dip for chips, tacos, or any Mexican dish.',
+    'Guacamole delivers a combination of creamy avocado, bright lime juice, fresh cilantro, and a kick of heat from serrano pepper. A Mexican 🇲🇽 classic, perfect for dipping or as a topping.',
   category: 'condiment',
   tags: {
     quick: true,
@@ -81,5 +81,5 @@ export const guacamole = {
     'Taste and adjust seasoning with more lime juice, salt, or serrano as needed.',
   ],
   notes:
-    'The key to great guacamole is using perfectly ripe avocados and fresh lime juice. Press plastic wrap directly onto the surface of leftover guacamole to minimize browning. This guacamole pairs perfectly with tortilla chips, tacos, burritos, or as a topping for grilled meats. Best enjoyed fresh, but can be stored in the refrigerator for up to 2 days.',
+    'The key to great guacamole is using perfectly ripe avocados and fresh lime juice. Press plastic wrap directly onto the surface of leftover guacamole to minimize browning. This guacamole pairs perfectly with tortilla chips, tacos, or burritos. Best enjoyed fresh, but can be stored in the refrigerator for up to 2 days. Mix it with salsa verde for a zesty twist.',
 };
