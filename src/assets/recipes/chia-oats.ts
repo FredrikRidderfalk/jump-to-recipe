@@ -1,13 +1,13 @@
-export const overnightOats = {
-  name: 'Overnight Oats',
-  param: 'overnight-oats',
-  recipeImage: '../assets/images/overnight-oats.jpg',
+export const chiaOats = {
+  name: 'Chia Oats',
+  param: 'chia-oats',
+  recipeImage: '../assets/images/chia-oats.jpg',
   star: false,
   introText:
     'Packed with fiber, protein, and healthy fats, they make a balanced and delicious breakfast that you can prepare ahead of time.',
   description:
-    'Overnight oats are a simple make-ahead breakfast option that’s both healthy and customizable. Oats are soaked in plant-based milk, combined with chia seeds, flax seeds, a hint of cinnamon, and a touch of sweetness from syrup. Top them with your favorite nuts, seeds, or dried fruits for extra texture and flavor.',
-  category: 'main',
+    'Chia oats are a simple make-ahead breakfast option that’s both healthy and customizable. Oats are soaked in plant-based milk, combined with chia seeds, flax seeds, a hint of cinnamon, and a touch of sweetness from syrup. Top them with your favorite nuts, seeds, or dried fruits for extra texture and flavor.',
+  category: 'breakfast',
   tags: {
     quick: true,
     easy: true,
@@ -137,7 +137,7 @@ export const overnightOats = {
   instructions: [
     'In a bowl or jar, combine the oats, milk, syrup, chia seeds, sesame seeds, nutritional yeast, optional flax seeds, cinnamon, and salt.',
     'Mix everything together until well combined.',
-    'Let sit for at least 20 minutes, or even overnight in the refrigerator, to allow the chia to soak and thicken.',
+    'Let sit for at least 20 minutes, or even chia in the refrigerator, to allow the chia to soak and thicken.',
     'When ready to eat, top with your favorite toppings like pumpkin seeds, walnuts, sunflower seeds, or dried cranberries.',
   ],
   notes:

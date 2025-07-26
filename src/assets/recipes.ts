@@ -16,7 +16,7 @@ import { crispyChiliOil } from './recipes/crispy-chili-oil';
 import { kladdkaka } from './recipes/kladdkaka';
 import { balsamicDressing } from './recipes/balsamic-vinaigrette';
 import { thaiGreenCurry } from './recipes/thai-green-curry';
-import { overnightOats } from './recipes/overnightOats';
+import { chiaOats } from './recipes/chia-oats';
 import { arancini } from './recipes/arancini';
 import { burger } from './recipes/burger';
 import { garlicNoodles } from './recipes/garlic-noodles';
@@ -99,7 +99,7 @@ export const Recipes = [
   balsamicDressing,
   thaiGreenCurry,
   rootVegetableStew,
-  overnightOats,
+  chiaOats,
   arancini,
   burger,
   garlicNoodles,

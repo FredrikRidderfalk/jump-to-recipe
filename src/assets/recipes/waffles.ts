@@ -6,7 +6,7 @@ export const waffles = {
   introText: 'These light and crispy waffles are perfect for a cozy breakfast or brunch.',
   description:
     'Golden, crispy, and fluffy, these waffles are made with simple ingredients and are easy to prepare. Whether served with syrup, jam, fresh fruits, or whipped cream, they are sure to become a family favorite.',
-  category: 'main',
+  category: 'breakfast',
   tags: {
     quick: true,
     easy: true,
