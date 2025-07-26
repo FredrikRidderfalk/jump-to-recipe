@@ -76,6 +76,7 @@ import { ramen } from './recipes/ramen';
 import { serranoSalsa } from './recipes/serrano-salsa';
 import { guacamole } from './recipes/guacamole';
 import { chilaquiles } from './recipes/Chilaquiles';
+import { pozole } from './recipes/pozole';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -87,6 +88,7 @@ export const Recipes = [
   taquitos,
   lentilStew,
   chilaquiles,
+  pozole,
   coffeeTresLeches,
   southwestDressing,
   lemonTahiniDressing,
