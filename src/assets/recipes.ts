@@ -75,6 +75,7 @@ import { swedishBalls } from './recipes/swedish-balls';
 import { ramen } from './recipes/ramen';
 import { serranoSalsa } from './recipes/serrano-salsa';
 import { guacamole } from './recipes/guacamole';
+import { chilaquiles } from './recipes/Chilaquiles';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -85,6 +86,7 @@ export const Recipes = [
   tapenade,
   taquitos,
   lentilStew,
+  chilaquiles,
   coffeeTresLeches,
   southwestDressing,
   lemonTahiniDressing,
