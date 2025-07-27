@@ -6,7 +6,7 @@ export const lentilStew = {
   introText: 'This hearty lentil stew combines a rich blend of spices, aromatic vegetables, and a hint of citrus.',
   description:
     'Warm, spiced, and deeply satisfying, this lentil stew is a fantastic vegan meal that packs a punch of flavor. The combination of caramelized onions, earthy lentils, and the bright acidity from lemon juice and pickled jalapeños makes it a standout dish. Ideal for cozy dinners, this stew is both nutritious and delicious.',
-  category: 'main',
+  category: 'soup',
   tags: {
     quick: true,
     easy: true,
