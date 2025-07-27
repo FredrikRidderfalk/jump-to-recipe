@@ -55,7 +55,11 @@ export class HomeComponent implements OnInit, OnDestroy {
     const categories = new Set<string>();
     this.recipes.forEach((recipe) => {
       if (recipe.category) {
-        categories.add(recipe.category);
+        if (Array.isArray(recipe.category)) {
+          recipe.category.forEach((cat: string) => categories.add(cat));
+        } else {
+          categories.add(recipe.category);
+        }
       }
     });
     this.availableCategories = Array.from(categories).sort();
@@ -73,8 +77,15 @@ export class HomeComponent implements OnInit, OnDestroy {
   filterRecipes(): void {
     this.filteredRecipes = this.recipes.filter((recipe) => {
       // Category filtering
-      const categoryMatch =
-        this.selectedCategories.size === 0 || (recipe.category && this.selectedCategories.has(recipe.category));
+      let categoryMatch = this.selectedCategories.size === 0;
+
+      if (!categoryMatch && recipe.category) {
+        if (Array.isArray(recipe.category)) {
+          categoryMatch = recipe.category.some((cat: string) => this.selectedCategories.has(cat));
+        } else {
+          categoryMatch = this.selectedCategories.has(recipe.category);
+        }
+      }
 
       // Tag filtering
       const tagMatch = this.selectedTags.size === 0 || Array.from(this.selectedTags).some((tag) => recipe.tags[tag]);

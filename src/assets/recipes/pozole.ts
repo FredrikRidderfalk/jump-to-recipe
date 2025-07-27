@@ -6,7 +6,7 @@ export const pozole = {
   introText: 'A hearty Mexican soup with hominy, vegetables, and aromatic spices.',
   description:
     'This traditional Mexican soup features tender hominy kernels in a rich, flavorful broth with vegetables and warming spices. Pozole is a celebration dish that brings families together, often served during special occasions and holidays. The soup is traditionally topped with fresh garnishes like radishes, lettuce, and lime, allowing each person to customize their bowl to their taste.',
-  category: 'soup',
+  category: ['main', 'soup'],
   tags: {
     quick: false,
     easy: true,

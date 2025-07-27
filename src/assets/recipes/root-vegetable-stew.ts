@@ -7,7 +7,7 @@ export const rootVegetableStew = {
     'This hearty root vegetable stew is a comforting and wholesome meal packed with nutrients and earthy flavors.',
   description:
     'Root Vegetable Stew is a flavorful blend of potatoes, celery root, carrots, and parsnips simmered with red lentils in a seasoned broth. The stew has a savory and slightly tangy flavor profile, enriched by garlic and herbs like oregano. It’s a simple, filling, and nutritious meal that’s easy to prepare and perfect for cozy dinners.',
-  category: 'soup',
+  category: ['main', 'soup'],
   tags: {
     quick: false,
     easy: true,
