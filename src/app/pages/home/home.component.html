@@ -19,7 +19,9 @@
                 class="px-4 py-2 text-sm font-medium rounded-md border border-slate-300 transition-colors duration-200"
                 [ngClass]="{
                   'bg-slate-100 text-slate-800 border-slate-400': isCategorySelected(category),
-                  'bg-white text-slate-600 hover:bg-slate-50 hover:text-slate-800': !isCategorySelected(category)
+                  'bg-white text-slate-600 hover:bg-slate-50 hover:text-slate-800': !isCategorySelected(category),
+                  'opacity-50': !isCategorySelected(category) && selectedCategories.size > 0,
+                  'opacity-100': isCategorySelected(category) || selectedCategories.size === 0
                 }"
               >
                 {{ category | titlecase }}
