@@ -11,7 +11,7 @@
       @if (availableCategories.length > 0) {
         <div class="mb-4 md:mb-0 self-end">
           <h3 class="font-medium text-sm text-slate-700 mb-1 tracking-widest">FILTER BY CATEGORY</h3>
-          <div class="flex flex-wrap gap-2">
+          <div class="flex flex-wrap gap-2 max-w-[25rem]">
             @for (category of availableCategories; track category) {
               <button
                 type="button"
@@ -29,7 +29,7 @@
         </div>
       }
 
-      <div>
+      <div class="self-end">
         <h3 class="font-medium text-sm text-slate-700 mb-1 tracking-widest">FILTER BY TAG</h3>
         <app-tags [selectedTags]="selectedTags" (tagToggle)="toggleTag($event)"></app-tags>
       </div>
