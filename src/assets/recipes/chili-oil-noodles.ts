@@ -6,7 +6,7 @@ export const chiliOilNoodles = {
   introText: 'Transform your noodles into a fiery, flavor-packed dish with this quick and easy recipe.',
   description:
     'This recipe is perfect for spice lovers who crave bold flavors in a matter of minutes. With a combination of chili flakes, soy sauces, and aromatic garlic and ginger, these noodles deliver a punch of umami and heat. Customize it with toppings like scallions or sesame seeds for a dish that’s uniquely yours.',
-  category: 'main',
+  category: ['main'],
   tags: {
     quick: true,
     easy: true,

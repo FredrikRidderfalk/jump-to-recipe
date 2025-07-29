@@ -6,7 +6,7 @@ export const serranoSalsa = {
   introText: 'A spicy and flavorful salsa with a kick of heat from fresh serrano peppers.',
   description:
     'This vibrant serrano salsa brings serious heat and flavor to any dish. The sautéed vegetables create a rich, complex base while the fresh cilantro adds brightness. Perfect for tacos, grilled meats, or as a spicy condiment for any Mexican-inspired meal.',
-  category: 'condiment',
+  category: ['condiment'],
   tags: {
     quick: true,
     easy: true,
