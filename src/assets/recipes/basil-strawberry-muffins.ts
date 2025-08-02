@@ -4,9 +4,9 @@ export const basilStrawberryMuffins = {
   recipeImage: '../assets/images/basil-strawberry-muffins.png',
   star: false,
   introText:
-    'These unique basil strawberry muffins combine the sweet, juicy flavor of strawberries with the aromatic freshness of basil. Perfect for a delightful breakfast or snack!',
+    'These unique basil strawberry muffins combine the sweet, juicy flavor of strawberries with the aromatic freshness of basil.',
   description:
-    'This recipe transforms classic muffins by incorporating fresh strawberries and basil, creating a delightful flavor combination. The strawberries add natural sweetness and moisture, while the basil provides a unique herbal note that elevates these muffins to something special. These muffins are moist, flavorful, and sure to impress anyone who loves a sweet-and-savory twist.',
+    'The strawberries add natural sweetness and moisture, while the basil provides a unique herbal note that elevates these muffins to something special. Perfect for breakfast or a snack, a twist on the classic strawberry muffin.',
   category: 'dessert',
   tags: {
     quick: true,
@@ -129,8 +129,8 @@ export const basilStrawberryMuffins = {
     'Preheat the oven to 175°C and grease or line muffin tins with paper liners.',
     'Chop the strawberries into fine cubes. Pick your basil leaves.',
     'In a large mixing bowl, whisk together the flour, baking powder, baking soda, salt, black pepper, and the white sugar.',
-    'In a separate bowl, combine the strawberries, basil, brown sugar, oil, milk, and balsamic vinegar. Whisk until well mixed.',
-    'Add the dry ingredients to the wet ingredients, stirring until just combined.',
+    'In a separate bowl, combine the strawberries, basil, brown sugar, oil, milk, and balsamic vinegar. Whisk until well mixed. Chop up or slice the basil if desired.',
+    'Add the wet and dry ingredients together, stirring until just combined.',
     'Pour the batter into the prepared muffin liners, filling them about 2/3 full.',
     'Bake for 18 minutes if using small muffin ramekins, 20-23 min if using large muffin ramekins, or until a toothpick inserted into the center comes out clean.',
     'Allow the muffins to cool in the tin for 20 minutes before serving.',

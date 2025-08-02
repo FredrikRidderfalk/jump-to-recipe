@@ -3,9 +3,10 @@ export const tortillaSoup = {
   param: 'tortilla-soup',
   recipeImage: '../assets/images/tortilla-soup.jpg',
   star: true,
-  introText: 'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes.',
+  introText:
+    'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it.',
   description:
-    'A hearty and flavorful soup that originated in Mexico. A one-pot dish ready in just 15 minutes and we can add just about anything in it. The soup is usually made with corn tortillas, which add a crunchy texture to the soup. It also features beans, and we add all the aquafaba that comes with it. The soup is often garnished with toppings such as diced avocado, cilantro, red onion, and sour cream.',
+    'A one-pot dish, quick to make, no frying, just a bit of boiling, and the flexibility of the dish is on par with fried rice! You could put pretty much anything into the soup, and you can also choose any BBQ sauce of your liking or make one yourself with just four ingredients.',
   category: ['soup', 'main'],
   tags: {
     quick: true,
@@ -204,5 +205,5 @@ export const tortillaSoup = {
     'We serve the toppings in bowls on the table for each person to freely take.',
   ],
   notes:
-    'This soup is slightly different each time we make it thanks to its versitility. Sometimes we also add plant-based melty cheese to it or plant-based sour cream with garlic.',
+    'Plant-based melty cheese is another pleasant addition to the soup, or plant-based sour cream mixed with finely chopped garlic and a pinch of salt.',
 };

@@ -3,11 +3,10 @@ export const bananaBread = {
   param: 'banana-bread',
   recipeImage: '../assets/images/banana-bread.jpg',
   star: false,
-  introText:
-    'This light and fluffy banana bread is perfect for any occasion. Whether enjoyed plain or with icing, it’s a simple yet delicious treat.',
+  introText: 'Perfect for any occasion, and a great picnic food. An ideal way to use up browned, mushy bananas.',
   description:
-    'This banana bread is a classic recipe that’s easy to make and incredibly satisfying. The ripe bananas add natural sweetness and moisture, while the combination of white and brown sugar gives it a rich flavor. It’s perfect for breakfast, a snack, or even dessert. Enjoy it plain or with a drizzle of icing for an extra treat.',
-  category: 'dessert',
+    'The ripe bananas add natural sweetness and moisture, while the combination of white and brown sugar gives it a rich flavor. It’s perfect for breakfast, a snack, or even dessert. Bring out the loaf dish for this one.',
+  category: ['dessert', 'breakfast', 'snack'],
   tags: {
     quick: true,
     easy: true,
@@ -17,7 +16,7 @@ export const bananaBread = {
   },
   ingredients: [
     {
-      name: 'All-purpose flour',
+      name: 'Flour',
       amount: 140,
       unit: 'g',
       flex: '',
@@ -108,5 +107,5 @@ export const bananaBread = {
     'Allow the cake to cool for at least another 30 minutes before cutting into it.',
   ],
   notes:
-    'Whisk the dry ingredients with a balloon whisk to minimize risk for flour lumps. This sponge cake can also be used as a base for layered cakes or cupcakes. Store in an airtight container or bag at room temperature for up to 3 days, or refrigerate for longer freshness. Can also be frozen.',
+    'Whisk the dry ingredients with a balloon whisk to minimize risk for flour lumps. This spongy bread/cake can also be used as a base for layered cakes or cupcakes. Store in an airtight container or bag at room temperature for up to 3 days. Can also be frozen.',
 };

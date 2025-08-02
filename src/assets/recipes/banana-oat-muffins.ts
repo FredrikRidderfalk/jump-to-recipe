@@ -6,8 +6,8 @@ export const bananaOatMuffins = {
   introText:
     'These moist and hearty banana oat muffins combine the wholesome goodness of oats with the natural sweetness of ripe bananas. Perfect for a nutritious breakfast or snack!',
   description:
-    'This recipe adapts the classic oat muffins by incorporating mashed ripe banana instead of yogurt, creating an even more moist and flavorful treat. The banana adds natural sweetness and extra moisture, while the oats provide satisfying texture and added fiber. These dairy-free muffins are perfect for using up overripe bananas.',
-  category: 'dessert',
+    'This recipe add oats to the standard muffin recipe, incorporating more fiber and nutrition, making it a sweet breakfast or snack consideration.',
+  category: ['dessert', 'breakfast', 'snack'],
   tags: {
     quick: true,
     easy: true,
@@ -127,5 +127,5 @@ export const bananaOatMuffins = {
     'Allow the muffins to cool in the tin for 20 minutes before serving.',
   ],
   notes:
-    'For banana oat muffins, standard muffin tins are ideal. The riper the banana, the sweeter and more flavorful your muffins will be - brown spotted bananas work perfectly! For added flavor, consider incorporating vanilla extract, cinnamon (1/2 to 1 tsp), or even a handful of chopped walnuts or chocolate chips into the batter. Store in an airtight container or bag at room temperature for up to 3 days, or refrigerate for longer freshness. Can also be frozen. Sprinkle sugar on top for a sweet, crusty surface. If you want to add berries like blueberries, use about 50g and fold them in gently at the end.',
+    'For banana oat muffins, standard muffin tins are ideal. The riper the banana, the sweeter and more flavorful your muffins will be - brown spotted bananas work perfectly! For added flavor, consider incorporating vanilla extract, cinnamon (1/2 to 1 tsp), or even a handful of chopped walnuts or chocolate chips into the batter. Store in an airtight container or bag at room temperature for up to 3 days, or refrigerate for longer freshness. Can also be frozen. Sprinkle sugar on top for a sweet, crusty surface. If you want to add berries like blueberries, use about 50g and fold them in at the end.',
 };

@@ -3,10 +3,9 @@ export const balsamicDressing = {
   param: 'balsamic-dressing',
   recipeImage: '../assets/images/balsamic-dressing.jpg',
   star: false,
-  introText:
-    'A perfect blend of tangy, sweet, and savory flavors, making it a delicious addition to any salad or roasted vegetable dish.',
+  introText: 'A balanced blend of tangy, sweet, and savory flavors, fitting any salad or roasted vegetable dish.',
   description:
-    'A rich and flavorful balsamic dressing combining the sharpness of balsamic vinegar and the creamy sweetness of balsamic crème with a hint of garlic and mustard. This dressing adds a perfect balance of sweetness and acidity to salads, grilled vegetables, or even as a marinade for tofu or tempeh.',
+    'A rich and flavorful balsamic dressing combining the sharpness of balsamic vinegar and the creamy sweetness of balsamic crème with a hint of garlic and mustard. This dressing adds a perfect balance of sweetness and acidity to salads or grilled vegetables.',
   category: 'condiment',
   tags: {
     quick: true,
@@ -79,5 +78,5 @@ export const balsamicDressing = {
     'Use immediately on your favorite salad, or store in an airtight container in the fridge for up to a week. Shake or whisk before using as the ingredients may separate over time.',
   ],
   notes:
-    'For a smoother texture, you can blend the dressing with an immersion blender to further emulsify the ingredients. This balsamic dressing works beautifully on fresh greens, roasted vegetables, or as a marinade for plant-based proteins like tofu or tempeh.',
+    'For a smoother texture, you can blend the dressing with an immersion blender to further emulsify the ingredients.',
 };

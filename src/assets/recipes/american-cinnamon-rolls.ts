@@ -3,10 +3,9 @@ export const americanCinnamonRolls = {
   param: 'american-cinnamon-rolls',
   recipeImage: '../assets/images/american-cinnamon-rolls.jpg',
   star: false,
-  introText:
-    'Soft, fluffy, and perfectly spiced, these vegan cinnamon rolls are a classic treat that’s perfect for any time of day.',
+  introText: 'Cinnamon rolls, but stickier, messier, squeezed together, and topped with a glaze.',
   description:
-    'These cinnamon rolls are made with a fluffy dough, filled with a sweet cinnamon-sugar mixture, and baked to golden perfection. They’re the ultimate comfort dessert or brunch addition, loved by kids and adults alike.',
+    'Mde with a fluffy dough, filled with a sweet cinnamon-sugar mixture, and baked to golden perfection. For these you might want to bring a fork or be prepared to get sticky fingers.',
   category: 'dessert',
   tags: {
     quick: false,
