@@ -1,10 +1,9 @@
 export const bulgurSalad = {
-  name: 'Bulgur Salad',
+  name: 'Kısır',
   param: 'bulgur-salad',
   recipeImage: '../assets/images/bulgur-salad.jpg',
   star: false,
-  introText:
-    'Known in Turkey as Kısır, this refreshing bulgur salad is packed with fresh vegetables, herbs, and sour notes.',
+  introText: 'Known in Turkey as Kısır, a bulgur salad packed with fresh vegetables, herbs, and sour notes.',
   description:
     'Bulgur sala or Kısır is a versatile dish that combines the nutty flavor of bulgur wheat with a medley of fresh vegetables, herbs, and a zesty dressing. It’s quick to prepare, wholesome, and can be enjoyed cold, making it ideal for meal prep or picnics.',
   category: 'main',
