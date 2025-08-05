@@ -137,9 +137,9 @@ export const chiaOats = {
   instructions: [
     'In a bowl or jar, combine the oats, milk, syrup, chia seeds, sesame seeds, nutritional yeast, optional flax seeds, cinnamon, and salt.',
     'Mix everything together until well combined.',
-    'Let sit for at least 20 minutes, or even chia in the refrigerator, to allow the chia to soak and thicken.',
-    'When ready to eat, top with your favorite toppings like pumpkin seeds, walnuts, sunflower seeds, or dried cranberries.',
+    'Let sit for at least 20 minutes, or even chill overnight in the refrigerator, to allow the chia to soak and thicken.',
+    'When ready to eat, top with your favorite toppings like pumpkin seeds, walnuts, sunflower seeds, blueberries, banana slices, or dried cranberries.',
   ],
   notes:
-    'Feel free to adjust the sweetness or add more spices like nutmeg, cocoa powder, or cardamom for extra flavor. You can also experiment with different plant-based milks or add a spoonful of peanut butter or fruit preserves for added richness.',
+    'Feel free to adjust the sweetness or add more spices like nutmeg, cocoa powder, or cardamom for extra flavor. You can also experiment with different plant-based milks or add a spoonful of peanut butter or fruit preserves.',
 };
