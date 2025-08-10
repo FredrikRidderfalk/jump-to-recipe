@@ -77,6 +77,7 @@ import { serranoSalsa } from './recipes/serrano-salsa';
 import { guacamole } from './recipes/guacamole';
 import { chilaquiles } from './recipes/chilaquiles';
 import { pozole } from './recipes/pozole';
+import { garlicPasta } from './recipes/garlic-pasta';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -155,6 +156,7 @@ export const Recipes = [
   pestoPasta,
   pestoMelt,
   tagine,
+  garlicPasta,
 ];
 
 // All recipes including alternative versions or base recipes
