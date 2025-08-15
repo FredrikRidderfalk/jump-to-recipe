@@ -9,11 +9,11 @@
       <input
         #searchInput
         type="text"
-        placeholder="サーチ"
+        placeholder="サーチ Search"
         (input)="onSearchChange($event)"
         (keydown.escape)="clearSearch()"
         [value]="searchTerm"
-        class="sm:text-base text-sm rounded-md border border-slate-300 font-medium sm:w-fit text-gray-700 mb-10 py-2 px-4 text-center m-auto focus:outline-none focus:border-slate-400 uppercase"
+        class="sm:text-base text-sm rounded-md border border-slate-300 font-medium sm:w-fit text-gray-700 mb-10 py-2 px-4 m-auto focus:outline-none focus:border-slate-400 uppercase placeholder:text-gray-600"
       />
     </div>
     <div class="flex justify-between mb-8 flex-col md:flex-row">
