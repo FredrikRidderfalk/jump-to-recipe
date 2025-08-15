@@ -78,6 +78,7 @@ import { guacamole } from './recipes/guacamole';
 import { chilaquiles } from './recipes/chilaquiles';
 import { pozole } from './recipes/pozole';
 import { garlicPasta } from './recipes/garlic-pasta';
+import { aguaFrescaDeTamarindo } from './recipes/agua-fresca-de-tamarindo';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -90,6 +91,7 @@ export const Recipes = [
   lentilStew,
   chilaquiles,
   pozole,
+  aguaFrescaDeTamarindo,
   coffeeTresLeches,
   southwestDressing,
   lemonTahiniDressing,
