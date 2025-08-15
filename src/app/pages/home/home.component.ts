@@ -1,25 +1,30 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { Recipes } from '../../../assets/recipes';
 import { TagsComponent } from '../../components/tags.component';
-import { UpperCasePipe, CommonModule } from '@angular/common';
+import { UpperCasePipe, CommonModule, TitleCasePipe } from '@angular/common';
 import { ApiService } from '../../services/api.service';
 import { Subject, takeUntil } from 'rxjs';
+import Fuse from 'fuse.js';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [RouterLink, UpperCasePipe, TagsComponent, CommonModule],
+  imports: [RouterLink, UpperCasePipe, TagsComponent, CommonModule, TitleCasePipe],
   templateUrl: './home.component.html',
 })
-export class HomeComponent implements OnInit, OnDestroy {
+export class HomeComponent implements OnInit, OnDestroy, AfterViewInit {
+  @ViewChild('searchInput') searchInput!: ElementRef<HTMLInputElement>;
+
   recipes: any[] = [];
   filteredRecipes: any[] = [];
   recipeViews: any = [];
   selectedCategories: Set<string> = new Set();
   selectedTags: Set<string> = new Set();
   availableCategories: string[] = [];
+  searchTerm: string = '';
 
+  private fuse!: Fuse<any>;
   private destroy$ = new Subject<void>();
 
   constructor(private apiService: ApiService) {}
@@ -28,6 +33,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.recipes = Recipes;
     this.filteredRecipes = [...this.recipes];
     this.extractCategories();
+    this.initializeFuse();
     console.log(this.recipes);
 
     this.apiService
@@ -42,6 +48,21 @@ export class HomeComponent implements OnInit, OnDestroy {
           console.error('There was an error!', error);
         },
       });
+  }
+
+  ngAfterViewInit() {
+    if (this.searchInput) {
+      this.searchInput.nativeElement.focus();
+    }
+  }
+
+  initializeFuse(): void {
+    const fuseOptions = {
+      keys: ['name'],
+      threshold: 0.3,
+      includeScore: true,
+    };
+    this.fuse = new Fuse(this.recipes, fuseOptions);
   }
 
   onRecipeClick(recipeName: string) {
@@ -75,8 +96,14 @@ export class HomeComponent implements OnInit, OnDestroy {
   }
 
   filterRecipes(): void {
-    this.filteredRecipes = this.recipes.filter((recipe) => {
-      // Category filtering
+    let recipesToFilter = this.recipes;
+
+    if (this.searchTerm.trim()) {
+      const fuseResults = this.fuse.search(this.searchTerm);
+      recipesToFilter = fuseResults.map((result) => result.item);
+    }
+
+    this.filteredRecipes = recipesToFilter.filter((recipe) => {
       let categoryMatch = this.selectedCategories.size === 0;
 
       if (!categoryMatch && recipe.category) {
@@ -92,6 +119,12 @@ export class HomeComponent implements OnInit, OnDestroy {
 
       return categoryMatch && tagMatch;
     });
+  }
+
+  onSearchChange(event: Event): void {
+    const target = event.target as HTMLInputElement;
+    this.searchTerm = target.value;
+    this.filterRecipes();
   }
 
   isCategorySelected(category: string): boolean {
