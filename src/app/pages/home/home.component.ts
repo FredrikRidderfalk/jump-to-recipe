@@ -127,6 +127,11 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit {
     this.filterRecipes();
   }
 
+  clearSearch(): void {
+    this.searchTerm = '';
+    this.filterRecipes();
+  }
+
   isCategorySelected(category: string): boolean {
     return this.selectedCategories.has(category);
   }
