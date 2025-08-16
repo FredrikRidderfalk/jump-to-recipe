@@ -1,12 +1,11 @@
-export const muffins = {
-  name: 'Muffins',
-  param: 'muffins',
-  recipeImage: '../assets/images/muffins.jpg',
+export const chocolateMuffins = {
+  name: 'Chocolate Muffins',
+  param: 'chocolate-muffins',
+  recipeImage: 'assets/images/chocolate-muffins.jpg',
   star: false,
-  introText:
-    'These moist and hearty classic muffins are a delicious twist on a classic sponge cake. Perfect for a wholesome breakfast or snack!',
+  introText: 'Rich, moist chocolate muffins with cocoa and a hint of coffee.',
   description:
-    'Classic muffins are soft, fluffy, and lightly sweetened individual cakes, perfect for breakfast or a snack. They have a tender crumb and a golden top, and can be enjoyed plain or with a variety of mix-ins like fruit, chocolate chips, or nuts. Easy to make and endlessly versatile, muffins are a staple in home baking.',
+    'Deeply chocolatey muffins that stay moist and tender thanks to oil and yogurt. Cocoa powder and a touch of coffee intensify the chocolate flavor, while vanilla rounds everything out. Perfect for breakfast or an afternoon treat.',
   category: 'dessert',
   tags: {
     quick: true,
@@ -15,34 +14,21 @@ export const muffins = {
     clean: true,
     cheap: true,
   },
-  versions: [
-    {
-      name: 'Oat Muffins',
-      param: 'oat-muffins',
-    },
-    {
-      name: 'Banana Oat Muffins',
-      param: 'banana-oat-muffins',
-    },
-    {
-      name: 'Mango Serrano Muffins',
-      param: 'mango-serrano-muffins',
-    },
-    {
-      name: 'Basil Strawberry Muffins',
-      param: 'basil-strawberry-muffins',
-    },
-    {
-      name: 'Chocolate Muffins',
-      param: 'chocolate-muffins',
-    },
-  ],
   ingredients: [
     {
       name: 'All-purpose flour',
-      amount: 160,
+      amount: 120,
       unit: 'g',
       flex: '',
+      optional: false,
+      topping: false,
+      done: false,
+    },
+    {
+      name: 'Cocoa powder',
+      amount: 40,
+      unit: 'g',
+      flex: 'Unsweetened natural or Dutch-process cocoa both work.',
       optional: false,
       topping: false,
       done: false,
@@ -85,7 +71,7 @@ export const muffins = {
     },
     {
       name: 'Brown sugar',
-      amount: 50,
+      amount: 100,
       unit: 'g',
       flex: '',
       optional: false,
@@ -94,7 +80,7 @@ export const muffins = {
     },
     {
       name: 'Vegetable oil',
-      amount: 60,
+      amount: 70,
       unit: 'g',
       flex: '',
       optional: false,
@@ -128,16 +114,34 @@ export const muffins = {
       topping: false,
       done: false,
     },
+    {
+      name: 'Vanilla',
+      amount: 1,
+      unit: 'tsp',
+      flex: 'Vanilla extract or paste.',
+      optional: false,
+      topping: false,
+      done: false,
+    },
+    {
+      name: 'Coffee',
+      amount: 1,
+      unit: 'tsp',
+      flex: 'Instant espresso powder or instant coffee granules.',
+      optional: false,
+      topping: false,
+      done: false,
+    },
   ],
   instructions: [
     'Preheat the oven to 175°C and grease or line muffin tins with paper liners.',
-    'In a large mixing bowl, whisk together the flour, baking powder, baking soda, salt, and the white sugar. Mix it with a balloon whisk to prevent any flour lumps forming.',
-    'In a separate bowl, combine the yogurt, brown sugar, oil, and milk. Whisk until smooth (but no worries if there are some brown sugar lumps, just leave them be).',
+    'In a large mixing bowl, whisk together the flour, cocoa powder, baking powder, baking soda, salt, and the white sugar. Mix it with a balloon whisk to prevent any lumps forming.',
+    'In a separate bowl, combine the yogurt, brown sugar, oil, milk, vanilla, and coffee. Whisk until smooth (no worries if there are some brown sugar lumps).',
     'Add the dry ingredients to the wet ingredients, stirring until just combined.',
     'Pour the batter into the prepared muffin liners, filling them about 2/3 full.',
     'Bake for 18 minutes if using small muffin ramekins, 20-23 min if using large muffin ramekins, or until a toothpick inserted into the center comes out clean.',
     'Allow the muffins to cool in the tin for 20 minutes before serving.',
   ],
   notes:
-    'Store in an airtight container or bag at room temperature for up to 3 days, or refrigerate for longer freshness. Can also be frozen. Sprinkle sugar on top for a sweet, crusty surface. If mixing in berries like blueberries or strawberries, add up to 100g. This replaces the 50g of yogurt. Or if making banana or apple sauce muffins, replace the yogurt at a 1:1 ratio',
+    'Store airtight at room temperature for up to 3 days or refrigerate for longer freshness. Can be frozen. Optionally fold in 80–120 g chocolate chips. For stronger chocolate flavor, bloom the coffee in the milk briefly warmed.',
 };

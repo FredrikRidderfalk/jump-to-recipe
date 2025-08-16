@@ -79,6 +79,7 @@ import { chilaquiles } from './recipes/chilaquiles';
 import { pozole } from './recipes/pozole';
 import { garlicPasta } from './recipes/garlic-pasta';
 import { aguaFrescaDeTamarindo } from './recipes/agua-fresca-de-tamarindo';
+import { chocolateMuffins } from './recipes/chocolate-muffins';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -162,4 +163,11 @@ export const Recipes = [
 ];
 
 // All recipes including alternative versions or base recipes
-export const AllRecipes = [...Recipes, bananaOatMuffins, mangoSerranoMuffins, oatMuffins, basilStrawberryMuffins];
+export const AllRecipes = [
+  ...Recipes,
+  bananaOatMuffins,
+  mangoSerranoMuffins,
+  oatMuffins,
+  basilStrawberryMuffins,
+  chocolateMuffins,
+];
