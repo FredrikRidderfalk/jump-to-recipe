@@ -25,7 +25,7 @@ export const burger = {
       done: false,
     },
     {
-      name: 'Plant-based mince',
+      name: 'Soy mince',
       amount: 300,
       unit: 'g',
       flex: '',
@@ -91,7 +91,7 @@ export const burger = {
     },
   ],
   instructions: [
-    'Form the plant-based mince into 2 burger patties, slightly larger than your buns as they will shrink when cooking.',
+    'Form the soy mince into two burger patties, slightly larger than your buns as they will shrink when cooking.',
     'Season both sides of the patties with salt and black pepper.',
     'Heat 1 tablespoon of vegetable oil in a large skillet or pan over medium-high heat.',
     'Cook the burger patties for 3-4 minutes on each side, or until nicely browned and cooked through.',
