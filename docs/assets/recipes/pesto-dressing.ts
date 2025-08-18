@@ -3,9 +3,9 @@ export const pestoDressing = {
   param: 'pesto-dressing',
   recipeImage: 'assets/images/pesto-dressing.jpg',
   star: false,
-  introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.',
+  introText: 'A fresh, herbaceous dressing that brings classic pesto flavors to any salad.',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    'This vibrant pesto dressing transforms traditional basil pesto into a lighter, more versatile dressing. With fresh basil, nuts, nutritional yeast, and garlic blended with olive oil and lemon juice, it delivers all the aromatic flavors of pesto in a pourable form perfect for salads and vegetables.',
   tags: {
     quick: false,
     easy: true,
@@ -51,7 +51,7 @@ export const pestoDressing = {
       done: false,
     },
     {
-      name: 'Olive oil',
+      name: 'Vegetable oil',
       amount: 0.5,
       unit: 'cup',
       flex: '',
@@ -97,11 +97,9 @@ export const pestoDressing = {
     },
   ],
   instructions: [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    'Add all ingredients except the oil to a blender or food processor.',
+    'Pulse a few times to roughly chop, then slowly drizzle in oil while blending.',
+    'Blend until smooth and creamy, about 1-2 minutes.',
   ],
-  notes: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  notes: 'Taste and adjust seasoning with more salt, lemon juice, or nutritional yeast as needed. Store in refrigerator for up to 1 week. Stir before using as ingredients may separate. The dressing will darken slightly when stored but remains delicious.',
 };

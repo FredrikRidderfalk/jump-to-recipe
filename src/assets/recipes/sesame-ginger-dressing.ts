@@ -3,9 +3,9 @@ export const sesameGingerDressing = {
   param: 'sesame-ginger-dressing',
   recipeImage: 'assets/images/sesame-ginger-dressing.jpg',
   star: false,
-  introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.',
+  introText: 'A sweet and savory Asian-inspired dressing with bold sesame and ginger flavors.',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    'This aromatic sesame ginger dressing brings together the nutty richness of sesame oil with the warming spice of fresh ginger. Balanced with soy sauce, rice vinegar, and a touch of sweetness, it\'s perfect for Asian salads, slaws, or as a marinade for vegetables.',
   category: 'condiment',
   tags: {
     quick: false,
@@ -71,11 +71,10 @@ export const sesameGingerDressing = {
     },
   ],
   instructions: [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    'Finely mince or grate the ginger to avoid any large pieces.',
+    'In a bowl, whisk together sesame oil, vegetable oil, and sugar until sugar dissolves.',
+    'Add soy sauce, rice vinegar, and minced ginger, whisking until well combined.',
+    'Taste and adjust seasoning with more sugar, soy sauce, or vinegar as needed.',
   ],
-  notes: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  notes: 'For a smoother texture, strain out the ginger pieces after letting the dressing sit for 30 minutes. Store in refrigerator for up to 2 weeks. Shake or stir before using as ingredients may separate.',
 };

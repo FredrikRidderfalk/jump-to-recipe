@@ -3,9 +3,9 @@ export const lemonTahiniDressing = {
   param: 'lemon-tahini-dressing',
   recipeImage: 'assets/images/lemon-tahini-dressing.jpg',
   star: false,
-  introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.',
+  introText: 'A creamy, tangy tahini dressing that pairs beautifully with any salad or roasted vegetables.',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    'This classic lemon tahini dressing is rich, creamy, and perfectly balanced. The combination of tahini, fresh lemon juice, and Dijon mustard creates a versatile dressing that works on everything from leafy greens to roasted vegetables. A touch of garlic and agave adds depth and subtle sweetness.',
   category: 'condiment',
   tags: {
     quick: false,
@@ -89,11 +89,10 @@ export const lemonTahiniDressing = {
     },
   ],
   instructions: [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    'Add all ingredients to a blender or food processor.',
+    'Blend until smooth and creamy, about 1-2 minutes.',
+    'If the dressing is too thick, add water 1 tablespoon at a time until desired consistency is reached.',
+    'Taste and adjust seasoning with more salt, lemon juice, or agave as needed.',
   ],
-  notes: 'Try a 50/50 mix of lemon & yuzu.',
+  notes: 'Try a 50/50 mix of lemon & yuzu. This dressing thickens when chilled, so thin with water if needed. Store in refrigerator for up to 1 week. Stir before using as ingredients may separate.',
 };

@@ -3,9 +3,9 @@ export const chiliLimeDressing = {
   param: 'chili-lime-dressing',
   recipeImage: 'assets/images/chili-lime-dressing.jpg',
   star: false,
-  introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.',
+  introText: 'A zesty tahini-based dressing with a spicy kick perfect for salads and grain bowls.',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    'This vibrant chili lime dressing combines creamy tahini with bright citrus and warming spices. The combination of chili powder and smoked paprika gives it a smoky heat, while lime juice adds brightness. Perfect for drizzling over salads, roasted vegetables, or grain bowls.',
   category: 'condiment',
   tags: {
     quick: false,
@@ -70,10 +70,10 @@ export const chiliLimeDressing = {
       done: false,
     },
     {
-      name: 'Chili powder',
+      name: 'Chili flakes',
       amount: 0.5,
       unit: 'tbsp',
-      flex: '',
+      flex: 'Any chili flakes, powder, or even sauce or fresh chili will do just fine.',
       optional: false,
       topping: false,
       done: false,
@@ -89,11 +89,10 @@ export const chiliLimeDressing = {
     },
   ],
   instructions: [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    'Add all ingredients to a blender or food processor.',
+    'Blend until smooth and creamy, about 1-2 minutes.',
+    'If the dressing is too thick, add water 1 tablespoon at a time until desired consistency is reached.',
+    'Taste and adjust seasoning with more salt, lime juice, or chili powder as needed.',
   ],
-  notes: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  notes: 'Start with less chili powder and add more to taste. This dressing thickens when chilled. Store in refrigerator for up to 1 week. Stir before using as ingredients may separate.',
 };

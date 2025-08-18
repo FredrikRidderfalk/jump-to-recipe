@@ -3,9 +3,9 @@ export const southwestDressing = {
   param: 'southwest-dressing',
   recipeImage: 'assets/images/southwest-dressing.jpg',
   star: false,
-  introText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.',
+  introText: 'A creamy, smoky dressing with southwestern spices perfect for hearty salads and bowls.',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    'This rich southwest dressing combines cashews with bold southwestern flavors like cumin, smoked paprika, and chili powder. The addition of BBQ sauce gives it a unique smoky-sweet depth, while lime juice adds brightness. Perfect for taco salads, grain bowls, or as a dip for vegetables.',
   category: 'condiment',
   tags: {
     quick: false,
@@ -98,11 +98,11 @@ export const southwestDressing = {
     },
   ],
   instructions: [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    'Soak cashews in hot water for 10 minutes to soften, then drain.',
+    'Add all ingredients to a blender or food processor.',
+    'Blend until smooth and creamy, about 2-3 minutes.',
+    'If the dressing is too thick, add water 1 tablespoon at a time until desired consistency is reached.',
+    'Taste and adjust seasoning with more lime juice, salt, or spices as needed.',
   ],
-  notes: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  notes: 'Soaking the cashews makes for a creamier texture. Adjust spice levels to your preference. Store in refrigerator for up to 1 week. Stir before using as ingredients may separate.',
 };
