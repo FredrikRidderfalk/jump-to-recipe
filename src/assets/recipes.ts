@@ -82,6 +82,7 @@ import { aguaFrescaDeTamarindo } from './recipes/agua-fresca-de-tamarindo';
 import { chocolateMuffins } from './recipes/chocolate-muffins';
 import { lemongrassSoup } from './recipes/lemongrass-soup';
 import { peanutNoodles } from './recipes/peanut-noodles';
+import { stroganoff } from './recipes/stroganoff';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -164,6 +165,7 @@ export const Recipes = [
   tagine,
   garlicPasta,
   lemongrassSoup,
+  stroganoff,
 ];
 
 // All recipes including alternative versions or base recipes
