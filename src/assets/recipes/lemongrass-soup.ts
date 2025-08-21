@@ -1,7 +1,7 @@
 export const lemongrassSoup = {
   name: 'Lemongrass Soup',
   param: 'lemongrass-soup',
-  recipeImage: 'assets/images/lemongrass-soup.jpg',
+  recipeImage: 'assets/images/lemongrass-soup.png',
   star: false,
   introText: 'Bright, aromatic broth with lemongrass, ginger, and mushrooms finished with lemon and cilantro.',
   description:
