@@ -81,9 +81,11 @@ import { garlicPasta } from './recipes/garlic-pasta';
 import { aguaFrescaDeTamarindo } from './recipes/agua-fresca-de-tamarindo';
 import { chocolateMuffins } from './recipes/chocolate-muffins';
 import { lemongrassSoup } from './recipes/lemongrass-soup';
+import { peanutNoodles } from './recipes/peanut-noodles';
 
 export const Recipes = [
   chiliOilNoodles,
+  peanutNoodles,
   serranoSalsa,
   guacamole,
   stickyBananaSpongePudding,
