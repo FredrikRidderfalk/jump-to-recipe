@@ -80,6 +80,7 @@ import { pozole } from './recipes/pozole';
 import { garlicPasta } from './recipes/garlic-pasta';
 import { aguaFrescaDeTamarindo } from './recipes/agua-fresca-de-tamarindo';
 import { chocolateMuffins } from './recipes/chocolate-muffins';
+import { lemongrassSoup } from './recipes/lemongrass-soup';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -160,6 +161,7 @@ export const Recipes = [
   pestoMelt,
   tagine,
   garlicPasta,
+  lemongrassSoup,
 ];
 
 // All recipes including alternative versions or base recipes
