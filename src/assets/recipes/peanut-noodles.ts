@@ -114,5 +114,5 @@ export const peanutNoodles = {
     'Top with scallions and sesame seeds. Serve immediately.',
   ],
   notes:
-    'Adjust heat with more or less chili oil. Thin the sauce with extra pasta water if it tightens up. Great with add-ins like shredded cucumber, blanched greens, tofu, or rotisserie chicken. For gluten-free, use tamari and rice noodles; for nut-free, substitute tahini or sunflower seed butter.',
+    'Thin the sauce with extra pasta water if it tightens up. Great with add-ins like shredded cucumber, blanched greens, edamame, or tofu.',
 };
