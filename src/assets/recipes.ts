@@ -142,7 +142,6 @@ export const Recipes = [
   americanCinnamonRolls,
   shakshuka,
   chickpeaCurry,
-  gochujangPasta,
   ramen,
   swedishBalls,
   thaiBasilSauce,
