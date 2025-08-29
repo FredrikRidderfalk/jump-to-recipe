@@ -58,9 +58,7 @@
       <!-- Recipe cards -->
       @for (recipe of filteredRecipes; track recipe.title) {
         <div class="p-4 xl:w-1/3 lg:w-1/2">
-          <div
-            tabindex="0"
-            role="link"
+          <a
             [routerLink]="['/recipe', recipe.param]"
             (click)="onRecipeClick(recipe.param)"
             class="relative h-full border border-slate-300 rounded-md overflow-hidden cursor-pointer grid grid-cols-2"
@@ -137,7 +135,7 @@
                 {{ recipe.introText }}
               </h2>
             </div>
-          </div>
+          </a>
         </div>
       } @empty {
         <h2>No recipes found</h2>
