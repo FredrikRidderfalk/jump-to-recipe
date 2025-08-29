@@ -18,7 +18,7 @@ export const serranoSalsa = {
     {
       name: 'Serrano pepper',
       amount: 1,
-      unit: 'whole',
+      unit: '',
       flex: '',
       optional: false,
       topping: false,
@@ -45,7 +45,7 @@ export const serranoSalsa = {
     {
       name: 'Yellow onion',
       amount: 0.25,
-      unit: 'whole',
+      unit: '',
       flex: 'White onion, shallot.',
       optional: false,
       topping: false,
