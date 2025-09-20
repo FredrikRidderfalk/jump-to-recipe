@@ -19,7 +19,7 @@ export const serranoSalsa = {
       name: 'Serrano pepper',
       amount: 1,
       unit: '',
-      flex: 'Any other chili pepper.',
+      flex: 'Any chili pepper.',
       optional: false,
       topping: false,
       done: false,
