@@ -21,6 +21,10 @@ export const muffins = {
       param: 'oat-muffins',
     },
     {
+      name: 'Banana Muffins',
+      param: 'banana-muffins',
+    },
+    {
       name: 'Banana Oat Muffins',
       param: 'banana-oat-muffins',
     },

@@ -64,6 +64,7 @@ import { lemonPepperGarlicChickpeas } from './recipes/lemon-pepper-garlic-chickp
 import { leonChimichurri } from './recipes/leon-chimichurri';
 import { tortillaSoup } from './recipes/tortilla-soup';
 import { oatMuffins } from './recipes/oat-muffins';
+import { bananaMuffins } from './recipes/banana-muffins';
 import { bananaOatMuffins } from './recipes/banana-oat-muffins';
 import { mangoSerranoMuffins } from './recipes/mango-serrano-muffins';
 import { muffins } from './recipes/muffins';
@@ -170,6 +171,7 @@ export const Recipes = [
 // All recipes including alternative versions or base recipes
 export const AllRecipes = [
   ...Recipes,
+  bananaMuffins,
   bananaOatMuffins,
   mangoSerranoMuffins,
   oatMuffins,
