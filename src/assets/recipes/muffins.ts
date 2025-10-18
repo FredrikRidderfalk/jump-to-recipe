@@ -40,6 +40,10 @@ export const muffins = {
       name: 'Chocolate Muffins',
       param: 'chocolate-muffins',
     },
+    {
+      name: 'Blueberry Yuzu Muffins',
+      param: 'blueberry-yuzu-muffins',
+    },
   ],
   ingredients: [
     {

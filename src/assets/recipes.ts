@@ -66,6 +66,7 @@ import { tortillaSoup } from './recipes/tortilla-soup';
 import { oatMuffins } from './recipes/oat-muffins';
 import { bananaMuffins } from './recipes/banana-muffins';
 import { bananaOatMuffins } from './recipes/banana-oat-muffins';
+import { blueberryYuzuMuffins } from './recipes/blueberry-yuzu-muffins';
 import { mangoSerranoMuffins } from './recipes/mango-serrano-muffins';
 import { muffins } from './recipes/muffins';
 import { basilStrawberryMuffins } from './recipes/basil-strawberry-muffins';
@@ -173,6 +174,7 @@ export const AllRecipes = [
   ...Recipes,
   bananaMuffins,
   bananaOatMuffins,
+  blueberryYuzuMuffins,
   mangoSerranoMuffins,
   oatMuffins,
   basilStrawberryMuffins,
