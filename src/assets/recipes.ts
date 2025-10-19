@@ -70,6 +70,7 @@ import { blueberryYuzuMuffins } from './recipes/blueberry-yuzu-muffins';
 import { mangoSerranoMuffins } from './recipes/mango-serrano-muffins';
 import { muffins } from './recipes/muffins';
 import { basilStrawberryMuffins } from './recipes/basil-strawberry-muffins';
+import { cupcakes } from './recipes/cupcakes';
 import { pestoPasta } from './recipes/pesto-pasta';
 import { pestoMelt } from './recipes/pesto-melt';
 import { tagine } from './recipes/tagine';
@@ -161,6 +162,7 @@ export const Recipes = [
   leonChimichurri,
   tortillaSoup,
   muffins,
+  cupcakes,
   pestoPasta,
   pestoMelt,
   tagine,
