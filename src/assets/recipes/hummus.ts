@@ -26,15 +26,6 @@ export const hummus = {
       done: false,
     },
     {
-      name: 'Roasted garlic',
-      amount: 1,
-      unit: 'head',
-      flex: '1-2 raw cloves of garlic',
-      optional: true,
-      topping: false,
-      done: false,
-    },
-    {
       name: 'Tahini',
       amount: 0.67,
       unit: 'cup',
@@ -44,10 +35,10 @@ export const hummus = {
       done: false,
     },
     {
-      name: 'Olive oil',
+      name: 'Vegetable oil',
       amount: 4,
       unit: 'tbsp',
-      flex: 'Any vegetable oil',
+      flex: '',
       optional: false,
       topping: false,
       done: false,
@@ -71,6 +62,15 @@ export const hummus = {
       done: false,
     },
     {
+      name: 'Roasted garlic',
+      amount: 1,
+      unit: 'head',
+      flex: '1-2 raw cloves of garlic',
+      optional: true,
+      topping: false,
+      done: false,
+    },
+    {
       name: 'Smoked paprika',
       amount: null,
       unit: '',
@@ -80,7 +80,7 @@ export const hummus = {
       done: false,
     },
     {
-      name: 'Fancy olive oil',
+      name: 'Olive oil',
       amount: null,
       unit: '',
       flex: '',
@@ -90,10 +90,10 @@ export const hummus = {
     },
   ],
   instructions: [
-    'Slice one full garlic in half and rub with olive oil.',
-    'Roast garlic for one hour wrapped in foil or parchment paper.',
-    'Add the remaining ingredients to a blender, then run until smooth.',
-    'Make a spiral in the hummus and top with olive oil and smoked paprika.',
+    'Slice one full garlic in half and rub with oil.',
+    'Roast garlic for one hour at 200°C (400°F) wrapped in foil or parchment paper.',
+    'Add the ingredients to a blender including the roasted garlic which we can squeeze out of the skin, then blend until smooth.',
+    'Serve on a plate or in a bowl. Make a spiral in the hummus and top with olive oil and smoked paprika.',
   ],
   notes: 'Include all the aquafaba for a super smooth hummus, otherwise just about half of the aquafaba.',
 };
