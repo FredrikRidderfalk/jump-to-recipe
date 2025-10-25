@@ -86,12 +86,14 @@ import { chocolateMuffins } from './recipes/chocolate-muffins';
 import { lemongrassSoup } from './recipes/lemongrass-soup';
 import { peanutNoodles } from './recipes/peanut-noodles';
 import { stroganoff } from './recipes/stroganoff';
+import { picoDeGallo } from './recipes/pico-de-gallo';
 
 export const Recipes = [
   chiliOilNoodles,
   peanutNoodles,
   serranoSalsa,
   guacamole,
+  picoDeGallo,
   stickyBananaSpongePudding,
   pesto,
   tapenade,
