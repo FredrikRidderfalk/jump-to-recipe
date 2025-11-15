@@ -22,6 +22,7 @@ import { burger } from './recipes/burger';
 import { garlicNoodles } from './recipes/garlic-noodles';
 import { taquitos } from './recipes/taquitos';
 import { bulgurSalad } from './recipes/bulgur-salad';
+import { bulgurPilaf } from './recipes/bulgur-pilaf';
 import { padKraPao } from './recipes/pad-kra-pao';
 import { hummus } from './recipes/hummus';
 import { salsa } from './recipes/salsa';
@@ -119,6 +120,7 @@ export const Recipes = [
   burger,
   garlicNoodles,
   bulgurSalad,
+  bulgurPilaf,
   padKraPao,
   hummus,
   salsa,
