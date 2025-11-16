@@ -81,14 +81,13 @@ export const bulgurPilaf = {
   ],
   instructions: [
     'Finely dice the onion (and garlic if using).',
-    'Heat olive oil in a saucepan over medium heat. Add onion and cook 3–4 minutes until softened and translucent. Add garlic; cook 30 seconds.',
-    'Stir in tomato purée and cook 1 minute to lightly caramelize.',
+    'Heat vegetable oil in a saucepan over medium heat. Add onion and cook 10-20 minutes until caramelized. Add garlic; cook 30 seconds.',
+    'Stir in tomato purée.',
     'Add bulgur; stir to coat in oil and aromatics for 30–60 seconds (light toasting improves flavor).',
-    'Pour in vegetable broth, add salt and pepper. Stir once, bring to a gentle simmer.',
-    'Cover, reduce heat to low, and cook until liquid is absorbed and bulgur is tender (about 12 minutes for medium bulgur). Do not stir while cooking.',
-    'Remove from heat and rest covered 5 minutes. Fluff gently with a fork.',
-    'Adjust seasoning (salt, pepper, a drizzle of oil) before serving.',
+    'Pour in vegetable broth, add chili flakes. Stir once, bring to a gentle simmer.',
+    'Cover, reduce heat to low, and cook until liquid is absorbed and bulgur is tender, about 12-15 minutes for medium bulgur. Do not stir while cooking.',
+    'Remove from heat and fluff gently with a fork.',
   ],
   notes:
-    'For richer flavor add 1 tsp vegan butter at the end. Stir in herbs (parsley, dill) or a squeeze of lemon. Fine bulgur needs less liquid (~1.5 cups) and 6–8 min cook; coarse needs a bit more (~2.25 cups) and 15–18 min. Leftovers keep 3–4 days refrigerated; reheat with a splash of water.',
+    'Stir in herbs (parsley, dill) or a squeeze of lemon for a fresh finish. Fine bulgur needs less liquid (~1.5 cups) and 6–8 min cook; coarse needs a bit more (~2.25 cups) and 15–18 min. Leftovers keep 3–4 days refrigerated; reheat with a splash of water.',
 };
