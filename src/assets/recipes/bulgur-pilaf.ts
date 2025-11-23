@@ -5,7 +5,7 @@ export const bulgurPilaf = {
   star: false,
   introText: 'Simple, fluffy bulgur simmered with onion, tomato, and broth for a cozy staple side.',
   description:
-    'This straightforward bulgur pilaf delivers soft, fluffy grains cooked in savory vegetable broth with a light tomato note. It comes together fast and pairs with stews, grilled vegetables, or beans. Minimal ingredients, maximum comfort.',
+    'A bulgur pilaf delivers soft, fluffy grains cooked in savory vegetable broth with a light tomato note. It comes together fast and pairs with stews, grilled vegetables, or beans. Minimal ingredients, maximum comfort.',
   category: 'side',
   tags: {
     quick: true,
