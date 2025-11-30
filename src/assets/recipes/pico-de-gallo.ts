@@ -5,7 +5,7 @@ export const picoDeGallo = {
   star: false,
   introText: 'Fresh, crunchy tomato salsa with lime, cilantro, onion, jalapeño, and a clean salty kick.',
   description:
-    'Pico de gallo (salsa fresca) is a bright, chunky mix of diced tomato, onion, jalapeño, cilantro, lime, and salt. It adds fresh acidity and texture anywhere you use salsa—tacos, bowls, or as a simple dip. The minimal ingredient list highlights clean flavors; quality salt and a squeeze of lime pull everything together.',
+    'Pico de gallo is a bright, chunky mix of diced tomato, onion, jalapeño, cilantro, lime, and salt. It adds fresh acidity and texture anywhere you use salsa—tacos, bowls, or as a simple dip. The minimal ingredient list highlights clean flavors; quality salt and a squeeze of lime pull everything together.',
   category: 'condiment',
   tags: {
     quick: true,
