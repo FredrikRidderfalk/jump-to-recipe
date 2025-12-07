@@ -5,7 +5,7 @@ export const garlicPasta = {
   star: false,
   introText: 'Simple and elegant spaghetti with garlic and tomatoes sautéed in rich butter.',
   description:
-    'This classic Italian-inspired pasta dish showcases the beautiful simplicity of quality ingredients. Garlic and ripe tomatoes are sautéed in butter to create a light yet flavorful sauce that perfectly coats the spaghetti.',
+    'This classic Italian-inspired pasta dish showcases the beautiful simplicity of quality ingredients. Garlic and ripe tomatoes are sautéed in butter to create a light yet flavorful sauce that coats the spaghetti.',
   category: 'main',
   tags: {
     quick: true,
