@@ -43,8 +43,8 @@ export const iceCream = {
       done: false,
     },
     {
-      name: 'Xanthan gum',
-      amount: 0.25,
+      name: 'Ice cream stabilizer',
+      amount: 0.5,
       unit: 'tsp',
       flex: '',
       optional: true,
