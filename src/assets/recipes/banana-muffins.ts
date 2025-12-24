@@ -11,7 +11,7 @@ export const bananaMuffins = {
   tags: {
     quick: true,
     easy: true,
-    temperature: '175',
+    temperature: '225',
     clean: true,
     cheap: true,
   },
@@ -27,7 +27,7 @@ export const bananaMuffins = {
     },
     {
       name: 'Baking powder',
-      amount: 2.25,
+      amount: 1,
       unit: 'tsp',
       flex: '',
       optional: false,
@@ -90,13 +90,13 @@ export const bananaMuffins = {
     },
   ],
   instructions: [
-    'Preheat the oven to 175°C and grease or line muffin tins with paper liners.',
-    'In a large mixing bowl, whisk together the flour, baking powder, baking soda, and salt. Mix well with a balloon whisk to prevent any flour lumps forming.',
-    'In a separate bowl, combine the smooched banana, sugar, oil, and vanilla extract. Mix until well combined.',
-    'Add the dry and wet ingredients together, stirring until just combined. Do not overmix.',
+    'Preheat the oven to 225°C and grease or line muffin tins with paper liners.',
+    'In a large mixing bowl, whisk together the flour, baking powder, baking soda, salt, and the sugar. Mix it with a balloon whisk to prevent any flour lumps forming.',
+    'In a separate bowl, combine the oil, smashed banana, as well as vanilla extract if using.',
+    'Add the dry ingredients to the wet ingredients, stirring until just combined.',
     'Pour the batter into the prepared muffin liners, filling them about 2/3 full.',
-    'Bake for 20 minutes if using small muffin liners, 22 minutes for larger muffin liners, or until a toothpick inserted into the center comes out clean.',
-    'Allow the muffins to cool in the tin for 10 minutes before transferring to a wire rack.',
+    'Bake for 18 minutes if using small muffin ramekins, 22 min if using large muffin ramekins, or until a toothpick inserted into the center comes out clean. Decrease the temperature to 175°C after 5-7 minutes.',
+    'Allow the muffins to cool in the tin for 20 minutes before serving.',
   ],
   notes:
     'Use very ripe bananas for best flavor. Store in an airtight container at room temperature for up to 3 days, or refrigerate for longer freshness. These muffins freeze well. For extra flavor, you can add chocolate chips, nuts, or a sprinkle of cinnamon to the batter. Use salt according to your own taste, somewhere between 1/4 and 1/2 teaspoon.',
