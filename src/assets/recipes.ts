@@ -1,3 +1,4 @@
+import { danDanNoodles } from './recipes/dan-dan-noodles';
 import { tapenade } from './recipes/tapenade';
 import { pesto } from './recipes/pesto';
 import { chiliOilNoodles } from './recipes/chili-oil-noodles';
@@ -173,6 +174,7 @@ export const Recipes = [
   garlicPasta,
   lemongrassSoup,
   stroganoff,
+  danDanNoodles,
 ];
 
 // All recipes including alternative versions or base recipes
@@ -185,4 +187,5 @@ export const AllRecipes = [
   oatMuffins,
   basilStrawberryMuffins,
   chocolateMuffins,
+  danDanNoodles,
 ];
