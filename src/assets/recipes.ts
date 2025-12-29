@@ -1,3 +1,4 @@
+import { streuselBananaMuffins } from './recipes/streusel-banana-muffins';
 import { danDanNoodles } from './recipes/dan-dan-noodles';
 import { tapenade } from './recipes/tapenade';
 import { pesto } from './recipes/pesto';
@@ -187,5 +188,5 @@ export const AllRecipes = [
   oatMuffins,
   basilStrawberryMuffins,
   chocolateMuffins,
-  danDanNoodles,
+  streuselBananaMuffins,
 ];
