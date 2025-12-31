@@ -135,8 +135,8 @@ export const streuselBananaMuffins = {
     },
   ],
   instructions: [
-    'Preheat oven to 180°C (350°F) and line a muffin tin with paper liners.',
-    'In a bowl, mash the bananas. Add sugar, oil, and non-dairy milk. Mix well.',
+    'Preheat oven to 220°C (425°F) and line a muffin tin with paper liners.',
+    'In a bowl, mash the bananas. Add sugar, oil, and milk. Mix well.',
     'In another bowl, whisk together flour, baking powder, baking soda, and salt. Add to the wet ingredients and mix until just combined.',
     'Divide the batter evenly among the muffin cups.',
     'For the streusel: In a small bowl, combine flour, brown sugar, and salt. Add cold butter cubes and rub with your fingers or a fork until crumbly. Stir in walnuts.',
