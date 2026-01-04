@@ -135,7 +135,7 @@ export const streuselBananaMuffins = {
     },
   ],
   instructions: [
-    'Preheat the oven to 220°C and grease or line muffin tins with paper liners.',
+    'Preheat the oven to 220°C and line muffin tins or ramekins with muffin liners.',
     'In a large mixing bowl, whisk together the flour, baking powder, baking soda, salt, and the sugar. Mix it with a balloon whisk to prevent any flour lumps forming.',
     'In a separate bowl, combine the oil, milk, as well as vanilla extract and vinegar if using.',
     'Add the dry ingredients to the wet ingredients, stirring until just combined.',
