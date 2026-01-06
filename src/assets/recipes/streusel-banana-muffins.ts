@@ -137,7 +137,7 @@ export const streuselBananaMuffins = {
   instructions: [
     'Preheat the oven to 220°C and line muffin tins or ramekins with muffin liners.',
     'In a large mixing bowl, whisk together the flour, baking powder, baking soda, salt, and the sugar. Mix it with a balloon whisk to prevent any flour lumps forming.',
-    'In a separate bowl, combine the oil, milk, as well as vanilla extract and vinegar if using.',
+    'In a separate bowl, combine the oil and milk.',
     'Add the dry ingredients to the wet ingredients, stirring until just combined.',
     'Pour the batter into the prepared muffin liners, filling them about 2/3 full.',
     'For the streusel: In a small bowl, combine flour, brown sugar, and salt. Add cold butter cubes and rub with your fingers or a fork until crumbly. Stir in walnuts.',
