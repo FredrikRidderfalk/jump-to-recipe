@@ -77,5 +77,5 @@ export const picoDeGallo = {
     'Taste and adjust salt or lime. If too sharp, add a pinch more salt. If flat, add a squeeze more lime.',
   ],
   notes:
-    'Optional flavor boosts: 1 tbsp finely diced preserved lemon, a pinch of Japanese umami salt, or a pinch of MSG for depth. Drain excess liquid if using in tacos to prevent sogginess. You can scale easily; keep roughly equal parts tomato and onion with jalapeño to taste.',
+    'Optional flavor boosts: 1 tbsp finely diced preserved lemon, some finely chopped sundried tomato, a pinch of Japanese umami salt, or a pinch of MSG for depth. Drain excess liquid if using in tacos to prevent sogginess. You can scale easily; keep roughly equal parts tomato and onion with jalapeño to taste.',
 };
