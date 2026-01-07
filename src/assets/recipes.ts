@@ -1,3 +1,4 @@
+import { brownies } from './recipes/brownies';
 import { streuselBananaMuffins } from './recipes/streusel-banana-muffins';
 import { danDanNoodles } from './recipes/dan-dan-noodles';
 import { tapenade } from './recipes/tapenade';
@@ -175,6 +176,7 @@ export const Recipes = [
   garlicPasta,
   lemongrassSoup,
   stroganoff,
+  brownies,
   danDanNoodles,
 ];
 
