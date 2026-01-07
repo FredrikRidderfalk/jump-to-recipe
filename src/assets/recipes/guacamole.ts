@@ -34,7 +34,7 @@ export const guacamole = {
       done: false,
     },
     {
-      name: 'Fresh cilantro',
+      name: 'Cilantro',
       amount: 0.25,
       unit: 'cup',
       flex: '',
@@ -69,6 +69,15 @@ export const guacamole = {
       topping: false,
       done: false,
     },
+    {
+      name: 'Onion',
+      amount: 0.25,
+      unit: '',
+      flex: '',
+      optional: true,
+      topping: false,
+      done: false,
+    },
   ],
   instructions: [
     'Cut the avocados in half, remove the pits, and scoop the flesh into a mixing bowl.',
@@ -76,8 +85,9 @@ export const guacamole = {
     'Cut the lime in half and squeeze the juice directly into the bowl with the mashed avocado.',
     'Finely chop the cilantro and add it to the bowl.',
     'Finely mince the serrano pepper, removing seeds if you prefer less heat, and add to the mixture.',
-    'Add the salt and mix everything together gently.',
+    'Add the salt and mix everything together.',
     'If using tomato, dice it finely (removing seeds to prevent excess moisture) and fold it in last.',
+    'If using onion, dice it finely and fold it in last.',
     'Taste and adjust seasoning with more lime juice, salt, or serrano as needed.',
   ],
   notes:
