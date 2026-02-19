@@ -47,6 +47,7 @@ import { tteokbokki } from './recipes/tteokbokki';
 import { scallionPancakes } from './recipes/scallion-pancakes';
 import { chocolateChipCookies } from './recipes/chocolate-chip-cookies';
 import { yakiniku } from './recipes/vegan-yakiniku';
+import { sikilPak } from './recipes/sikil-pak';
 import { crispyRiceSalad } from './recipes/crispy-rice-salad';
 import { mushroomBourguignon } from './recipes/mushroomBourguignon';
 import { spongeCake } from './recipes/sponge-cake';
@@ -180,6 +181,7 @@ export const Recipes = [
   brownies,
   danDanNoodles,
   yakiniku,
+  sikilPak,
 ];
 
 // All recipes including alternative versions or base recipes
