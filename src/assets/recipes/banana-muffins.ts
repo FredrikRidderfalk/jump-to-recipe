@@ -90,5 +90,5 @@ export const bananaMuffins = {
     'Allow the muffins to cool for 20 minutes before serving.',
   ],
   notes:
-    'Use very ripe bananas for best flavor. Store in an airtight container at room temperature for up to 3 days, or refrigerate for longer freshness. These muffins freeze well. For extra flavor, you can add chocolate chips, nuts, or a sprinkle of cinnamon to the batter. Use salt according to your own taste, somewhere between 1/4 and 1/2 teaspoon.',
+    '1 large peeled Cavendish banana is about 200 grams. Use very ripe bananas for best flavor. Store in an airtight container at room temperature for up to 3 days, or refrigerate for longer freshness. These muffins freeze well. For extra flavor, you can add chocolate chips, nuts, or a sprinkle of cinnamon to the batter. Use salt according to your own taste, somewhere between 1/4 and 1/2 teaspoon.',
 };
