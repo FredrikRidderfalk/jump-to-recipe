@@ -62,7 +62,7 @@ export const iceCream = {
     },
     {
       name: 'Flavored syrup',
-      amount: 2,
+      amount: 3,
       unit: 'tbsp',
       flex: '',
       optional: true,
