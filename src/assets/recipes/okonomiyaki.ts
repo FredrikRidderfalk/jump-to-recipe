@@ -163,5 +163,5 @@ export const okonomiyaki = {
     'Serve immediately and enjoy!',
   ],
   notes:
-    'Feel free to customize your okonomiyaki with your favorite vegetables and toppings. If you don’t have access to okonomiyaki sauce or vegan Japanese mayo, homemade versions are quick and easy to whip up. For an extra crispy texture, try cooking the okonomiyaki on a well-heated griddle. This dish is perfect for sharing or enjoying as a main course!',
+    'Feel free to customize your okonomiyaki with your favorite vegetables and toppings. If you don’t have access to okonomiyaki sauce or vegan Japanese mayo, homemade versions are quick and easy to whip up. For an extra crispy texture, try cooking the okonomiyaki on a well-heated griddle. This dish is perfect for sharing or enjoying as a main course! Make your own Okonomiyaki sauce with 4 parts ketchup, 2 parts Worcestershire sauce, 1 part light soy, and 1 part syrup',
 };
