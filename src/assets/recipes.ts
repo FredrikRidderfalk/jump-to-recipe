@@ -46,6 +46,7 @@ import { okonomiyaki } from './recipes/okonomiyaki';
 import { tteokbokki } from './recipes/tteokbokki';
 import { scallionPancakes } from './recipes/scallion-pancakes';
 import { chocolateChipCookies } from './recipes/chocolate-chip-cookies';
+import { yakiniku } from './recipes/vegan-yakiniku';
 import { crispyRiceSalad } from './recipes/crispy-rice-salad';
 import { mushroomBourguignon } from './recipes/mushroomBourguignon';
 import { spongeCake } from './recipes/sponge-cake';
@@ -178,6 +179,7 @@ export const Recipes = [
   stroganoff,
   brownies,
   danDanNoodles,
+  yakiniku,
 ];
 
 // All recipes including alternative versions or base recipes
