@@ -94,6 +94,7 @@ import { lemongrassSoup } from './recipes/lemongrass-soup';
 import { peanutNoodles } from './recipes/peanut-noodles';
 import { stroganoff } from './recipes/stroganoff';
 import { picoDeGallo } from './recipes/pico-de-gallo';
+import { chocolateTea } from './recipes/chocolate-tea';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -184,6 +185,7 @@ export const Recipes = [
   yakiniku,
   sikilPak,
   ponche,
+  chocolateTea,
 ];
 
 // All recipes including alternative versions or base recipes
