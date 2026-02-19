@@ -54,7 +54,7 @@ export const bananaMuffins = {
     },
     {
       name: 'Sugar',
-      amount: 150,
+      amount: 120,
       unit: 'g',
       flex: '',
       optional: false,
