@@ -96,6 +96,7 @@ import { stroganoff } from './recipes/stroganoff';
 import { picoDeGallo } from './recipes/pico-de-gallo';
 import { chocolateTea } from './recipes/chocolate-tea';
 import { frijolesRefritos } from './recipes/frijoles-refritos';
+import { chiliConCarne } from './recipes/chili-con-carne';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -188,6 +189,7 @@ export const Recipes = [
   ponche,
   chocolateTea,
   frijolesRefritos,
+  chiliConCarne,
 ];
 
 // All recipes including alternative versions or base recipes
