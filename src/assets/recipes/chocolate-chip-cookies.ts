@@ -109,7 +109,7 @@ export const chocolateChipCookies = {
   ],
   instructions: [
     'Preheat your oven to 225°C (450°F) fan and line a baking sheet with parchment paper.',
-    'In a mixing bowl, cream together softened butter and brownsugar until smooth and fluffy.',
+    'In a mixing bowl, cream together softened butter and brown sugar until smooth and fluffy.',
     'Stir in the milk and vanilla extract until fully combined.',
     'In a separate bowl, whisk together the flour, starch, baking soda, and salt.',
     'Add the dry and wet ingredients together, mix until a soft dough forms.',
