@@ -27,7 +27,7 @@ export const chocolateChipCookies = {
     },
     {
       name: 'Brown sugar',
-      amount: 75,
+      amount: 60,
       unit: 'g',
       flex: '',
       optional: false,
@@ -36,7 +36,7 @@ export const chocolateChipCookies = {
     },
     {
       name: 'Sugar',
-      amount: 75,
+      amount: 60,
       unit: 'g',
       flex: '',
       optional: false,
@@ -71,6 +71,15 @@ export const chocolateChipCookies = {
       done: false,
     },
     {
+      name: 'Corn starch',
+      amount: 1,
+      unit: 'tbsp',
+      flex: 'Tapioca starch, potato starch, arrowroot powder.',
+      optional: false,
+      topping: false,
+      done: false,
+    },
+    {
       name: 'Baking soda',
       amount: 0.25,
       unit: 'tsp',
@@ -90,7 +99,7 @@ export const chocolateChipCookies = {
     },
     {
       name: 'Dark chocolate',
-      amount: 90,
+      amount: 50,
       unit: 'g',
       flex: '',
       optional: false,
@@ -99,17 +108,16 @@ export const chocolateChipCookies = {
     },
   ],
   instructions: [
-    'In a mixing bowl, cream together the melted butter and sugar until smooth and fluffy.',
-    'Stir in the milk and vanilla extract until fully combined.',
-    'In a separate bowl, whisk together the flour, starch if using, baking soda, and salt.',
-    'Add the dry and wet ingredients together, stirring until a soft dough forms. Be careful not to overmix.',
-    'Fold in the chocolate chips until evenly distributed.',
-    'Chill in a fridge covered by plastic wrap for at least 12 hours.',
     'Preheat your oven to 225°C (450°F) fan and line a baking sheet with parchment paper.',
-    'Scoop the dough onto the prepared baking sheet, spacing each cookie about a couple centimeters apart. Flatten the dough slightly, or not, your choice.',
+    'In a mixing bowl, cream together softened butter and brownsugar until smooth and fluffy.',
+    'Stir in the milk and vanilla extract until fully combined.',
+    'In a separate bowl, whisk together the flour, starch, baking soda, and salt.',
+    'Add the dry and wet ingredients together, mix until a soft dough forms.',
+    'Fold in the chocolate chips until evenly distributed.',
+    'Scoop the dough onto the prepared baking sheet, spacing each cookie about a couple centimeters apart.',
     'Bake for 8-10 minutes, or until the surface looks golden brown.',
-    'Let the cookies cool on the baking sheet for 5 minutes before transferring to a wire rack to cool completely.',
+    'Let the cookies cool on the baking sheet for 10 minutes before eating.',
   ],
   notes:
-    'For extra indulgence, sprinkle a pinch of sea salt on top of the cookies before baking. You can also experiment with add-ins like chopped nuts, dried fruits, or different types of chocolate.',
+    'For extra indulgence, sprinkle a pinch of sea salt on top of the cookies before or after baking. You can also experiment with add-ins like chopped nuts, dried fruits, or different types of chocolate. Keep the scoops rugged for a rustic look.',
 };
