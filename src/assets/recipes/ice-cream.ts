@@ -69,15 +69,6 @@ export const iceCream = {
       topping: false,
       done: false,
     },
-    {
-      name: 'Popping candy',
-      amount: 1,
-      unit: 'tbsp',
-      flex: '',
-      optional: true,
-      topping: false,
-      done: false,
-    },
   ],
   instructions: [
     'Mix the sugar, salt, and ice cream stabilizer in a bowl. Mix well.',
