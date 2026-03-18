@@ -92,6 +92,7 @@ import { garlicPasta } from './recipes/garlic-pasta';
 import { aguaFrescaDeTamarindo } from './recipes/agua-fresca-de-tamarindo';
 import { chocolateMuffins } from './recipes/chocolate-muffins';
 import { baklavaMuffins } from './recipes/baklava-muffins';
+import { carrotMuffins } from './recipes/carrot-muffins';
 import { lemongrassSoup } from './recipes/lemongrass-soup';
 import { peanutNoodles } from './recipes/peanut-noodles';
 import { stroganoff } from './recipes/stroganoff';
@@ -209,4 +210,5 @@ export const AllRecipes = [
   chocolateMuffins,
   streuselBananaMuffins,
   baklavaMuffins,
+  carrotMuffins,
 ];

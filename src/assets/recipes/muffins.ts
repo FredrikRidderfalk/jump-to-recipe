@@ -48,6 +48,10 @@ export const muffins = {
       name: 'Baklava Muffins',
       param: 'baklava-muffins',
     },
+    {
+      name: 'Carrot Muffins',
+      param: 'carrot-muffins',
+    },
   ],
   ingredients: [
     {
