@@ -91,6 +91,7 @@ import { pozole } from './recipes/pozole';
 import { garlicPasta } from './recipes/garlic-pasta';
 import { aguaFrescaDeTamarindo } from './recipes/agua-fresca-de-tamarindo';
 import { chocolateMuffins } from './recipes/chocolate-muffins';
+import { baklavaMuffins } from './recipes/baklava-muffins';
 import { lemongrassSoup } from './recipes/lemongrass-soup';
 import { peanutNoodles } from './recipes/peanut-noodles';
 import { stroganoff } from './recipes/stroganoff';
@@ -98,6 +99,7 @@ import { picoDeGallo } from './recipes/pico-de-gallo';
 import { chocolateTea } from './recipes/chocolate-tea';
 import { frijolesRefritos } from './recipes/frijoles-refritos';
 import { chiliConCarne } from './recipes/chili-con-carne';
+import { hokkienMee } from './recipes/hokkien-mee';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -192,6 +194,7 @@ export const Recipes = [
   chocolateTea,
   frijolesRefritos,
   chiliConCarne,
+  hokkienMee,
 ];
 
 // All recipes including alternative versions or base recipes
@@ -205,4 +208,5 @@ export const AllRecipes = [
   basilStrawberryMuffins,
   chocolateMuffins,
   streuselBananaMuffins,
+  baklavaMuffins,
 ];
