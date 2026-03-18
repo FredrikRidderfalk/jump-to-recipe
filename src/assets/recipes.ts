@@ -46,6 +46,7 @@ import { okonomiyaki } from './recipes/okonomiyaki';
 import { tteokbokki } from './recipes/tteokbokki';
 import { scallionPancakes } from './recipes/scallion-pancakes';
 import { chocolateChipCookies } from './recipes/chocolate-chip-cookies';
+import { earlGreyHempCookies } from './recipes/earl-grey-hemp-cookies';
 import { yakiniku } from './recipes/vegan-yakiniku';
 import { sikilPak } from './recipes/sikil-pak';
 import { ponche } from './recipes/ponche';
@@ -149,6 +150,7 @@ export const Recipes = [
   tteokbokki,
   scallionPancakes,
   chocolateChipCookies,
+  earlGreyHempCookies,
   crispyRiceSalad,
   mushroomBourguignon,
   mirzaGhasemi,
