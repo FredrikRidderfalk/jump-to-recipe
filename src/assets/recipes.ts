@@ -101,6 +101,7 @@ import { chocolateTea } from './recipes/chocolate-tea';
 import { frijolesRefritos } from './recipes/frijoles-refritos';
 import { chiliConCarne } from './recipes/chili-con-carne';
 import { hokkienMee } from './recipes/hokkien-mee';
+import { silkenTofuStew } from './recipes/silken-tofu-stew';
 
 export const Recipes = [
   chiliOilNoodles,
@@ -196,6 +197,7 @@ export const Recipes = [
   frijolesRefritos,
   chiliConCarne,
   hokkienMee,
+  silkenTofuStew,
 ];
 
 // All recipes including alternative versions or base recipes
