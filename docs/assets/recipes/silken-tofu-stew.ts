@@ -91,7 +91,7 @@ export const silkenTofuStew = {
       name: 'Vegetable broth',
       amount: 2,
       unit: 'cups',
-      flex: 'Water with vegetable bouillon',
+      flex: '',
       optional: false,
       topping: false,
       done: false,
