@@ -104,8 +104,10 @@ import { hokkienMee } from './recipes/hokkien-mee';
 import { silkenTofuStew } from './recipes/silken-tofu-stew';
 import { mangoChutnyCurry } from './recipes/mango-chutney-curry';
 import { enfrijoladas } from './recipes/enfrijoladas';
+import { cigKofte } from './recipes/cig-kofte';
 
 export const Recipes = [
+  cigKofte,
   enfrijoladas,
   chiliOilNoodles,
   peanutNoodles,
