@@ -105,8 +105,10 @@ import { silkenTofuStew } from './recipes/silken-tofu-stew';
 import { mangoChutnyCurry } from './recipes/mango-chutney-curry';
 import { enfrijoladas } from './recipes/enfrijoladas';
 import { cigKofte } from './recipes/cig-kofte';
+import { lynchburgLemonade } from './recipes/lynchburg-lemonade';
 
 export const Recipes = [
+  lynchburgLemonade,
   cigKofte,
   enfrijoladas,
   chiliOilNoodles,
