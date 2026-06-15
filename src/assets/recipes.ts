@@ -103,8 +103,10 @@ import { chiliConCarne } from './recipes/chili-con-carne';
 import { hokkienMee } from './recipes/hokkien-mee';
 import { silkenTofuStew } from './recipes/silken-tofu-stew';
 import { mangoChutnyCurry } from './recipes/mango-chutney-curry';
+import { enfrijoladas } from './recipes/enfrijoladas';
 
 export const Recipes = [
+  enfrijoladas,
   chiliOilNoodles,
   peanutNoodles,
   serranoSalsa,
