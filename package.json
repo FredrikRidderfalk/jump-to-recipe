@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --base-href /jump-to-recipe/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "postBuild": "cp -r docs/browser/* docs/ && rm -rf docs/browser"
